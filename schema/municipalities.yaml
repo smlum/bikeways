@@ -1,0 +1,41 @@
+name: municipalities
+description: Registry of municipalities, shared across domains (cycling, pedestrian, ...).
+
+fields:
+  - name: municipality_id
+    type: string
+    required: true
+    description: Stable ID, e.g. on_toronto.
+
+  - name: name
+    type: string
+    required: true
+
+  - name: province
+    type: string
+    required: true
+    description: Two-letter province/territory code (e.g. on, bc, ab).
+
+  - name: csduid
+    type: string
+    required: true
+    description: StatCan census subdivision unique identifier.
+
+  - name: cma_name
+    type: string
+    required: false
+    description: Census metropolitan area name, if applicable.
+
+  - name: population
+    type: integer
+    required: false
+    description: Most recent census population figure.
+
+  - name: portal_url
+    type: string
+    required: false
+    description: Generic open data portal homepage.
+
+  - name: notes
+    type: string
+    required: false

@@ -1,3 +1,8 @@
+# Folders
+canadian_cycling_network_database/
+data/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

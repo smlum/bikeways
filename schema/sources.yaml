@@ -1,0 +1,69 @@
+name: sources
+description: Registry of individual datasets ingested from municipal open data portals.
+
+fields:
+  - name: source_id
+    type: string
+    required: true
+    description: Stable ID, e.g. on_toronto_cycling.
+
+  - name: municipality_id
+    type: string
+    required: true
+    description: Foreign key to municipalities.yaml.
+
+  - name: domain
+    type: string
+    required: true
+    enum: [cycling, pedestrian]
+
+  - name: dataset_page_url
+    type: string
+    required: true
+    description: Portal page describing this specific dataset.
+
+  - name: download_url
+    type: string
+    required: false
+    description: Direct download link, if stable.
+
+  - name: format
+    type: string
+    required: true
+    enum: [geojson, shapefile, gpkg, parquet, csv, json, arcgis_rest, other]
+
+  - name: license_name
+    type: string
+    required: false
+
+  - name: license_url
+    type: string
+    required: false
+
+  - name: contact
+    type: string
+    required: false
+
+  - name: source_updated_date
+    type: date
+    required: false
+    description: Date the source itself claims as last updated/published.
+
+  - name: retrieved_date
+    type: date
+    required: true
+    description: Date we downloaded this file.
+
+  - name: data_dictionary_url
+    type: string
+    required: false
+    description: Link to the source's own data dictionary, if published.
+
+  - name: raw_filename
+    type: string
+    required: true
+    description: Filename as stored under data/raw/<source_id>/.
+
+  - name: notes
+    type: string
+    required: false

@@ -1,0 +1,14 @@
+source_id: on_toronto_cycling
+municipality_id: on_toronto
+domain: cycling
+dataset_page_url: # TODO
+download_url: # TODO
+format: gpkg
+license_name: # TODO
+license_url: # TODO
+contact: # TODO
+source_updated_date: 2026-06 # TODO confirm exact date
+retrieved_date: 2026-07-16
+data_dictionary_url:
+raw_filename: toronto.gpkg
+notes:
