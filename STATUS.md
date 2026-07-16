@@ -32,3 +32,8 @@ Recreating StatCan's Canadian Cycling Network Database with updated/expanded dat
 4. Design column-mapping workflow (semi-auto rules + manual review).
 5. Design concordance workflow (semi-auto rules + manual review).
 6. Design pipeline stages properly (currently just a rough sketch) and start scaffolding `lode/` once patterns stabilize across a few sources.
+
+## Other notes
+
+- added a file sources checklist - which we can use as basis for populating providers.csv
+- might be a good ideea to have a script or something to download raw ancillary data files, such as CSD geometries, population, etc.
