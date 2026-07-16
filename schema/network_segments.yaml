@@ -10,7 +10,7 @@ fields:
   - name: source_id
     type: string
     required: true
-    description: Foreign key to the source registry entry (municipality + dataset/layer).
+    description: Foreign key to the source registry entry (provider + dataset/layer).
 
   - name: source_feature_id
     type: string

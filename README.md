@@ -26,5 +26,5 @@ heterogeneous municipal cycling network data (GeoJSON/Shapefile/parquet/JSON/etc
 
 1. geospatial network dataset (parquet), 
 2. summary table of infrastructure length by municipality (CSV), 
-3. classification crosswalk dictionary (municipal → CanBICS) (CSV) 
+3. classification concordance dictionary (source class → Can-BICS) (CSV) 
 4. metadata: data source list + column/data dictionary.
