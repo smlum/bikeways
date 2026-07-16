@@ -1,5 +1,13 @@
 # Bikeways
 
+## Repo structure
+
+This repo currently contains three logically independent things, each destined to move to its own repo once established:
+
+- **This project** (root: `reference/`, `schema/`, `sources/`, `data/`) — configuration and data specific to building the cycling network dataset: Can-BICS reference material, target schemas, per-source registry entries, raw downloads.
+- **`providers-directory/`** — canonical, cross-project directory of Canadian data providers (municipal/regional/provincial). Domain-agnostic; reused by any future project, not just this one.
+- **`lode/`** — reusable, domain-agnostic pipeline code (ingestion, column mapping, spatial join, classification, aggregation) that this project's config plugs into.
+
 ## Plan
 
 ### Input 

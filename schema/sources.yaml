@@ -1,5 +1,5 @@
 name: sources
-description: Registry of individual datasets ingested from municipal open data portals.
+description: Registry of individual datasets ingested from data providers, one entry per dataset/domain.
 
 fields:
   - name: source_id
@@ -7,10 +7,10 @@ fields:
     required: true
     description: Stable ID, e.g. on_toronto_cycling.
 
-  - name: municipality_id
+  - name: provider_id
     type: string
     required: true
-    description: Foreign key to municipalities.yaml.
+    description: Foreign key to provider_id in providers-directory/providers.csv.
 
   - name: domain
     type: string

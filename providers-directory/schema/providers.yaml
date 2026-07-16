@@ -1,0 +1,51 @@
+name: providers
+description: Registry of data providers (municipal, regional, provincial, or non-geographic), shared across domains (cycling, pedestrian, ...).
+
+fields:
+  - name: provider_id
+    type: string
+    required: true
+    description: Stable ID, e.g. on_toronto.
+
+  - name: name
+    type: string
+    required: true
+
+  - name: geography_level
+    type: string
+    required: true
+    enum: [municipality, region, province, national, other]
+
+  - name: province
+    type: string
+    required: false
+    description: Two-letter province/territory code (e.g. on, bc, ab); omit for national providers.
+
+  - name: csduids
+    type: list[string]
+    required: false
+    description: CSDs this provider's data is expected to cover, ";"-separated in the CSV; for QA against the spatial join, not used for segment assignment.
+
+  - name: cma_name
+    type: string
+    required: false
+    description: Census metropolitan area name, if applicable.
+
+  - name: population
+    type: integer
+    required: false
+    description: Most recent census population figure, if applicable.
+
+  - name: population_year
+    type: integer
+    required: false
+    description: Census year the population figure is from (e.g. 2021).
+
+  - name: portal_url
+    type: string
+    required: false
+    description: Generic open data portal homepage.
+
+  - name: notes
+    type: string
+    required: false
