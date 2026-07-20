@@ -2,6 +2,10 @@
 canadian_cycling_network_database/
 data/
 
+# review-tool: generated manifests and local API key, per source config
+review-tool/web/manifest.json
+review-tool/web/config.js
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

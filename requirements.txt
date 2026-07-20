@@ -1,0 +1,4 @@
+geopandas
+shapely
+pyyaml
+numpy

@@ -1,0 +1,17 @@
+input:
+  path: ../../canadian_cycling_network_database/cycle_network_2024.gpkg
+
+columns:
+  geometry: geometry
+  group_by: [municipality, source_class]
+  label: canbics_class
+  id: record_id
+  length: length_km
+
+sampling:
+  n_samples: 3
+  n_reserve: 5  # extra backup points per group for the "try another point" button
+  seed: 42
+
+output:
+  manifest: ../web/manifest.json

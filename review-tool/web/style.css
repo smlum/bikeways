@@ -1,0 +1,140 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #202124;
+  color: #fff;
+}
+header h1 {
+  font-size: 1.1rem;
+  margin: 0;
+  flex: 1;
+}
+header button {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+#layout {
+  display: flex;
+  height: calc(100vh - 52px);
+}
+
+aside {
+  width: 320px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#municipality-select,
+#filter-box {
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+#group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+.group-item {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.group-item:hover { background: #f5f5f5; }
+.group-item.selected { background: #e8f0fe; font-weight: 600; }
+.group-item.done { color: #1a7a2e; }
+
+main {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  overflow-y: auto;
+}
+#group-header {
+  margin-top: 0;
+}
+
+#samples {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sample-card {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+}
+.pano-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.35rem;
+}
+.refresh-btn {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+}
+.refresh-btn:hover { background: #f0f0f0; }
+.pano {
+  width: 100%;
+  height: 480px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-pano {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+}
+.verdicts {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+.verdicts button {
+  flex: 1;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+}
+.verdicts button.active {
+  background: #1a73e8;
+  color: #fff;
+  border-color: #1a73e8;
+}
+.note {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.35rem;
+}
+.coords {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  color: #888;
+}

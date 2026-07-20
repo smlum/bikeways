@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Street View Classification Review</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Street View Classification Review</h1>
+  <span id="overall-progress"></span>
+  <button id="export-btn">Export reviews (JSON)</button>
+</header>
+<div id="layout">
+  <aside>
+    <select id="municipality-select"></select>
+    <input type="text" id="filter-box" placeholder="Filter classes..." />
+    <ul id="group-list"></ul>
+  </aside>
+  <main>
+    <h2 id="group-header"></h2>
+    <div id="samples"></div>
+  </main>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
