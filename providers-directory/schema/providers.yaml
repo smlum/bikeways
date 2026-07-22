@@ -21,25 +21,15 @@ fields:
     required: false
     description: Two-letter province/territory code (e.g. on, bc, ab); omit for national providers.
 
-  - name: csduids
+  - name: dguid
     type: list[string]
     required: false
-    description: CSDs this provider's data is expected to cover, ";"-separated in the CSV; for QA against the spatial join, not used for segment assignment.
+    description: geographic identifier to link to Statcan data
 
-  - name: cma_name
-    type: string
-    required: false
-    description: Census metropolitan area name, if applicable.
-
-  - name: population
+  - name: population_2021
     type: integer
     required: false
     description: Most recent census population figure, if applicable.
-
-  - name: population_year
-    type: integer
-    required: false
-    description: Census year the population figure is from (e.g. 2021).
 
   - name: portal_url
     type: string

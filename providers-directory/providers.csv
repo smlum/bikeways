@@ -1,2 +1,2 @@
-provider_id,name,geography_level,province,csduids,cma_name,population,population_year,portal_url,notes
-on_toronto,Toronto,municipality,on,3520005,Toronto,2794356,2021,https://open.toronto.ca,
+provider_id,name,geography_level,province,dguid,population_2021,portal_url,notes
+on_toronto,City of Toronto,municipality,on,3520005,2794356,https://open.toronto.ca,

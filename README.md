@@ -11,8 +11,7 @@ This repo currently contains three logically independent things, each destined t
 
 ## Setup
 
-Shared Python environment for everything in this repo (`lode/`, `classification-review/`,
-etc. all use the same `.venv`):
+Python environment:
 
 ```
 python3 -m venv .venv
