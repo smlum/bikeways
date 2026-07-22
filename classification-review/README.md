@@ -1,8 +1,10 @@
-# review-tool
+# classification-review
 
-Manual QA tool: for each (municipality, source classification) group in a classified
-cycling-network dataset, sample a few random points along the line geometry and let a
-human eyeball them in Street View to check the classification looks right.
+Manual QA tool for checking *classification* output specifically: for each (municipality,
+source classification) group in a classified cycling-network dataset, sample a few random
+points along the line geometry and let a human eyeball them in Street View to check the
+classification looks right. (Other review tools covering other concerns may live alongside
+this one later — this one is scoped to classification only.)
 
 Same idea as the precedent in `canadian_cycling_network_database/classification_dictionary.csv`
 (one hand-found Street View link per municipality/source_class), just automated and scaled
@@ -29,20 +31,14 @@ column names, or a parquet file instead of gpkg, just needs its own config file.
 
 ## Setup
 
-From the repo root (there's a shared `requirements.txt` and `.venv` at the repo root,
-not inside `review-tool/`, since `lode/` will need the same geopandas/shapely stack):
-
-```
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+Uses the shared repo-root venv — see the [main README](../README.md#setup). Everything
+below is run from the repo root, not from inside `classification-review/`.
 
 ## Generating a manifest
 
 ```
 source .venv/bin/activate
-python3 review-tool/sample_points.py --config review-tool/config/cycle_network_2024.yaml
+python3 classification-review/sample_points.py --config classification-review/config/cycle_network_2024.yaml
 ```
 
 This generates one manifest covering every (municipality, source_class) group in the
@@ -58,16 +54,17 @@ Flags for quick iteration while developing (e.g. testing on a smaller slice):
 --limit-groups 10                 # only keep the first N groups in the output
 ```
 
-This writes `review-tool/web/manifest.json` (gitignored — it's derived, and depends on
-the random seed/local data you have).
+This writes `classification-review/web/manifest.json` (gitignored — it's derived, and
+depends on the random seed/local data you have).
 
 ## Running the review page
 
 The Maps JavaScript API needs the page served over http, not opened as a `file://` URL.
+Run from the repo root — no need to `cd` into `classification-review/web`.
 
-1. Copy `review-tool/web/config.example.js` to `review-tool/web/config.js` and paste in
-   your Google Maps API key (gitignored — don't commit it).
-2. `cd review-tool/web && python3 -m http.server 8000`
+1. Copy `classification-review/web/config.example.js` to `classification-review/web/config.js`
+   and paste in your Google Maps API key (gitignored — don't commit it).
+2. `python3 -m http.server 8000 --directory classification-review/web`
 3. Open `http://localhost:8000`.
 
 ### Getting an API key
