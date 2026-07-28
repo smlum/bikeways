@@ -1,17 +1,12 @@
 #!/usr/bin/env python3
 """Fetch a StatCan data table (CSV-in-zip) and convert it to parquet.
 
-Same one-off role as fetch_csd.py, but for tabular tables (e.g. population
-counts) rather than boundary shapefiles. StatCan table downloads ship as a
-zip containing the data CSV plus a large "_MetaData" CSV — this script keeps
-only the data CSV and writes it through unchanged (no column renaming/
-selection here; that's the matching/join script's job, not the fetch step).
+Like fetch_csd.py but for tables (e.g. population counts) instead of
+boundary shapefiles. Drops the "_MetaData" CSV that ships alongside the
+data CSV; no column renaming here, that's the join script's job.
 
 Usage:
     python fetch_table.py --dataset population_2021_csd
-
-Dataset URLs are looked up from datasets.yaml (next to this script) by key;
-add new entries there rather than passing a raw URL.
 """
 
 import argparse
@@ -55,7 +50,7 @@ def main():
     output = args.output or dataset.get("output")
     if not output:
         raise ValueError(f"No --output given and no default 'output' set for dataset '{args.dataset}' in {args.config}")
-    output = Path(output)
+    output = resolve_output(output, __file__)
     output.parent.mkdir(parents=True, exist_ok=True)
 
     with tempfile.TemporaryDirectory() as tmp:

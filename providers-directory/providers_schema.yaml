@@ -27,15 +27,10 @@ fields:
     required: false
     description: StatCan DGUID(s) linking to census geography. List because some providers (e.g. regional districts) span multiple DGUIDs.
 
-  - name: population
+  - name: population_2021
     type: integer
     required: false
-    description: Census population figure, if applicable. Paired with population_year — not hardcoded to a single census vintage.
-
-  - name: population_year
-    type: integer
-    required: false
-    description: Census year the population figure is from (e.g. 2021).
+    description: 2021 census population figure, if applicable. Year is in the field name since the whole file is one census snapshot; rename (e.g. population_2026) whenever the file is rebuilt off a newer census.
 
   - name: portal_url
     type: string

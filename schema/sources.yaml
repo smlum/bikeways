@@ -12,11 +12,6 @@ fields:
     required: true
     description: Foreign key to provider_id in providers-directory/providers.csv.
 
-  - name: domain
-    type: string
-    required: true
-    enum: [cycling, pedestrian]
-
   - name: dataset_page_url
     type: string
     required: true

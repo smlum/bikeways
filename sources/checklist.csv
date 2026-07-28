@@ -1,0 +1,218 @@
+checked,provider_id,portal_url,source_url,name,geography_level,province,checked_date,source_ids,notes
+x,ab_alberta,https://open.alberta.ca/opendata,,Government of Alberta,province,AB,,,
+x,bc_british_columbia,https://catalogue.data.gov.bc.ca,,Government of British Columbia,province,BC,,,
+x,mb_manitoba,https://geoportal.gov.mb.ca/,,Government of Manitoba,province,MB,,,
+x,nl_newfoundland_and_labrador,https://opendata.gov.nl.ca/,,Government of Newfoundland and Labrador,province,NL,,,
+x,ns_nova_scotia,https://data.novascotia.ca/,,Government of Nova Scotia,province,NS,,,
+x,nt_the_northwest_territories,https://opendata.gov.nt.ca/,,Government of the Northwest Territories,province,NT,,,
+x,nu_nunavut,https://gov.nu.ca/en,,Government of Nunavut,province,NU,,,
+x,nu_polar_data_catalogue,https://polardata.ca/,,Polar Data Catalogue,province,NU,,,
+x,on_geospatial_ontario,https://geohub.lio.gov.on.ca/,,Geospatial Ontario,province,ON,,,
+x,on_ontario,https://data.ontario.ca/,,Government of Ontario,province,ON,,,
+x,pe_prince_edward_island,https://data.princeedwardisland.ca/,,Government of Prince Edward Island,province,PE,,,
+,qc_quebec,https://www.donneesquebec.ca/,,Government of Québec,province,QC,,,
+x,sk_saskatchewan,https://geohub.saskatchewan.ca/,,Government of Saskatchewan,province,SK,,,
+x,yt_yukon,https://open.yukon.ca/data,,Government of Yukon,province,YT,,,
+,ab_calgary_metropolitan_region,https://calgarymetroregion-cmrb.opendata.arcgis.com/,,Calgary Metropolitan Region,region,AB,,,
+,ab_grande_prairie,https://opendata.countygp.ab.ca/,,County of Grande Prairie,region,AB,,,
+,bc_capital_regional_district,https://www.crd.bc.ca/about/data/geospatial-data,,Capital Regional District,region,BC,,,
+,bc_cariboo_regional_district,https://crd-true-consulting.hub.arcgis.com/,,Cariboo Regional District,region,BC,,,
+,bc_columbia_shuswap_regional_district,https://data-csrd.opendata.arcgis.com/,,Columbia Shuswap Regional District,region,BC,,,
+,bc_cowichan_valley_regional_district,https://cvrd.ca/3239/GIS-Downloads,,Cowichan Valley Regional District,region,BC,,,
+,bc_regional_district_okanagan_similkameen,https://hub-rdos.opendata.arcgis.com/,,Regional District Okanagan-Similkameen,region,BC,,,
+,bc_central_okanagan,https://gis-rdco.hub.arcgis.com/pages/open-data,,Regional District of Central Okanagan,region,BC,,,
+,bc_east_kootenay,https://data3-ca5c0-rdek.opendata.arcgis.com/,,Regional District of East Kootenay,region,BC,,,
+,bc_fraser_fort_george,https://www.rdffg.ca/node/383,,Regional District of Fraser-Fort George,region,BC,,,
+,bc_nanaimo_2,https://www.rdn.bc.ca/spatial-data-files,,Regional District of Nanaimo,region,BC,,,
+,bc_north_okanagan,https://regional-district-of-north-okanagan-gis-open-data-site-rdnogis.hub.arcgis.com/,,Regional District of North Okanagan,region,BC,,,
+,bc_strathcona_regional_district,https://data-strathconard.opendata.arcgis.com/,,Strathcona Regional District,region,BC,,,
+,bc_sunshine_coast_regional_district,https://data-myscrd.opendata.arcgis.com/,,Sunshine Coast Regional District,region,BC,,,
+,bc_thompson_nicola_regional_district,https://my-tnrd.hub.arcgis.com/pages/opendata,,Thompson-Nicola Regional District,region,BC,,,
+,ns_the_county_of_cumberland,https://data-cumberlandns.opendata.arcgis.com/,,Municipality of the County of Cumberland,region,NS,,,
+,ns_the_county_of_pictou,https://mopc-pictoucounty.hub.arcgis.com/,,Municipality of the County of Pictou,region,NS,,,
+,on_bruce,https://bruce-county-open-spatial-data-brucecounty.hub.arcgis.com/,,County of Bruce,region,ON,,,
+,on_elgin,https://elgin-county-open-data-elgin-county.hub.arcgis.com/,,County of Elgin,region,ON,,,
+,on_frontenac,https://county-frontenac.hub.arcgis.com/,,County of Frontenac,region,ON,,,
+,on_haliburton,https://gis-haliburtoncounty-ca-halcty.hub.arcgis.com/,,County of Haliburton,region,ON,,,
+,on_hastings,https://county-hastings-gis.opendata.arcgis.com/,,County of Hastings,region,ON,,,
+,on_lambton,https://county-lambton.opendata.arcgis.com/,,County of Lambton,region,ON,,,
+,on_lennox_and_addington,https://open-data-hub-lennoxaddington.hub.arcgis.com/,,County of Lennox & Addington,region,ON,,,
+,on_middlesex,https://data-middlesex.opendata.arcgis.com/,,County of Middlesex,region,ON,,,
+,on_simcoe,https://opengis.simcoe.ca/public/,,County of Simcoe,region,ON,,,
+,on_muskoka,https://map.muskoka.on.ca/,,District Municipality of Muskoka,region,ON,,,
+,on_dufferin_county,https://data-dufferincounty.opendata.arcgis.com/,,Dufferin County,region,ON,,,
+,on_grey_county,https://maps.grey.ca/,,Grey County,region,ON,,,
+,on_huron_county,https://data-huron.opendata.arcgis.com/,,Huron County,region,ON,,,
+,on_oxford_county,https://public-oxfordcounty.opendata.arcgis.com/,https://public-oxfordcounty.opendata.arcgis.com/datasets/9803ea9b66b740fcbd3930a30956c8b0_17/explore?location=42.870051%2C-80.727920%2C15.42,Oxford County,region,ON,,on_oxford_county_cycling,"from 2019 CCND vintage, needs re-verification"
+,on_peel_region,https://data.peelregion.ca/,,Peel Region,region,ON,,,
+,on_durham,https://opendata.durham.ca/,,Regional Municipality of Durham,region,ON,,,
+,on_niagara,https://niagaraopendata.ca/,,Regional Municipality of Niagara,region,ON,,,
+,on_leeds_and_grenville,https://geohub-uclg.hub.arcgis.com/,,United Counties of Leeds and Grenville,region,ON,,,
+,on_york_region,https://insights-york.opendata.arcgis.com/,https://data-markham.opendata.arcgis.com/datasets/c1c2100c9f22435f982af79c7385eb1a_0/about,York Region,region,ON,,on_york_region_cycling,"from 2024 CCND vintage, needs re-verification"
+,qc_mrc_becancour,https://www.donneesquebec.ca/organisation/mrc-becancour,,MRC Bécancour,region,QC,,,
+,qc_mrc_de_nicolet_yamaska,https://www.donneesquebec.ca/organisation/mrc-de-nicolet-yamaska,,MRC de Nicolet-Yamaska,region,QC,,,
+,ab_airdrie,https://data-airdrie.opendata.arcgis.com/,,City of Airdrie,municipality,AB,,,
+,ab_calgary,https://data.calgary.ca/,https://data.calgary.ca/Transportation-Transit/Calgary-Bikeways/jjqk-9b73/about_data,City of Calgary,municipality,AB,,ab_calgary_cycling,"from 2023 CCND vintage, needs re-verification"
+,ab_chestermere,https://data-chestermere.opendata.arcgis.com/,,City of Chestermere,municipality,AB,,,
+,ab_edmonton,https://data.edmonton.ca/,https://data.edmonton.ca/Transportation-Infrastructure/Bike-Routes/vd4b-a4iv,City of Edmonton,municipality,AB,,ab_edmonton_cycling,"from 2023 CCND vintage, needs re-verification"
+,ab_grande_prairie_2,https://opendata-cityofgp.hub.arcgis.com/,,City of Grande Prairie,municipality,AB,,,
+,ab_lethbridge,https://opendata.lethbridge.ca/,,City of Lethbridge,municipality,AB,,,
+,ab_medicine_hat,https://www.medicinehat.ca/en/business-and-development/maps-and-gis.aspx,,City of Medicine Hat,municipality,AB,,,
+,ab_red_deer,https://data.reddeer.ca/datasets,,City of Red Deer,municipality,AB,,,
+,ab_st_albert,https://data.stalbert.ca/,,City of St. Albert,municipality,AB,,,
+,ab_parkland_county,https://opendata.parklandcounty.com/,,Parkland County,municipality,AB,,,
+,ab_wood_buffalo,,,Regional Municipality of Wood Buffalo,municipality,AB,,,
+,ab_strathcona_county,https://data.strathcona.ca/,,Strathcona County,municipality,AB,,,
+,ab_sturgeon_county,https://data-sturgeoncounty.opendata.arcgis.com/,,Sturgeon County,municipality,AB,,,
+,ab_banff,https://maps.banff.ca/opendata/,,Town of Banff,municipality,AB,,,
+,ab_canmore,https://opendata-canmore.opendata.arcgis.com/,,Town of Canmore,municipality,AB,,,
+,ab_cochrane,https://geohub.cochrane.ca/,,Town of Cochrane,municipality,AB,,,
+,ab_high_river,https://highriver-hrmdf.hub.arcgis.com/,,Town of High River,municipality,AB,,,
+,ab_okotoks,https://okotoksmaps-okotoks.hub.arcgis.com/pages/open-data-portal,,Town of Okotoks,municipality,AB,,,
+,bc_abbotsford,https://opendata-abbotsford.hub.arcgis.com/,https://opendata-abbotsford.hub.arcgis.com/datasets/Abbotsford::cycling-routes/explore,City of Abbotsford,municipality,BC,,bc_abbotsford_cycling,"from 2021 CCND vintage, needs re-verification"
+,bc_burnaby,https://data.burnaby.ca/,https://data.burnaby.ca/datasets/burnaby::bike-trails/explore,City of Burnaby,municipality,BC,,bc_burnaby_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_campbell_river,https://data-crcc.opendata.arcgis.com/,https://data-crcc.opendata.arcgis.com/datasets/090691684a21480aa859654821aae349/explore,City of Campbell River,municipality,BC,,bc_campbell_river_cycling,"from 2018 CCND vintage, needs re-verification"
+,bc_chilliwack,https://www.chilliwack.com/main/page.cfm?id=2331,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,City of Chilliwack,municipality,BC,,bc_chilliwack_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_coquitlam,https://data.coquitlam.ca/,https://data.coquitlam.ca/datasets/Coquitlam::cycling-routes/about,City of Coquitlam,municipality,BC,,bc_coquitlam_cycling,"from 2021 CCND vintage, needs re-verification"
+,bc_courtenay,https://data-courtenay.opendata.arcgis.com/,https://data-courtenay.opendata.arcgis.com/datasets/Courtenay::cycling-network-plan/explore,City of Courtenay,municipality,BC,,bc_courtenay_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_cranbrook,https://cranbrook-open-data-cranbrook.hub.arcgis.com/,,City of Cranbrook,municipality,BC,,,
+,bc_delta,https://www.delta.ca/city-hall/municipal-information/open-data-catalogue,,City of Delta,municipality,BC,,,
+,bc_grand_forks,https://opendata.grandforks.ca/,,City of Grand Forks,municipality,BC,,,
+,bc_kamloops,https://mydata-kamloops.opendata.arcgis.com/,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,City of Kamloops,municipality,BC,,bc_kamloops_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_kelowna,https://opendata.kelowna.ca/,https://opendata.kelowna.ca/datasets/active-transportation-network/about,City of Kelowna,municipality,BC,,bc_kelowna_cycling,"from 2021 CCND vintage, needs re-verification"
+,bc_langley,https://data-langleycity.opendata.arcgis.com/,https://data-langleycity.opendata.arcgis.com/datasets/3480ae6d305045139d4cd27a5d004492_157/explore,City of Langley,municipality,BC,,bc_langley_cycling,"from 2022 CCND vintage, needs re-verification"
+,bc_maple_ridge,https://opengov.mapleridge.ca/,https://opengov.mapleridge.ca/datasets/mapleridge::bike-routes/explore,City of Maple Ridge,municipality,BC,,bc_maple_ridge_cycling,"from 2022 CCND vintage, needs re-verification"
+,bc_nanaimo,https://www.nanaimo.ca/open-data-catalogue,,City of Nanaimo,municipality,BC,,,
+,bc_new_westminster,https://opendata.newwestcity.ca/,,City of New Westminster,municipality,BC,,,
+,bc_parksville,https://city-of-parksville-city-parksville.hub.arcgis.com/,,City of Parksville,municipality,BC,,,
+,bc_penticton,https://open.penticton.ca/,https://open.penticton.ca/datasets/a083f8d8cb004932abab4406b28994bd_822/explore,City of Penticton,municipality,BC,,bc_penticton_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_port_coquitlam,https://data-poco.hub.arcgis.com/,,City of Port Coquitlam,municipality,BC,,,
+,bc_port_moody,https://data.portmoody.ca/,https://data.portmoody.ca/datasets/9f3aa5c190924e6dafad7cb588716c70_46/about,City of Port Moody,municipality,BC,,bc_port_moody_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_prince_george,https://data-cityofpg.opendata.arcgis.com/,https://data-cityofpg.opendata.arcgis.com/datasets/CityofPG::ocp-8383-cycle-network/explore,City of Prince George,municipality,BC,,bc_prince_george_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_richmond,,,City of Richmond,municipality,BC,,,
+,bc_surrey,https://data.surrey.ca/,https://data.surrey.ca/dataset/bike-routes/resource/e10c6ce3-454e-498e-901c-aeb44d04e78c?inner_span=True,City of Surrey,municipality,BC,,bc_surrey_cycling,"from 2022 CCND vintage, needs re-verification"
+,bc_vancouver,https://opendata.vancouver.ca/pages/home/,https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction,City of Vancouver,municipality,BC,,bc_vancouver_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_vernon,https://cov-open-data-vernon.hub.arcgis.com/,https://cov-open-data-vernon.hub.arcgis.com/datasets/vernon-bike-routes/explore?location=50.072859%2C-119.359818%2C12.49,City of Vernon,municipality,BC,,bc_vernon_cycling,"from 2023 CCND vintage, needs re-verification"
+,bc_victoria,https://opendata.victoria.ca/,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,City of Victoria,municipality,BC,,bc_victoria_cycling,"from 2022 CCND vintage, needs re-verification"
+,bc_white_rock,https://data.whiterockcity.ca/,,City of White Rock,municipality,BC,,,
+,bc_lake_country,https://dlc-open-data-dlc.hub.arcgis.com/,,District of Lake Country,municipality,BC,,,
+,bc_north_vancouver,https://www.geoweb.dnv.org/data/,https://www.geoweb.dnv.org/data/,District of North Vancouver,municipality,BC,,bc_north_vancouver_cycling,"from 2024 CCND vintage, needs re-verification"
+,bc_peachland,https://peachland2017-01-16t194902237z-rdco.opendata.arcgis.com/,,District of Peachland,municipality,BC,,,
+,bc_saanich,https://opendata-saanich.hub.arcgis.com/,,District of Saanich,municipality,BC,,,
+,bc_squamish,https://data.squamish.ca/,https://opendata-squamish.hub.arcgis.com/datasets/526e12633e2e404cb229d0d2657e7092/explore?location=49.662123%2C-123.000688%2C10.04,District of Squamish,municipality,BC,,bc_squamish_cycling,"from 2021 CCND vintage, needs re-verification"
+,bc_summerland,https://open-data-summerland.hub.arcgis.com/,,District of Summerland,municipality,BC,,,
+,bc_west_vancouver,https://westmap.westvancouver.ca/,https://mapping.westvancouver.ca/OD/dbo_OPENDATA_FILES_list.php?page=list,District of West Vancouver,municipality,BC,,bc_west_vancouver_cycling,"from 2020 CCND vintage, needs re-verification"
+,bc_north_cowichan,https://www.northcowichan.ca/municipal-services/maps,,Municipality of North Cowichan,municipality,BC,,,
+,bc_whistler,https://portal-rmow.opendata.arcgis.com/,,Resort Municipality of Whistler,municipality,BC,,,
+,bc_gibsons,https://town-of-gibsons-open-data-portal-myscrd.hub.arcgis.com/,,Town of Gibsons,municipality,BC,,,
+,bc_esquimalt,https://opendata.esquimalt.ca/,,Township of Esquimalt,municipality,BC,,,
+,mb_brandon,http://opengov.brandon.ca/,,City of Brandon,municipality,MB,,,
+,mb_winnipeg,https://data.winnipeg.ca/,https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data,City of Winnipeg,municipality,MB,,mb_winnipeg_cycling,"from 2023 CCND vintage, needs re-verification"
+,nb_fredericton,https://data-fredericton.opendata.arcgis.com/,https://environment-fredericton.hub.arcgis.com/datasets/bike-lanes/explore?location=45.950252%2C-66.625723%2C12.40,City of Fredericton,municipality,NB,,nb_fredericton_cycling,"from 2022 CCND vintage, needs re-verification"
+,nb_moncton,https://open.moncton.ca/,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,City of Moncton,municipality,NB,,nb_moncton_cycling,"from 2023 CCND vintage, needs re-verification"
+,nb_saint_john,https://catalogue-saintjohn.opendata.arcgis.com/,,City of Saint John,municipality,NB,,,
+,nb_edmundston,https://data-edmundston.opendata.arcgis.com/,,Ville d'Edmundston,municipality,NB,,,
+,nl_st_johns,,,City of St. John's,municipality,NL,,,
+,nl_happy_valley_goose_bay,https://portal-townhvgb.opendata.arcgis.com/,,Town of Happy Valley-Goose Bay,municipality,NL,,,
+,ns_cape_breton_regional_muncipality,https://www.cbrm.ns.ca/open-data.html,,Cape Breton Regional Muncipality,municipality,NS,,,
+,ns_halifax_regional_municipality,https://data-hrm.hub.arcgis.com/,,Halifax Regional Municipality,municipality,NS,,,
+,ns_east_hants,https://www.easthants.ca/maps-and-data/,,Municipality of East Hants,municipality,NS,,,
+,ns_truro,https://www.truro.ca/mapping-and-gis.html,,Town of Truro,municipality,NS,,,
+,nt_yellowknife,https://opendata.yellowknife.ca/,Manual,City of Yellowknife,municipality,NT,,nt_yellowknife_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_barrie,https://opendata.barrie.ca/,https://opendata.barrie.ca/datasets/1bc1a28dee2e493d9a4eb245277a128b_10/explore,City of Barrie,municipality,ON,,on_barrie_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_barrie_2,https://public-barrie.opendata.arcgis.com/,,City of Barrie,municipality,ON,,,
+,on_belleville,https://opendata-bellevillegis.hub.arcgis.com/,https://opendata-bellevillegis.hub.arcgis.com/datasets/bellevilleGIS::active-transportation-network/explore?location=44.168772%2C-77.376178%2C13.86,City of Belleville,municipality,ON,,on_belleville_cycling,"from 2022 CCND vintage, needs re-verification"
+,on_brampton,https://geohub.brampton.ca/pages/data,https://geohub.brampton.ca/datasets/brampton::recreational-trails/about,City of Brampton,municipality,ON,,on_brampton_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_brantford,https://data-brantford.opendata.arcgis.com/,,City of Brantford,municipality,ON,,,
+,on_burlington,https://navburl-burlington.opendata.arcgis.com/,https://navburl-burlington.opendata.arcgis.com/datasets/28c2c17222c54820a4284a7a70b7c61b/explore?location=43.368436%2C-79.816729%2C12.54,City of Burlington,municipality,ON,,on_burlington_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_cambridge,https://geohub.cambridge.ca/,https://geohub.cambridge.ca/datasets/cityofcambridge::bikeway-network-1/about,City of Cambridge,municipality,ON,,on_cambridge_cycling,"from 2022 CCND vintage, needs re-verification"
+,on_cornwall,https://data-cornwallcity.opendata.arcgis.com/search,https://data-cornwallcity.opendata.arcgis.com/datasets/deff651b312946028aa0cef30e1f5931_0/explore?location=45.037855%2C-74.756803%2C12.33,City of Cornwall,municipality,ON,,on_cornwall_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_greater_sudbury,https://opendata.greatersudbury.ca/,https://opendata.greatersudbury.ca/datasets/Sudbury::road-sidewalk-path-trail-1/about,City of Greater Sudbury,municipality,ON,,on_greater_sudbury_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_guelph,http://data.open.guelph.ca/,https://geohub.guelph.ca/datasets/cityofguelph::bikefacilities-forpublic/explore?location=43.531443%2C-80.224339%2C12.40,City of Guelph,municipality,ON,,on_guelph_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_hamilton,https://open.hamilton.ca/,https://open.hamilton.ca/datasets/2f8d26d5842b4a7c80f60ab8abb6c44a_7/explore,City of Hamilton,municipality,ON,,on_hamilton_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_kawartha_lakes,https://open-data-kawartha.hub.arcgis.com/,,City of Kawartha Lakes,municipality,ON,,,
+,on_kingston,https://opendatakingston.cityofkingston.ca/,https://opendatakingston.cityofkingston.ca/datasets/87e0baff690548ae80966148827de62c_1,City of Kingston,municipality,ON,,on_kingston_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_kitchener,https://open-kitchenergis.opendata.arcgis.com/,https://open-kitchenergis.opendata.arcgis.com/datasets/18817096d9ee49cca89f6a0d6092c2e7_0/explore?location=43.428127%2C-80.474809%2C12.08,City of Kitchener,municipality,ON,,on_kitchener_cycling,"from 2024 CCND vintage, needs re-verification"
+,on_london,https://opendata.london.ca/,https://opendata.london.ca/datasets/b9ccfd746f2640b78cc18d2b78ef586a/about,City of London,municipality,ON,,on_london_cycling,"from 2019 CCND vintage, needs re-verification"
+,on_markham,http://data-markham.opendata.arcgis.com/,,City of Markham,municipality,ON,,,
+,on_mississauga,https://data.mississauga.ca/,https://data.mississauga.ca/datasets/mississauga::2021-city-of-mississauga-cycling-network/about,City of Mississauga,municipality,ON,,on_mississauga_cycling,"from 2021 CCND vintage, needs re-verification"
+,on_niagara_falls,https://open.niagarafalls.ca/,https://open.niagarafalls.ca/datasets/niagara-falls-community-bike-lanes/explore,City of Niagara Falls,municipality,ON,,on_niagara_falls_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_north_bay,https://data-northbaygis.hub.arcgis.com/,,City of North Bay,municipality,ON,,,
+,on_oshawa,https://city-oshawa.opendata.arcgis.com/,,City of Oshawa,municipality,ON,,,
+,on_ottawa,https://open.ottawa.ca/,https://open.ottawa.ca/datasets/ottawa::cycling-network/about,City of Ottawa,municipality,ON,,on_ottawa_cycling,"from 2021 CCND vintage, needs re-verification"
+,on_peterborough,https://data-ptbo.opendata.arcgis.com/,https://data-ptbo.opendata.arcgis.com/datasets/c0267adc1c084b1cb66b3b58cfea6606_0/explore,City of Peterborough,municipality,ON,,on_peterborough_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_pickering,https://opendata.pickering.ca/,,City of Pickering,municipality,ON,,,
+,on_quinte_west,https://geodata-quintewest.opendata.arcgis.com/,,City of Quinte West,municipality,ON,,,
+,on_sarnia,https://city-of-sarnia.hub.arcgis.com/,,City of Sarnia,municipality,ON,,,
+,on_sault_ste_marie,https://cityssm.github.io/,,City of Sault Ste. Marie,municipality,ON,,,
+,on_st_catharines,,,City of St. Catharines,municipality,ON,,,
+,on_thunder_bay,https://opendata.thunderbay.ca/,,City of Thunder Bay,municipality,ON,,,
+,on_toronto,https://open.toronto.ca/,https://open.toronto.ca/dataset/cycling-network/,City of Toronto,municipality,ON,2026-07-16,on_toronto_cycling,
+,on_toronto,https://open.toronto.ca/,https://open.toronto.ca/dataset/cycling-network/,City of Toronto,municipality,ON,,on_toronto_cycling_2,"from 2024 CCND vintage, needs re-verification"
+,on_vaughan,,,City of Vaughan,municipality,ON,,,
+,on_waterloo,https://data.waterloo.ca/,https://rowopendata-rmw.opendata.arcgis.com/datasets/City-of-Waterloo::cycling-infrastructure/about,City of Waterloo,municipality,ON,,on_waterloo_cycling,"from 2019 CCND vintage, needs re-verification"
+,on_welland,https://open.welland.ca/,,City of Welland,municipality,ON,,,
+,on_windsor,https://opendata.citywindsor.ca/,https://opendata.citywindsor.ca/details/3,City of Windsor,municipality,ON,,on_windsor_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_brant,https://catalogue-brant.hub.arcgis.com/,,County of Brant,municipality,ON,,,
+,on_essex,https://opendata.countyofessex.ca/,,County of Essex,municipality,ON,,,
+,on_haldimand_county,https://opendata-haldimand.hub.arcgis.com/,,Haldimand County,municipality,ON,,,
+,on_chatham_kent,https://opendata-chatham-kent.opendata.arcgis.com/,,Municipality of Chatham-Kent,municipality,ON,,,
+,on_clarington,,,Municipality of Clarington,municipality,ON,,,
+,on_mcdougall,https://mcdougall-hub-wpsgn.hub.arcgis.com/,,Municipality of McDougall,municipality,ON,,,
+,on_norfolk_county,https://opendata.norfolkcounty.ca/,,Norfolk County,municipality,ON,,,
+,on_ajax,https://opendata.ajax.ca/,https://opendata.ajax.ca/datasets/TownofAjax::active-transportation/about,Town of Ajax,municipality,ON,,on_ajax_cycling,"from 2021 CCND vintage, needs re-verification"
+,on_aurora,https://town-of-aurora-data-hub-aurora.hub.arcgis.com/,,Town of Aurora,municipality,ON,,,
+,on_caledon,https://data-caledon.opendata.arcgis.com/,,Town of Caledon,municipality,ON,,,
+,on_cobourg,https://public-townofcobourg.hub.arcgis.com/,,Town of Cobourg,municipality,ON,,,
+,on_halton_hills,,,Town of Halton Hills,municipality,ON,,,
+,on_huntsville,https://huntsville-muskoka.opendata.arcgis.com/,,Town of Huntsville,municipality,ON,,,
+,on_milton,https://discover-milton.hub.arcgis.com/,https://discover-milton.hub.arcgis.com/datasets/Milton::trails/about,Town of Milton,municipality,ON,,on_milton_cycling,"from 2022 CCND vintage, needs re-verification"
+,on_newmarket,https://navigate-newmarket.hub.arcgis.com/pages/open-data,,Town of Newmarket,municipality,ON,,,
+,on_oakville,https://portal-exploreoakville.opendata.arcgis.com/,https://portal-exploreoakville.opendata.arcgis.com/datasets/ExploreOakville::cycling-routes/about,Town of Oakville,municipality,ON,,on_oakville_cycling,"from 2024 CCND vintage, needs re-verification"
+,on_orangeville,https://data.orangeville.ca/,https://data-orangeville.opendata.arcgis.com/datasets/orangeville::bike-routes/about,Town of Orangeville,municipality,ON,,on_orangeville_cycling,"from 2019 CCND vintage, needs re-verification"
+,on_richmond_hill,,,Town of Richmond Hill,municipality,ON,,,
+,on_tecumseh,https://tecumseh-essexcounty.opendata.arcgis.com/,,Town of Tecumseh,municipality,ON,,,
+,on_whitby,https://geohub-whitby.hub.arcgis.com/,https://geohub-whitby.hub.arcgis.com/datasets/Whitby::cycling-routes/explore,Town of Whitby,municipality,ON,,on_whitby_cycling,"from 2023 CCND vintage, needs re-verification"
+,on_woolwich,https://woolwich-geohub-woolwich.hub.arcgis.com/,,Township of Woolwich,municipality,ON,,,
+,pe_charlottetown,,,City of Charlottetown,municipality,PE,,,
+,pe_stratford,https://www.townofstratford.ca/government/open_government/open_data_catalogue,,Town of Stratford,municipality,PE,,,
+,qc_blainville,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-blainville,,Ville de Blainville,municipality,QC,,,
+,qc_brossard,,,Ville de Brossard,municipality,QC,,,
+,qc_chateauguay,,,Ville de Châteauguay,municipality,QC,,,
+,qc_drummondville,https://donnees-vdrummondville.opendata.arcgis.com/search,https://donnees-vdrummondville.opendata.arcgis.com/datasets/vdrummondville::r%C3%A9seau-cyclable/about,Ville de Drummondville,municipality,QC,,qc_drummondville_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_gatineau,https://www.gatineau.ca/portail/default.aspx?c=en-CA&p=publications_cartes_statistiques_donnees_ouvertes/donnees_ouvertes,https://www.donneesquebec.ca/recherche/dataset/vgat_906945613,Ville de Gatineau,municipality,QC,,qc_gatineau_cycling,"from 2024 CCND vintage, needs re-verification"
+,qc_granby,,,Ville de Granby,municipality,QC,,,
+,qc_laval,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-laval,https://www.donneesquebec.ca/recherche/dataset/pistes-cyclables-et-pietonnieres,Ville de Laval,municipality,QC,,qc_laval_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_longueuil,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-longueuil,https://www.donneesquebec.ca/recherche/dataset/pistes-cyclables-longueuil#,Ville de Longueuil,municipality,QC,,qc_longueuil_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_levis,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-levis,https://www.donneesquebec.ca/recherche/dataset/piste-cyclable-levis,Ville de Lévis,municipality,QC,,qc_levis_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_mascouche,,,Ville de Mascouche,municipality,QC,,,
+,qc_mirabel,,,Ville de Mirabel,municipality,QC,,,
+,qc_montreal,https://donnees.montreal.ca/,https://donnees.montreal.ca/dataset/5ea29f40-1b5b-4f34-85b3-7c67088ff536/resource/234c8ee4-d9d8-4bb1-b957-3e5cd495a5aa/,Ville de Montréal,municipality,QC,,qc_montreal_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_ville-de-quebec,https://www.donneesquebec.ca/organisation/ville-de-quebec/,,Ville de Québec,municipality,QC,,,
+,qc_repentigny,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-repentigny,https://www.donneesquebec.ca/recherche/dataset/vrep-pistes-cyclables#,Ville de Repentigny,municipality,QC,,qc_repentigny_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_rimouski,https://www.donneesquebec.ca/organisation/ville-de-rimouski,https://www.donneesquebec.ca/recherche/dataset/pistes-cyclables-rim,Ville de Rimouski,municipality,QC,,qc_rimouski_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_rouyn_noranda,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-rouyn-noranda,,Ville de Rouyn-Noranda,municipality,QC,,,
+,qc_saguenay,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-saguenay,https://www.donneesquebec.ca/recherche/dataset/sag_pistes_cyclables,Ville de Saguenay,municipality,QC,,qc_saguenay_cycling,"from 2023 CCND vintage, needs re-verification"
+,qc_saint_hyacinthe,https://www.donneesquebec.ca/recherche/dataset?q=&extras_organisation_principale=ville-de-saint-hyacinthe,,Ville de Saint Hyacinthe,municipality,QC,,,
+,qc_saint_jean_sur_richelieu,https://www.donneesquebec.ca/organisation/ville-de-saint-jean-sur-richelieu/,,Ville de Saint-Jean-sur-Richelieu,municipality,QC,,,
+,qc_saint_jerome,,,Ville de Saint-Jérôme,municipality,QC,,,
+,qc_shawinigan,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-shawinigan,https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-5afd394d-b6bb-4fd3-8eda-db071cdf2bd3,Ville de Shawinigan,municipality,QC,,qc_shawinigan_cycling,"from 2020 CCND vintage, needs re-verification"
+,qc_sherbrooke,https://donneesouvertes-sherbrooke.opendata.arcgis.com/,https://donneesouvertes-sherbrooke.opendata.arcgis.com/datasets/9478537c06104aa0a2c7e4634947f382/explore,Ville de Sherbrooke,municipality,QC,,qc_sherbrooke_cycling,"from 2024 CCND vintage, needs re-verification"
+,qc_terrebonne,,,Ville de Terrebonne,municipality,QC,,,
+,qc_trois_rivieres,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-trois-rivieres,,Ville de Trois-Rivières,municipality,QC,,,
+,qc_victoriaville,https://partage-victoriaville.opendata.arcgis.com,,Ville de Victoriaville,municipality,QC,,,
+,sk_moose_jaw,,,City of Moose Jaw,municipality,SK,,,
+,sk_prince_albert,,,City of Prince Albert,municipality,SK,,,
+,sk_regina,https://openregina.ca/,https://open.regina.ca/dataset/pathways,City of Regina,municipality,SK,,sk_regina_cycling,"from 2018 CCND vintage, needs re-verification"
+,sk_saskatoon,https://opendata.saskatoon.ca/,Manual,City of Saskatoon,municipality,SK,,sk_saskatoon_cycling,"from 2023 CCND vintage, needs re-verification"
+,yt_whitehorse,https://data.whitehorse.ca/,Manual,City of Whitehorse,municipality,YT,,yt_whitehorse_cycling,"from 2019 CCND vintage, needs re-verification"
+,bc_the_city_of_west_kelowna,https://www.westkelownacity.ca/en/building-business-and-development/open-data.aspx,,The City of West Kelowna,other,BC,,,
+,bc_westbank_first_nation,https://wfn-open-data-rdco.opendata.arcgis.com/,,Westbank First Nation,other,BC,,,
+,nb_new_brunswick,https://gnb.socrata.com/,,Government of New Brunswick,other,NB,,,
+,nl_community_infrastructure_mapping_system,https://nlcims.ca/OpenData/,,Community Infrastructure Mapping System,other,NL,,,
+,on_lake_simcoe_region_conservation_authority,https://lsrca-open-data-camaps.opendata.arcgis.com/,,Lake Simco​e Region Conservation Authority,other,ON,,,
+,on_quinte_conservation,https://data.quinteconservation.ca/,,Quinte Conservation,other,ON,,,
+,on_region_of_waterloo,https://rowopendata-rmw.opendata.arcgis.com/,,Region of Waterloo,other,ON,,,
+,on_seguin_township,https://seguin-data-hub-wpsgn.hub.arcgis.com/,,Seguin Township,other,ON,,,
+,on_west_parry_sound_geography_network,https://data-wpsgn.opendata.arcgis.com/,,West Parry Sound Geography Network,other,ON,,,
+,yt_kluane_first_nation,https://lrh.kfn.ca/,,Kluane First Nation,other,YT,,,

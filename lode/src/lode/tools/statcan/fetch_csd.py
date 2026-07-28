@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
-"""Fetch a StatCan census geography boundary file and convert it to geoparquet.
+"""Fetch a StatCan boundary file (zipped shapefile) and convert it to geoparquet.
 
-One-off setup script, not part of the per-run pipeline: run it whenever a new
-census vintage is needed, then point projects at the resulting geoparquet file
-(e.g. for CSD spatial joins). Not specific to CSDs despite the name — any
-StatCan cartographic boundary file (CSD, CD, province, etc.) shipped as a
-zipped shapefile works the same way.
+One-off setup script, not part of the per-run pipeline. Works for any
+boundary level (CSD, CD, province...), not just CSDs, despite the name.
 
 Usage:
     python fetch_csd.py --dataset csd_2021_cbf
-
-Dataset URLs are looked up from datasets.yaml (next to this script) by key;
-add new entries there rather than passing a raw URL.
 """
 
 import argparse

@@ -1,0 +1,217 @@
+provider_id,name,geography_level,province,dguid,population_2021,portal_url,portal_license_name,portal_license_url,contact,notes
+ab_alberta,Government of Alberta,province,AB,2021A000248,4262635,https://open.alberta.ca/opendata,,,,
+bc_british_columbia,Government of British Columbia,province,BC,2021A000259,5000879,https://catalogue.data.gov.bc.ca,,,,
+mb_manitoba,Government of Manitoba,province,MB,2021A000246,1342153,https://geoportal.gov.mb.ca/,,,,
+nl_newfoundland_and_labrador,Government of Newfoundland and Labrador,province,NL,2021A000210,510550,https://opendata.gov.nl.ca/,,,,
+ns_nova_scotia,Government of Nova Scotia,province,NS,2021A000212,969383,https://data.novascotia.ca/,,,,
+nt_the_northwest_territories,Government of the Northwest Territories,province,NT,2021A000261,41070,https://opendata.gov.nt.ca/,,,,
+nu_nunavut,Government of Nunavut,province,NU,2021A000262,36858,https://gov.nu.ca/en,,,,
+nu_polar_data_catalogue,Polar Data Catalogue,province,NU,2021A000262,36858,https://polardata.ca/,,,,
+on_geospatial_ontario,Geospatial Ontario,province,ON,2021A000235,14223942,https://geohub.lio.gov.on.ca/,,,,
+on_ontario,Government of Ontario,province,ON,2021A000235,14223942,https://data.ontario.ca/,,,,
+pe_prince_edward_island,Government of Prince Edward Island,province,PE,2021A000211,154331,https://data.princeedwardisland.ca/,,,,
+qc_quebec,Government of Québec,province,QC,2021A000224,8501833,https://www.donneesquebec.ca/,,,,
+sk_saskatchewan,Government of Saskatchewan,province,SK,2021A000247,1132505,https://geohub.saskatchewan.ca/,,,,
+yt_yukon,Government of Yukon,province,YT,2021A00036001,40232,https://open.yukon.ca/data,,,,
+ab_calgary_metropolitan_region,Calgary Metropolitan Region,region,AB,,,https://calgarymetroregion-cmrb.opendata.arcgis.com/,,,,
+ab_grande_prairie,County of Grande Prairie,region,AB,,,https://opendata.countygp.ab.ca/,,,,
+bc_capital_regional_district,Capital Regional District,region,BC,,,https://www.crd.bc.ca/about/data/geospatial-data,,,,
+bc_cariboo_regional_district,Cariboo Regional District,region,BC,,,https://crd-true-consulting.hub.arcgis.com/,,,,
+bc_columbia_shuswap_regional_district,Columbia Shuswap Regional District,region,BC,,,https://data-csrd.opendata.arcgis.com/,,,,
+bc_cowichan_valley_regional_district,Cowichan Valley Regional District,region,BC,,,https://cvrd.ca/3239/GIS-Downloads,,,,
+bc_regional_district_okanagan_similkameen,Regional District Okanagan-Similkameen,region,BC,,,https://hub-rdos.opendata.arcgis.com/,,,,
+bc_central_okanagan,Regional District of Central Okanagan,region,BC,,,https://gis-rdco.hub.arcgis.com/pages/open-data,,,,
+bc_east_kootenay,Regional District of East Kootenay,region,BC,,,https://data3-ca5c0-rdek.opendata.arcgis.com/,,,,
+bc_fraser_fort_george,Regional District of Fraser-Fort George,region,BC,,,https://www.rdffg.ca/node/383,,,,
+bc_nanaimo_2,Regional District of Nanaimo,region,BC,,,https://www.rdn.bc.ca/spatial-data-files,,,,
+bc_north_okanagan,Regional District of North Okanagan,region,BC,,,https://regional-district-of-north-okanagan-gis-open-data-site-rdnogis.hub.arcgis.com/,,,,
+bc_strathcona_regional_district,Strathcona Regional District,region,BC,,,https://data-strathconard.opendata.arcgis.com/,,,,
+bc_sunshine_coast_regional_district,Sunshine Coast Regional District,region,BC,,,https://data-myscrd.opendata.arcgis.com/,,,,
+bc_thompson_nicola_regional_district,Thompson-Nicola Regional District,region,BC,,,https://my-tnrd.hub.arcgis.com/pages/opendata,,,,
+ns_the_county_of_cumberland,Municipality of the County of Cumberland,region,NS,,,https://data-cumberlandns.opendata.arcgis.com/,,,,
+ns_the_county_of_pictou,Municipality of the County of Pictou,region,NS,,,https://mopc-pictoucounty.hub.arcgis.com/,,,,
+on_bruce,County of Bruce,region,ON,,,https://bruce-county-open-spatial-data-brucecounty.hub.arcgis.com/,,,,
+on_elgin,County of Elgin,region,ON,,,https://elgin-county-open-data-elgin-county.hub.arcgis.com/,,,,
+on_frontenac,County of Frontenac,region,ON,,,https://county-frontenac.hub.arcgis.com/,,,,
+on_haliburton,County of Haliburton,region,ON,,,https://gis-haliburtoncounty-ca-halcty.hub.arcgis.com/,,,,
+on_hastings,County of Hastings,region,ON,,,https://county-hastings-gis.opendata.arcgis.com/,,,,
+on_lambton,County of Lambton,region,ON,,,https://county-lambton.opendata.arcgis.com/,,,,
+on_lennox_and_addington,County of Lennox & Addington,region,ON,,,https://open-data-hub-lennoxaddington.hub.arcgis.com/,,,,
+on_middlesex,County of Middlesex,region,ON,,,https://data-middlesex.opendata.arcgis.com/,,,,
+on_simcoe,County of Simcoe,region,ON,,,https://opengis.simcoe.ca/public/,,,,
+on_muskoka,District Municipality of Muskoka,region,ON,,,https://map.muskoka.on.ca/,,,,
+on_dufferin_county,Dufferin County,region,ON,,,https://data-dufferincounty.opendata.arcgis.com/,,,,
+on_grey_county,Grey County,region,ON,,,https://maps.grey.ca/,,,,
+on_huron_county,Huron County,region,ON,,,https://data-huron.opendata.arcgis.com/,,,,
+on_oxford_county,Oxford County,region,ON,,,https://public-oxfordcounty.opendata.arcgis.com/,,,,
+on_peel_region,Peel Region,region,ON,,,https://data.peelregion.ca/,,,,
+on_durham,Regional Municipality of Durham,region,ON,,,https://opendata.durham.ca/,,,,
+on_niagara,Regional Municipality of Niagara,region,ON,,,https://niagaraopendata.ca/,,,,
+on_leeds_and_grenville,United Counties of Leeds and Grenville,region,ON,,,https://geohub-uclg.hub.arcgis.com/,,,,
+on_york_region,York Region,region,ON,,,https://insights-york.opendata.arcgis.com/,Regional Municipality of York's Open Data Licence,https://insights-york.opendata.arcgis.com/documents/york::york-region-open-data-licence/explore,,"portal license guessed from prior CCND source, unverified"
+qc_mrc_becancour,MRC Bécancour,region,QC,,,https://www.donneesquebec.ca/organisation/mrc-becancour,,,,
+qc_mrc_de_nicolet_yamaska,MRC de Nicolet-Yamaska,region,QC,,,https://www.donneesquebec.ca/organisation/mrc-de-nicolet-yamaska,,,,
+ab_airdrie,City of Airdrie,municipality,AB,2021A00054806021,74100,https://data-airdrie.opendata.arcgis.com/,,,,
+ab_calgary,City of Calgary,municipality,AB,2021A00054806016,1306784,https://data.calgary.ca/,Open Government Licence – City of Calgary,https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa,,"portal license guessed from prior CCND source, unverified"
+ab_chestermere,City of Chestermere,municipality,AB,2021A00054806017,22163,https://data-chestermere.opendata.arcgis.com/,,,,
+ab_edmonton,City of Edmonton,municipality,AB,2021A00054811061,1010899,https://data.edmonton.ca/,Open Government Licence – City of Edmonton,https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/,,"portal license guessed from prior CCND source, unverified"
+ab_grande_prairie_2,City of Grande Prairie,municipality,AB,2021A00054819012,64141,https://opendata-cityofgp.hub.arcgis.com/,,,,
+ab_lethbridge,City of Lethbridge,municipality,AB,2021A00054802012,98406,https://opendata.lethbridge.ca/,,,,
+ab_medicine_hat,City of Medicine Hat,municipality,AB,2021A00054801006,63271,https://www.medicinehat.ca/en/business-and-development/maps-and-gis.aspx,,,,
+ab_red_deer,City of Red Deer,municipality,AB,2021A00054808011,100844,https://data.reddeer.ca/datasets,,,,
+ab_st_albert,City of St. Albert,municipality,AB,2021A00054811062,68232,https://data.stalbert.ca/,,,,
+ab_parkland_county,Parkland County,municipality,AB,2021A00054811034,32205,https://opendata.parklandcounty.com/,,,,
+ab_wood_buffalo,Regional Municipality of Wood Buffalo,municipality,AB,2021A00054816037,72326,,,,,no known open data portal as of 2026-07-28
+ab_strathcona_county,Strathcona County,municipality,AB,2021A00054811052,99225,https://data.strathcona.ca/,,,,
+ab_sturgeon_county,Sturgeon County,municipality,AB,2021A00054811059,20061,https://data-sturgeoncounty.opendata.arcgis.com/,,,,
+ab_banff,Town of Banff,municipality,AB,2021A00054815035,8305,https://maps.banff.ca/opendata/,,,,
+ab_canmore,Town of Canmore,municipality,AB,2021A00054815023,15990,https://opendata-canmore.opendata.arcgis.com/,,,,
+ab_cochrane,Town of Cochrane,municipality,AB,2021A00054806019,32199,https://geohub.cochrane.ca/,,,,
+ab_high_river,Town of High River,municipality,AB,2021A00054806006,14324,https://highriver-hrmdf.hub.arcgis.com/,,,,
+ab_okotoks,Town of Okotoks,municipality,AB,2021A00054806012,30405,https://okotoksmaps-okotoks.hub.arcgis.com/pages/open-data-portal,,,,
+bc_abbotsford,City of Abbotsford,municipality,BC,2021A00055909052,153524,https://opendata-abbotsford.hub.arcgis.com/,Open Government Licence – City of Abbotsford,https://opendata-abbotsford.hub.arcgis.com/pages/city-of-abbotsford-open-data-licence,,"portal license guessed from prior CCND source, unverified"
+bc_burnaby,City of Burnaby,municipality,BC,2021A00055915025,249125,https://data.burnaby.ca/,Open Government Licence – City of Burnaby,https://data.burnaby.ca/pages/open-government-licence,,"portal license guessed from prior CCND source, unverified"
+bc_campbell_river,City of Campbell River,municipality,BC,2021A00055924034,35519,https://data-crcc.opendata.arcgis.com/,,https://data-crcc.opendata.arcgis.com/datasets/090691684a21480aa859654821aae349_0/explore,,"portal license guessed from prior CCND source, unverified"
+bc_chilliwack,City of Chilliwack,municipality,BC,2021A00055909020,93203,https://www.chilliwack.com/main/page.cfm?id=2331,,https://www.chilliwack.com/main/page.cfm?id=2391,,"portal license guessed from prior CCND source, unverified"
+bc_coquitlam,City of Coquitlam,municipality,BC,2021A00055915034,148625,https://data.coquitlam.ca/,Open Government Licence – Coquitlam,https://www.coquitlam.ca/894/Open-Government-Licence,,"portal license guessed from prior CCND source, unverified"
+bc_courtenay,City of Courtenay,municipality,BC,2021A00055926010,28420,https://data-courtenay.opendata.arcgis.com/,Open Government Licence – City of Courtenay,https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence,,"portal license guessed from prior CCND source, unverified"
+bc_cranbrook,City of Cranbrook,municipality,BC,2021A00055901022,20499,https://cranbrook-open-data-cranbrook.hub.arcgis.com/,,,,
+bc_delta,City of Delta,municipality,BC,2021A00055915011,108455,https://www.delta.ca/city-hall/municipal-information/open-data-catalogue,,,,
+bc_grand_forks,City of Grand Forks,municipality,BC,2021A00055905032,4112,https://opendata.grandforks.ca/,,,,
+bc_kamloops,City of Kamloops,municipality,BC,2021A00055933042,97902,https://mydata-kamloops.opendata.arcgis.com/,Open Government Licence - Kamloops,https://www.kamloops.ca/open-data-catalogue-disclaimer,,"portal license guessed from prior CCND source, unverified"
+bc_kelowna,City of Kelowna,municipality,BC,2021A00055935010,144576,https://opendata.kelowna.ca/,Open Government Licence – City of Kelowna,https://apps.kelowna.ca/images/opendata/OpenGovernmentLicence.pdf,,"portal license guessed from prior CCND source, unverified"
+bc_langley,City of Langley,municipality,BC,2021A00055915002,28963,https://data-langleycity.opendata.arcgis.com/,Open Government License – Township of Langley,https://www.tol.ca/en/connect/open-data-licence.aspx,,"portal license guessed from prior CCND source, unverified"
+bc_maple_ridge,City of Maple Ridge,municipality,BC,2021A00055915075,90990,https://opengov.mapleridge.ca/,Open Government Licence – Maple Ridge,https://opengov.mapleridge.ca/pages/terms-of-use,,"portal license guessed from prior CCND source, unverified"
+bc_nanaimo,City of Nanaimo,municipality,BC,2021A00055921007,99863,https://www.nanaimo.ca/open-data-catalogue,,,,
+bc_new_westminster,City of New Westminster,municipality,BC,2021A00055915029,78916,https://opendata.newwestcity.ca/,,,,
+bc_parksville,City of Parksville,municipality,BC,2021A00055921018,13642,https://city-of-parksville-city-parksville.hub.arcgis.com/,,,,
+bc_penticton,City of Penticton,municipality,BC,2021A00055907041,36885,https://open.penticton.ca/,Open Government Licence - City of Penticton,https://www.penticton.ca/sites/default/files/docs/our-community/maps-gis/2020-07-02-PDF-Open%20Data%20Government%20Licence.pdf,,"portal license guessed from prior CCND source, unverified"
+bc_port_coquitlam,City of Port Coquitlam,municipality,BC,2021A00055915039,61498,https://data-poco.hub.arcgis.com/,,,,
+bc_port_moody,City of Port Moody,municipality,BC,2021A00055915043,33535,https://data.portmoody.ca/,Open Government Licence – Port Moody,https://www.portmoody.ca/en/city-hall/open-data-terms-of-use.aspx,,"portal license guessed from prior CCND source, unverified"
+bc_prince_george,City of Prince George,municipality,BC,2021A00055953023,76708,https://data-cityofpg.opendata.arcgis.com/,Open Government Licence – British Columbia,https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc,,"portal license guessed from prior CCND source, unverified"
+bc_richmond,City of Richmond,municipality,BC,2021A00055915015,209937,,,,,no known open data portal as of 2026-07-28
+bc_surrey,City of Surrey,municipality,BC,2021A00055915004,568322,https://data.surrey.ca/,Open Government License – City of Surrey,https://data.surrey.ca/pages/open-government-licence-surrey,,"portal license guessed from prior CCND source, unverified"
+bc_vancouver,City of Vancouver,municipality,BC,2021A00055915022,662248,https://opendata.vancouver.ca/pages/home/,Open Government Licence – Vancouver,https://opendata.vancouver.ca/pages/licence/,,"portal license guessed from prior CCND source, unverified"
+bc_vernon,City of Vernon,municipality,BC,2021A00055937014,44519,https://cov-open-data-vernon.hub.arcgis.com/,,https://www.vernon.ca/government-services/maps-gis/open-data-catalogue,,"portal license guessed from prior CCND source, unverified"
+bc_victoria,City of Victoria,municipality,BC,2021A00055917034,91867,https://opendata.victoria.ca/,Open Government Licence – City of Victoria,https://opendata.victoria.ca/pages/open-data-licence,,"portal license guessed from prior CCND source, unverified"
+bc_white_rock,City of White Rock,municipality,BC,2021A00055915007,21939,https://data.whiterockcity.ca/,,,,
+bc_lake_country,District of Lake Country,municipality,BC,2021A00055935016,15817,https://dlc-open-data-dlc.hub.arcgis.com/,,,,
+bc_north_vancouver,District of North Vancouver,municipality,BC,2021A00055915046,88168,https://www.geoweb.dnv.org/data/,Open Government Licence - North Vancouver,https://geoweb.dnv.org/data/metadata.php?dataset=TrnBiking#,,"portal license guessed from prior CCND source, unverified"
+bc_peachland,District of Peachland,municipality,BC,2021A00055935018,5789,https://peachland2017-01-16t194902237z-rdco.opendata.arcgis.com/,,,,
+bc_saanich,District of Saanich,municipality,BC,2021A00055917021,117735,https://opendata-saanich.hub.arcgis.com/,,,,
+bc_squamish,District of Squamish,municipality,BC,2021A00055931006,23819,https://data.squamish.ca/,Open Government Licence - Squamish,https://squamish.ca/discover-squamish/maps-and-data/open-data/,,"portal license guessed from prior CCND source, unverified"
+bc_summerland,District of Summerland,municipality,BC,2021A00055907035,12042,https://open-data-summerland.hub.arcgis.com/,,,,
+bc_west_vancouver,District of West Vancouver,municipality,BC,2021A00055915055,44122,https://westmap.westvancouver.ca/,Open Government license - West Vancouver,https://mapping.westvancouver.ca/OD/Open_Government_License_West_Vancouver-final.pdf,,"portal license guessed from prior CCND source, unverified"
+bc_north_cowichan,Municipality of North Cowichan,municipality,BC,2021A00055919008,31990,https://www.northcowichan.ca/municipal-services/maps,,,,
+bc_whistler,Resort Municipality of Whistler,municipality,BC,2021A00055931020,13982,https://portal-rmow.opendata.arcgis.com/,,,,
+bc_gibsons,Town of Gibsons,municipality,BC,2021A00055929005,4758,https://town-of-gibsons-open-data-portal-myscrd.hub.arcgis.com/,,,,
+bc_esquimalt,Township of Esquimalt,municipality,BC,2021A00055917040,17533,https://opendata.esquimalt.ca/,,,,
+mb_brandon,City of Brandon,municipality,MB,2021A00054607062,51313,http://opengov.brandon.ca/,,,,
+mb_winnipeg,City of Winnipeg,municipality,MB,2021A00054611040,749607,https://data.winnipeg.ca/,Open Government Licence – Winnipeg,https://data.winnipeg.ca/open-data-licence,,"portal license guessed from prior CCND source, unverified"
+nb_fredericton,City of Fredericton,municipality,NB,2021A00051310032,63116,https://data-fredericton.opendata.arcgis.com/,,,,
+nb_moncton,City of Moncton,municipality,NB,2021A00051307022,79470,https://open.moncton.ca/,,https://www5.moncton.ca/docs/Open_Data_Terms_of_Use.pdf,,"portal license guessed from prior CCND source, unverified"
+nb_saint_john,City of Saint John,municipality,NB,2021A00051301006,69895,https://catalogue-saintjohn.opendata.arcgis.com/,,,,
+nb_edmundston,Ville d'Edmundston,municipality,NB,2021A00051313027,16437,https://data-edmundston.opendata.arcgis.com/,,,,
+nl_st_johns,City of St. John's,municipality,NL,2021A00051001519,110525,,,,,no known open data portal as of 2026-07-28
+nl_happy_valley_goose_bay,Town of Happy Valley-Goose Bay,municipality,NL,2021A00051010025,8040,https://portal-townhvgb.opendata.arcgis.com/,,,,
+ns_cape_breton_regional_muncipality,Cape Breton Regional Muncipality,municipality,NS,2021A00051217030,93694,https://www.cbrm.ns.ca/open-data.html,,,,
+ns_halifax_regional_municipality,Halifax Regional Municipality,municipality,NS,2021A00051209034,439819,https://data-hrm.hub.arcgis.com/,,,,
+ns_east_hants,Municipality of East Hants,municipality,NS,2021A00051208008,22892,https://www.easthants.ca/maps-and-data/,,,,
+ns_truro,Town of Truro,municipality,NS,2021A00051210006,12954,https://www.truro.ca/mapping-and-gis.html,,,,
+nt_yellowknife,City of Yellowknife,municipality,NT,2021A00056106023,20340,https://opendata.yellowknife.ca/,City of Yellowknife's Open Data License v.1,,,"portal license guessed from prior CCND source, unverified"
+on_barrie,City of Barrie,municipality,ON,2021A00053543042,147829,https://opendata.barrie.ca/,Open Government Licence – Barrie,https://www.barrie.ca/Online%20Services/PublishingImages/OpenData_Images/COB_DataLicense.pdf,,"portal license guessed from prior CCND source, unverified"
+on_barrie_2,City of Barrie,municipality,ON,2021A00053543042,147829,https://public-barrie.opendata.arcgis.com/,,,,
+on_belleville,City of Belleville,municipality,ON,2021A00053512005,55071,https://opendata-bellevillegis.hub.arcgis.com/,,,,
+on_brampton,City of Brampton,municipality,ON,2021A00053521010,656480,https://geohub.brampton.ca/pages/data,,https://creativecommons.org/licenses/by/4.0/,,"portal license guessed from prior CCND source, unverified"
+on_brantford,City of Brantford,municipality,ON,2021A00053529006,104688,https://data-brantford.opendata.arcgis.com/,,,,
+on_burlington,City of Burlington,municipality,ON,2021A00053524002,186948,https://navburl-burlington.opendata.arcgis.com/,,https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf,,"portal license guessed from prior CCND source, unverified"
+on_cambridge,City of Cambridge,municipality,ON,2021A00053530010,138479,https://geohub.cambridge.ca/,Open Government Licence – City of Cambridge,https://www.cambridge.ca/en/your-city/resources/Open-Data-Licence-Version-2.pdf,,"portal license guessed from prior CCND source, unverified"
+on_cornwall,City of Cornwall,municipality,ON,2021A00053501012,47845,https://data-cornwallcity.opendata.arcgis.com/search,Open Government Licence – City of Cornwall,,,"portal license guessed from prior CCND source, unverified"
+on_greater_sudbury,City of Greater Sudbury,municipality,ON,2021A00053553005,166004,https://opendata.greatersudbury.ca/,Open Data Licence – City of Greater Sudbury,https://www.greatersudbury.ca/city-hall/open-government/open-data/licence/,,"portal license guessed from prior CCND source, unverified"
+on_guelph,City of Guelph,municipality,ON,2021A00053523008,143740,http://data.open.guelph.ca/,an open government license,http://data.open.guelph.ca/pages/open-government-licence,,"portal license guessed from prior CCND source, unverified"
+on_hamilton,City of Hamilton,municipality,ON,2021A00053525005,569353,https://open.hamilton.ca/,City of Hamilton’s Open Data Licence,https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions,,"portal license guessed from prior CCND source, unverified"
+on_kawartha_lakes,City of Kawartha Lakes,municipality,ON,2021A00053516010,79247,https://open-data-kawartha.hub.arcgis.com/,,,,
+on_kingston,City of Kingston,municipality,ON,2021A00053510010,132485,https://opendatakingston.cityofkingston.ca/,Open Data Licence – City of Kingston,https://www.cityofkingston.ca/documents/10180/144997/CityofKingston_OpenDataLicense.pdf,,"portal license guessed from prior CCND source, unverified"
+on_kitchener,City of Kitchener,municipality,ON,2021A00053530013,256885,https://open-kitchenergis.opendata.arcgis.com/,Open Government Licence - The Corporation of the City of Kitchener,,,"portal license guessed from prior CCND source, unverified"
+on_london,City of London,municipality,ON,2021A00053539036,422324,https://opendata.london.ca/,,https://london.maps.arcgis.com/sharing/rest/content/items/e31458fd0c7e41dd9f93144a9550781d/data,,"portal license guessed from prior CCND source, unverified"
+on_markham,City of Markham,municipality,ON,2021A00053519036,338503,http://data-markham.opendata.arcgis.com/,,,,
+on_mississauga,City of Mississauga,municipality,ON,2021A00053521005,717961,https://data.mississauga.ca/,,https://smartcity.mississauga.ca/wp-content/uploads/2021/04/CityofMississauga_TermsofUse.pdf,,"portal license guessed from prior CCND source, unverified"
+on_niagara_falls,City of Niagara Falls,municipality,ON,2021A00053526043,94415,https://open.niagarafalls.ca/,,https://niagarafalls.ca/services/open/terms-and-conditions.aspx,,"portal license guessed from prior CCND source, unverified"
+on_north_bay,City of North Bay,municipality,ON,2021A00053548044,52662,https://data-northbaygis.hub.arcgis.com/,,,,
+on_oshawa,City of Oshawa,municipality,ON,2021A00053518013,175383,https://city-oshawa.opendata.arcgis.com/,,,,
+on_ottawa,City of Ottawa,municipality,ON,2021A00053506008,1017449,https://open.ottawa.ca/,Open Government Licence – City of Ottawa,https://ottawa.ca/en/city-hall/open-transparent-and-accountable-government/open-data#open-data-licence-version-2-0,,"portal license guessed from prior CCND source, unverified"
+on_peterborough,City of Peterborough,municipality,ON,2021A00053515014,83651,https://data-ptbo.opendata.arcgis.com/,,https://data-ptbo.opendata.arcgis.com/pages/terms-of-use,,"portal license guessed from prior CCND source, unverified"
+on_pickering,City of Pickering,municipality,ON,2021A00053518001,99186,https://opendata.pickering.ca/,,,,
+on_quinte_west,City of Quinte West,municipality,ON,2021A00053512015,46560,https://geodata-quintewest.opendata.arcgis.com/,,,,
+on_sarnia,City of Sarnia,municipality,ON,2021A00053538030,72047,https://city-of-sarnia.hub.arcgis.com/,,,,
+on_sault_ste_marie,City of Sault Ste. Marie,municipality,ON,2021A00053557061,72051,https://cityssm.github.io/,,,,
+on_st_catharines,City of St. Catharines,municipality,ON,2021A00053526053,136803,,,,,no known open data portal as of 2026-07-28
+on_thunder_bay,City of Thunder Bay,municipality,ON,2021A00053558004,108843,https://opendata.thunderbay.ca/,,,,
+on_toronto,City of Toronto,municipality,ON,2021A00053520005,2794356,https://open.toronto.ca/,Open Government Licence – Toronto,https://open.toronto.ca/open-data-license/,,"portal license guessed from prior CCND source, unverified"
+on_vaughan,City of Vaughan,municipality,ON,2021A00053519028,323103,,,,,no known open data portal as of 2026-07-28
+on_waterloo,City of Waterloo,municipality,ON,2021A00053530016,121436,https://data.waterloo.ca/,licence,https://data.waterloo.ca/pages/open-data-licence,,"portal license guessed from prior CCND source, unverified"
+on_welland,City of Welland,municipality,ON,2021A00053526032,55750,https://open.welland.ca/,,,,
+on_windsor,City of Windsor,municipality,ON,2021A00053537039,229660,https://opendata.citywindsor.ca/,Open Government Licence – The Corporation of the City of Windsor,https://www.citywindsor.ca/opendata/Documents/OpenDataTermsofUse.pdf,,"portal license guessed from prior CCND source, unverified"
+on_brant,County of Brant,municipality,ON,2021A00053529005,39474,https://catalogue-brant.hub.arcgis.com/,,,,
+on_essex,County of Essex,municipality,ON,2021A00053537016,21216,https://opendata.countyofessex.ca/,,,,
+on_haldimand_county,Haldimand County,municipality,ON,2021A00053528018,49216,https://opendata-haldimand.hub.arcgis.com/,,,,
+on_chatham_kent,Municipality of Chatham-Kent,municipality,ON,2021A00053536020,103988,https://opendata-chatham-kent.opendata.arcgis.com/,,,,
+on_clarington,Municipality of Clarington,municipality,ON,2021A00053518017,101427,,,,,no known open data portal as of 2026-07-28
+on_mcdougall,Municipality of McDougall,municipality,ON,2021A00053549031,2744,https://mcdougall-hub-wpsgn.hub.arcgis.com/,,,,
+on_norfolk_county,Norfolk County,municipality,ON,2021A00053528052,67490,https://opendata.norfolkcounty.ca/,,,,
+on_ajax,Town of Ajax,municipality,ON,2021A00053518005,126666,https://opendata.ajax.ca/,Corporation of the Town of Ajax's Open Data Licence,http://townofajax.maps.arcgis.com/sharing/rest/content/items/22e2d8e248724d7cb0310dc2db675abd/data,,"portal license guessed from prior CCND source, unverified"
+on_aurora,Town of Aurora,municipality,ON,2021A00053519046,62057,https://town-of-aurora-data-hub-aurora.hub.arcgis.com/,,,,
+on_caledon,Town of Caledon,municipality,ON,2021A00053521024,76581,https://data-caledon.opendata.arcgis.com/,,,,
+on_cobourg,Town of Cobourg,municipality,ON,2021A00053514021,20519,https://public-townofcobourg.hub.arcgis.com/,,,,
+on_halton_hills,Town of Halton Hills,municipality,ON,2021A00053524015,62951,,,,,no known open data portal as of 2026-07-28
+on_huntsville,Town of Huntsville,municipality,ON,2021A00053544042,21147,https://huntsville-muskoka.opendata.arcgis.com/,,,,
+on_milton,Town of Milton,municipality,ON,2021A00053524009,132979,https://discover-milton.hub.arcgis.com/,Open Government Licence – Milton,https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use,,"portal license guessed from prior CCND source, unverified"
+on_newmarket,Town of Newmarket,municipality,ON,2021A00053519048,87942,https://navigate-newmarket.hub.arcgis.com/pages/open-data,,,,
+on_oakville,Town of Oakville,municipality,ON,2021A00053524001,213759,https://portal-exploreoakville.opendata.arcgis.com/,Open Government Licence — Town of Oakville,https://www.oakville.ca/data/open_data_licence.html,,"portal license guessed from prior CCND source, unverified"
+on_orangeville,Town of Orangeville,municipality,ON,2021A00053522014,30167,https://data.orangeville.ca/,Open Government Licence – Orangeville,https://data.orangeville.ca/opendata.html#licence,,"portal license guessed from prior CCND source, unverified"
+on_richmond_hill,Town of Richmond Hill,municipality,ON,2021A00053519038,202022,,,,,no known open data portal as of 2026-07-28
+on_tecumseh,Town of Tecumseh,municipality,ON,2021A00053537048,23300,https://tecumseh-essexcounty.opendata.arcgis.com/,,,,
+on_whitby,Town of Whitby,municipality,ON,2021A00053518009,138501,https://geohub-whitby.hub.arcgis.com/,Open Government Licence – The Corporation of the Town of Whitby,https://ago-item-storage.s3.amazonaws.com/223810efc31c40b3aff99dd74f809a97/The_Corporation_of_the_Town_of_Whitby_Open_Data_License.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDlTWfr3z4uIiuLgDJYOh35dRbLt37oJTExSFLGBMb1zgIhAICPFIqJY5rn2O9MQfmnn%2Bvmr4fZVoVUJF110QL43aknKr0FCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjA0NzU4MTAyNjY1IgzawYfF49%2FBp8RLe3oqkQWEzqNWaEnTieBiBwvxtQA2wH5xZ1BnsZGlBRE6PbDTEulW%2BegY4zAt21gjYPoHyWtnm2Wnluy%2F40wtnYhIoIVjEjslzKCrZRGUSmGTeAqX9Rz5DlZpRwXx823zmCqAlFadOVjLOtABQNMY3bUghztNQm67ENzAwWSohoXutjV9aKBBiGQKbyUnFZ25DgbQmfL48NmM6g0dCgdhXL8%2Bnn8Ij76Fw%2BDkoaqS%2Fmz6O2CJ8u1zOknuWSEA8%2BCgd9pyjSnErTeY81pur%2BsZ5aJ1vbqaSKzW9x6DBNi%2BhKmINjTUfBB7LE%2BLne26Hj4J9YCZSXWm7yCHqDwUD%2FYRoRNuNhHeDa7kOEdkvUPf%2BVEOKDrqEitvcGqjH8VGpkKaUPw7KD0f9r9JqBUkTtAqaszVeTcEAFSBtwlnzcmm4am9tC%2BFTKK%2BR9wpkm3WoV25pX%2Byu7MtGXhPD5YX2IfdGp9B8BUvDIRd7YAuoxVI9DJxbpvSaVwfdV2Gbmca16x4tMMWpAetJhqygynJAZ3kyZ0Z0xCCNhbQlQfYWBDxTXwkoBXSpoINUyBByzND8VK9uU46QUDSwQXeusWYcYzBbtD7EeeRR6QEmJCF92%2Fd5oH8SMMBj9swJoQNwoW3r82QPqa0VRIl%2B90%2BqEf8BSeKWbCp9KJwOfN66hIKFY%2FEKNxKtQCIS95CGnuWy0lxtC5SjB%2B7tKAfAInmBJMOmlxNRl6Zopbvg5Nzo%2BjWm4EZ6yz9t%2FGEBHqbCI0RyoceTpwMl0J%2BEpZ%2FzkCKJXQN%2BlEm2nFTybXFU1C9qJg8%2BAYg0kczyEtXqCWHRvKnRWXDacgidUZHfb1pyqndUTiOpASYHe%2FG0bsaFSWhuGMZZDnCagmJKCcSd%2B8wneyiqwY6sAE0gyH%2BMTNLGc5vlz0gVCxufEaB%2ByMt5h4d5Zme3laUy0kFjBSiycTIwMcA2HiaOg%2FbCPxamaYyrUoZfVNMXDZy7Dc1cUbUWw4Nfa6Dp%2BYTmt6x3PJiHByuBWB%2FxGyRr1l9EnwYQtH64571Ssf9nphz%2BJLi0gxQaYe7mGkZpOPW0uckfsFiVazy0SWqQ8ypQqlcTflk3ew8dzOWtshE%2BN9OkRAY4rEWWS3SNtig552GTw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231130T170253Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAYZTTEKKE326TRDWW%2F20231130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c19f6eee234b0a53b70f187d50f2547821ab4b8b3d165d8213158b28b22d9c0e,,"portal license guessed from prior CCND source, unverified"
+on_woolwich,Township of Woolwich,municipality,ON,2021A00053530035,26999,https://woolwich-geohub-woolwich.hub.arcgis.com/,,,,
+pe_charlottetown,City of Charlottetown,municipality,PE,2021A00051102075,38809,,,,,no known open data portal as of 2026-07-28
+pe_stratford,Town of Stratford,municipality,PE,2021A00051102080,10927,https://www.townofstratford.ca/government/open_government/open_data_catalogue,,,,
+qc_blainville,Ville de Blainville,municipality,QC,2021A00052473015,59819,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-blainville,,,,
+qc_brossard,Ville de Brossard,municipality,QC,2021A00052458007,91525,,,,,no known open data portal as of 2026-07-28
+qc_chateauguay,Ville de Châteauguay,municipality,QC,2021A00052467050,50815,,,,,no known open data portal as of 2026-07-28
+qc_drummondville,Ville de Drummondville,municipality,QC,2021A00052449058,79258,https://donnees-vdrummondville.opendata.arcgis.com/search,,,,
+qc_gatineau,Ville de Gatineau,municipality,QC,2021A00052481017,291041,https://www.gatineau.ca/portail/default.aspx?c=en-CA&p=publications_cartes_statistiques_donnees_ouvertes/donnees_ouvertes,,https://creativecommons.org/licenses/by/4.0/legalcode.fr,,"portal license guessed from prior CCND source, unverified"
+qc_granby,Ville de Granby,municipality,QC,2021A00052447017,69025,,,,,no known open data portal as of 2026-07-28
+qc_laval,Ville de Laval,municipality,QC,2021A00052465005,438366,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-laval,,https://www.laval.ca/Pages/Fr/Citoyens/licence-utilisation-donnees-ouvertes.aspx,,"portal license guessed from prior CCND source, unverified"
+qc_longueuil,Ville de Longueuil,municipality,QC,2021A00052458227,254483,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-longueuil,,https://www.donneesquebec.ca/fr/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_levis,Ville de Lévis,municipality,QC,2021A00052425213,149683,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-levis,,https://www.donneesquebec.ca/fr/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_mascouche,Ville de Mascouche,municipality,QC,2021A00052464015,51183,,,,,no known open data portal as of 2026-07-28
+qc_mirabel,Ville de Mirabel,municipality,QC,2021A00052474005,61108,,,,,no known open data portal as of 2026-07-28
+qc_montreal,Ville de Montréal,municipality,QC,2021A00052466023,1762949,https://donnees.montreal.ca/,,https://creativecommons.org/licenses/by/4.0/legalcode.fr,,"portal license guessed from prior CCND source, unverified"
+qc_ville-de-quebec,Ville de Québec,municipality,QC,2021A00052423027,549459,https://www.donneesquebec.ca/organisation/ville-de-quebec/,,,,
+qc_repentigny,Ville de Repentigny,municipality,QC,2021A00052460013,86100,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-repentigny,,https://www.donneesquebec.ca/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_rimouski,Ville de Rimouski,municipality,QC,2021A00052410043,48935,https://www.donneesquebec.ca/organisation/ville-de-rimouski,,https://www.donneesquebec.ca/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_rouyn_noranda,Ville de Rouyn-Noranda,municipality,QC,2021A00052486042,42313,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-rouyn-noranda,,,,
+qc_saguenay,Ville de Saguenay,municipality,QC,2021A00052494068,144723,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-saguenay,,https://www.donneesquebec.ca/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_saint_hyacinthe,Ville de Saint Hyacinthe,municipality,QC,2021A00052454048,57239,https://www.donneesquebec.ca/recherche/dataset?q=&extras_organisation_principale=ville-de-saint-hyacinthe,,,,
+qc_saint_jean_sur_richelieu,Ville de Saint-Jean-sur-Richelieu,municipality,QC,2021A00052456083,97873,https://www.donneesquebec.ca/organisation/ville-de-saint-jean-sur-richelieu/,,,,
+qc_saint_jerome,Ville de Saint-Jérôme,municipality,QC,2021A00052475017,80213,,,,,no known open data portal as of 2026-07-28
+qc_shawinigan,Ville de Shawinigan,municipality,QC,2021A00052436033,49620,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-shawinigan,,https://www.donneesquebec.ca/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_sherbrooke,Ville de Sherbrooke,municipality,QC,2021A00052443027,172950,https://donneesouvertes-sherbrooke.opendata.arcgis.com/,,https://www.donneesquebec.ca/licence/#cc-by,,"portal license guessed from prior CCND source, unverified"
+qc_terrebonne,Ville de Terrebonne,municipality,QC,2021A00052464008,119944,,,,,no known open data portal as of 2026-07-28
+qc_trois_rivieres,Ville de Trois-Rivières,municipality,QC,2021A00052437067,139163,https://www.donneesquebec.ca/recherche/dataset/?organization=ville-de-trois-rivieres,,,,
+qc_victoriaville,Ville de Victoriaville,municipality,QC,2021A00052439062,47760,https://partage-victoriaville.opendata.arcgis.com,,,,
+sk_moose_jaw,City of Moose Jaw,municipality,SK,2021A00054707039,33665,,,,,no known open data portal as of 2026-07-28
+sk_prince_albert,City of Prince Albert,municipality,SK,2021A00054715066,37756,,,,,no known open data portal as of 2026-07-28
+sk_regina,City of Regina,municipality,SK,2021A00054706027,226404,https://openregina.ca/,Open Government Licence – City of Regina,https://www.regina.ca/terms/,,"portal license guessed from prior CCND source, unverified"
+sk_saskatoon,City of Saskatoon,municipality,SK,2021A00054711066,266141,https://opendata.saskatoon.ca/,,http://opendata-saskatoon.cloudapp.net/TermsOfUse/TermsOfUse,,"portal license guessed from prior CCND source, unverified"
+yt_whitehorse,City of Whitehorse,municipality,YT,2021A00056001009,28201,https://data.whitehorse.ca/,Open Government Licence – Yukon,https://open.yukon.ca/data/open-government-licence-yukon,,"portal license guessed from prior CCND source, unverified"
+bc_the_city_of_west_kelowna,The City of West Kelowna,other,BC,,,https://www.westkelownacity.ca/en/building-business-and-development/open-data.aspx,,,,
+bc_westbank_first_nation,Westbank First Nation,other,BC,,,https://wfn-open-data-rdco.opendata.arcgis.com/,,,,
+nb_new_brunswick,Government of New Brunswick,other,NB,,,https://gnb.socrata.com/,,,,
+nl_community_infrastructure_mapping_system,Community Infrastructure Mapping System,other,NL,,,https://nlcims.ca/OpenData/,,,,
+on_lake_simcoe_region_conservation_authority,Lake Simco​e Region Conservation Authority,other,ON,,,https://lsrca-open-data-camaps.opendata.arcgis.com/,,,,
+on_quinte_conservation,Quinte Conservation,other,ON,,,https://data.quinteconservation.ca/,,,,
+on_region_of_waterloo,Region of Waterloo,other,ON,,,https://rowopendata-rmw.opendata.arcgis.com/,,,,
+on_seguin_township,Seguin Township,other,ON,,,https://seguin-data-hub-wpsgn.hub.arcgis.com/,,,,
+on_west_parry_sound_geography_network,West Parry Sound Geography Network,other,ON,,,https://data-wpsgn.opendata.arcgis.com/,,,,
+yt_kluane_first_nation,Kluane First Nation,other,YT,,,https://lrh.kfn.ca/,,,,

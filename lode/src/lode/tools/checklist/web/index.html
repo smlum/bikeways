@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Data source checklist</h1>
+    <div id="progress"></div>
+    <label class="toggle">
+      <input type="checkbox" id="unchecked-only" checked />
+      Show unchecked only
+    </label>
+  </header>
+  <table id="rows">
+    <thead>
+      <tr>
+        <th>Provider</th>
+        <th>Portal</th>
+        <th>Source URL</th>
+        <th>Actions</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody id="rows-body"></tbody>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
