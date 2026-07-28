@@ -1,0 +1,12 @@
+# Known StatCan downloads (boundary files and data tables), keyed by dataset name.
+# Add new entries here as new census vintages, geography levels, or tables are needed.
+
+csd_2021_cbf:
+  url: https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/files-fichiers/lcsd000b21a_e.zip
+  description: Census Subdivision cartographic boundary file, 2021
+  output: data/reference/statcan_csd_2021.parquet
+
+population_2021_csd:
+  url: https://www150.statcan.gc.ca/n1/en/tbl/csv/98100015-eng.zip?st=KaFNDiGb
+  description: Population and dwelling counts, 2021 - Canada, provinces/territories, CSDs, dissemination areas (table 98-10-0015-01)
+  output: data/reference/statcan_population_2021.parquet

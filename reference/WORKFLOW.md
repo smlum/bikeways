@@ -6,12 +6,23 @@
 - Deal with multiple input formats (geopackage, parquet, geojson, json, csv, shp, etc)
 - Work across several domains. Test case here is bike lane data. Next up will be pedestrian. Other might be healthcare facilities.
 - Includes:
-    1. Providers list (copyable)
+    1. Providers list and common column schema (copyable)
     2. Pipeline codebase (preprocess, process, validate)
     4. Workflow tools (classification, column map, dashboard)
     5. Reference data + fetch scripts (StatCan CSD, population)
 
 ## 1. Data collection
+
+In this step, we collect data from various sources. 
+
+To start, we have our source list from our previous iteration of the data. Second, we can search our provider list for new data. 
+
+The workflow is to first generate a sources check list from our list of previous sources and the provider list. 
+One a source is found, we:
+
+1. Download the data file to `data/raw/provider`
+2. Mark the source as checked in our sources checklist
+3. Fill out metadata for the source. Some of this can be automated, but some will require manual input.
 
 **Input**
 - Data providers master directory

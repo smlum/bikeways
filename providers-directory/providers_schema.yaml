@@ -1,0 +1,61 @@
+name: providers
+description: Registry of data providers shared across domains.
+
+fields:
+  - name: provider_id
+    type: string
+    required: true
+    description: Stable ID, e.g. on_toronto. Assigned once and never changed, even if `name` is later corrected/renamed.
+
+  - name: name
+    type: string
+    required: true
+    description: Official/full name as given by the source (not translated, not abbreviated).
+
+  - name: geography_level
+    type: string
+    required: true
+    enum: [municipality, region, province, national, other]
+
+  - name: province
+    type: string
+    required: false
+    description: Two-letter province/territory code (e.g. on, bc, ab); omit for national providers.
+
+  - name: dguid
+    type: list[string]
+    required: false
+    description: StatCan DGUID(s) linking to census geography. List because some providers (e.g. regional districts) span multiple DGUIDs.
+
+  - name: population
+    type: integer
+    required: false
+    description: Census population figure, if applicable. Paired with population_year — not hardcoded to a single census vintage.
+
+  - name: population_year
+    type: integer
+    required: false
+    description: Census year the population figure is from (e.g. 2021).
+
+  - name: portal_url
+    type: string
+    required: false
+    description: Generic open data portal homepage.
+
+  - name: portal_license_name
+    type: string
+    required: false
+    description: Default license covering the portal's datasets, if there is one general license. A specific source can override this.
+
+  - name: portal_license_url
+    type: string
+    required: false
+
+  - name: contact
+    type: string
+    required: false
+    description: General portal/open-data contact. A specific source can override this.
+
+  - name: notes
+    type: string
+    required: false

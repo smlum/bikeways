@@ -2,3 +2,5 @@ geopandas
 shapely
 pyyaml
 numpy
+pyarrow
+pandas
