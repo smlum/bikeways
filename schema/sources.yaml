@@ -41,7 +41,7 @@ fields:
 
   - name: source_updated_date
     type: date
-    required: false
+    required: true
     description: Date the source itself claims as last updated/published.
 
   - name: retrieved_date

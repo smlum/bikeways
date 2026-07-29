@@ -2,12 +2,12 @@ source_id: on_toronto_cycling
 provider_id: on_toronto
 dataset_page_url: https://open.toronto.ca/dataset/cycling-network/
 download_url: ''
-format: ''
+format: geojson
 license_name: Open Government Licence – Toronto
 license_url: https://open.toronto.ca/open-data-license/
-contact: ''
-source_updated_date: ''
+contact: cycling@toronto.ca
+source_updated_date: '2026'
 retrieved_date: '2026-07-29'
-data_dictionary_url: ''
-raw_filename: ''
+data_dictionary_url: https://open.toronto.ca/dataset/cycling-network/
+raw_filename: cycling-network - 4326.geojson
 notes: ''

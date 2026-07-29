@@ -2,12 +2,12 @@ source_id: qc_montreal_cycling
 provider_id: qc_montreal
 dataset_page_url: https://donnees.montreal.ca/dataset/5ea29f40-1b5b-4f34-85b3-7c67088ff536/resource/234c8ee4-d9d8-4bb1-b957-3e5cd495a5aa/
 download_url: ''
-format: ''
-license_name: ''
+format: shapefile
+license_name: Creative Commons Attribution 4.0 International Public License
 license_url: https://creativecommons.org/licenses/by/4.0/legalcode.fr
 contact: ''
-source_updated_date: ''
+source_updated_date: '2026'
 retrieved_date: '2026-07-29'
-data_dictionary_url: ''
-raw_filename: ''
-notes: ''
+data_dictionary_url: https://donnees.montreal.ca/dataset/pistes-cyclables
+raw_filename: reseau_cyclable/reseau_cyclable.shp
+notes: from 2024 CCND

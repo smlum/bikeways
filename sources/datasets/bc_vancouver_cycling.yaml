@@ -1,0 +1,13 @@
+source_id: bc_vancouver_cycling
+provider_id: bc_vancouver
+dataset_page_url: https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction
+download_url: ''
+format: parquet
+license_name: Open Government Licence – Vancouver
+license_url: https://opendata.vancouver.ca/pages/licence/
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-07-29'
+data_dictionary_url: ''
+raw_filename: bikeways.parquet
+notes: from 2024 CCND; https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction

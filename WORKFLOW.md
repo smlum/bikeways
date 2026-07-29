@@ -20,20 +20,26 @@ Providers live in `providers-directory/providers.csv`. Checklist + per-source me
 **Workflow**
 - `python sync_checklist.py` — builds/updates `checklist.csv` from `providers.csv`. Safe to
   re-run any time; never loses progress.
-- Browse each row's portal, either directly in the CSV or via the checklist web UI
-  (`python web/server.py`, http://localhost:8642). Found something → `source_url`. Nothing →
-  `checked`. `prior_url` (e.g. a 2024 CCND lead) is offered as a starting point but is never
-  overwritten by these actions, so a mistaken "not found" can't destroy it.
-- `python process_checklist.py` — run whenever ready to turn confirmed `source_url` rows into
-  `sources/datasets/<id>.yaml`, and stamp `checked_date` for manually-marked rows. Deliberately
-  a separate step from browsing, so scaffolding doesn't happen before you're ready for it.
-- Fill in the rest of each yaml by hand (`download_url`, `format`, etc.) — a stage-2 UI for
-  this is still TBD.
+- `python web/server.py` (http://localhost:8642) — one tool, two things:
+  - Browse each row's portal and record what you find: Found → `source_url`, Nothing → `checked`.
+    `prior_url` (e.g. a 2024 CCND lead) is offered as a starting point but never overwritten by
+    these actions, so a mistaken "not found" can't destroy it. As soon as a row is Found,
+    `data/raw/<source_id>/` is created so there's somewhere to land the download.
+  - Once found, the row's Metadata column lets you generate `sources/datasets/<id>.yaml`
+    (deliberately on demand, not automatic) and fill in the rest (`format`, `raw_filename`,
+    etc.) in a modal — including a "Detect" button that reads whatever you've dropped in
+    `data/raw/<source_id>/` to prefill `format`/`raw_filename`.
+- `python process_checklist.py` — just stamps `checked_date` for rows checked off by hand
+  outside the UI (e.g. direct CSV edits). Never touches yaml.
 
 **Notes**
 - `checked`/`checked_date` are tracked distinctly from what was found, so future years know
   what's already been reviewed, not just what's been found so far.
 - A provider with more than one dataset gets a duplicated checklist row, not a list column.
+- `provider_id` must stay unique in `providers.csv` — when two distinct providers share a
+  name (e.g. a city and the surrounding region/county), disambiguate with a suffix rather
+  than merging them onto one id; it's also the basis for `source_id` and the
+  `data/raw/<source_id>/` folder, so a collision there would collide downstream too.
 
 ## 2. Data inspection
 

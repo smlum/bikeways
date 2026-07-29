@@ -48,8 +48,8 @@ for the full step-by-step. Quick start, from the repo root:
 
 ```
 python lode/src/lode/tools/checklist/sync_checklist.py       # build/update sources/checklist.csv
-python lode/src/lode/tools/checklist/web/server.py           # then open http://localhost:8642
-python lode/src/lode/tools/checklist/process_checklist.py    # once ready, scaffold yaml for confirmed finds
+python lode/src/lode/tools/checklist/web/server.py           # then open http://localhost:8642 — browse, mark found, generate/edit yaml metadata
+python lode/src/lode/tools/checklist/process_checklist.py    # stamps checked_date for rows checked by hand outside the UI
 ```
 
 ## Classification review tool
