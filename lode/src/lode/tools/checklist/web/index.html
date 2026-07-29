@@ -7,7 +7,10 @@
 </head>
 <body>
   <header>
-    <h1>Data source checklist</h1>
+    <div class="title-block">
+      <h1>Data source checklist</h1>
+      <div id="checklist-path" class="meta"></div>
+    </div>
     <div id="progress"></div>
     <label class="toggle">
       <input type="checkbox" id="unchecked-only" checked />
@@ -15,12 +18,19 @@
     </label>
   </header>
   <table id="rows">
+    <colgroup>
+      <col style="width: 210px" />
+      <col style="width: 140px" />
+      <col style="width: 195px" />
+      <col style="width: 260px" />
+      <col />
+    </colgroup>
     <thead>
       <tr>
         <th>Provider</th>
         <th>Portal</th>
-        <th>Source URL</th>
         <th>Actions</th>
+        <th>Source URL</th>
         <th>Notes</th>
       </tr>
     </thead>

@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""Batch-process checklist.csv after a round of manual browsing.
+"""Batch-process checklist.csv after a round of browsing (via the checklist
+web UI, or by hand directly in the CSV).
 
-Pass 1 is manual, directly in checklist.csv, no scripts involved: for each
-row, check the portal. Found something -> paste the dataset page URL into
-source_url. Nothing there -> type any non-blank value (e.g. "x") into
-checked. Found a second dataset for the same provider -> duplicate that row
-and put the second URL in the copy.
+Pass 1: for each row, check the portal. Found something -> source_url gets
+the dataset page URL. Nothing there -> checked gets any non-blank value
+(e.g. "x"). Found a second dataset for the same provider -> a duplicate row
+with the second URL. This is just recording judgments — it deliberately
+doesn't scaffold yaml files itself, so scaffolding stays a separate,
+run-when-ready step.
 
-This script is pass 2, run once after a batch of rows have been updated:
+This script is pass 2, run whenever you're ready to turn confirmed finds
+into actual source files:
 - Rows with a new source_url and no source_ids yet: scaffold
   <sources-dir>/<source_id>.yaml (dataset_page_url prefilled from
   source_url, license/contact from providers.csv), and record source_ids +

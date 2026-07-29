@@ -34,6 +34,7 @@ h1 {
 
 table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -45,6 +46,11 @@ th, td {
   border-bottom: 1px solid #eee;
   vertical-align: middle;
   font-size: 0.9rem;
+  overflow: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 th {
@@ -64,16 +70,49 @@ tr.done a {
 
 .name {
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .meta {
   font-size: 0.78rem;
   color: #888;
   font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.url-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.url-cell input[type="text"] {
+  flex: 1;
+  min-width: 0;
+}
+
+.open-link {
+  flex-shrink: 0;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.open-link:hover {
+  background: #f0f0f0;
 }
 
 input[type="text"] {
-  width: 220px;
+  width: 100%;
   padding: 0.3rem 0.4rem;
   font-size: 0.85rem;
   border: 1px solid #ccc;
@@ -93,14 +132,18 @@ input.notes-input:focus {
   background: white;
 }
 
+.actions-cell {
+  white-space: nowrap;
+}
+
 button {
-  padding: 0.3rem 0.6rem;
-  font-size: 0.82rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
   border-radius: 4px;
   border: 1px solid #ccc;
   background: white;
   cursor: pointer;
-  margin-right: 0.3rem;
+  margin-right: 0.25rem;
 }
 
 button.found {

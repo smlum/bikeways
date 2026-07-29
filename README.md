@@ -4,10 +4,10 @@
 
 This repo currently contains three logically independent things, each destined to move to its own repo once established:
 
-- **This project** (root: `reference/`, `schema/`, `sources/`, `data/`) — configuration and data specific to building the cycling network dataset: Can-BICS reference material, target schemas, per-source registry entries, raw downloads.
+- **This project** (root: `reference/`, `schema/`, `sources/`, `data/`, `WORKFLOW.md`) — configuration and data specific to building the cycling network dataset: Can-BICS reference material, target schemas, per-source registry entries, raw downloads.
 - **`providers-directory/`** — canonical, cross-project directory of Canadian data providers (municipal/regional/provincial). Domain-agnostic; reused by any future project, not just this one.
-- **`lode/`** — reusable, domain-agnostic pipeline code (ingestion, column mapping, spatial join, classification, aggregation) that this project's config plugs into.
-- **`classification-review/`** — manual QA tool for spot-checking Can-BICS classifications against Street View. See below. (Other review tools covering different concerns may join it as siblings later.)
+- **`lode/`** — reusable, domain-agnostic pipeline code (ingestion, column mapping, spatial join, classification, aggregation, and workflow tools like `classification-review` and the data-collection `checklist` — see below) that this project's config plugs into.
+- **`scripts/`** — one-off, project-specific scripts (e.g. reconciling against a prior data vintage) that aren't part of the reusable `lode` pipeline.
 
 ## Setup
 
@@ -40,19 +40,31 @@ heterogeneous municipal cycling network data (GeoJSON/Shapefile/parquet/JSON/etc
 3. classification concordance dictionary (source class → Can-BICS) (CSV) 
 4. metadata: data source list + column/data dictionary.
 
-## Classification review tool
+## Data collection checklist
 
-`classification-review/` lets you spot-check *classification* output — a classified network
-dataset's (municipality, class) groups — by sampling random points and eyeballing them in
-Street View. Assumes the [Setup](#setup) venv is already active. Run everything from the repo
-root, no `cd` needed:
+Working through `providers-directory/providers.csv` to find a cycling dataset per provider.
+Tools live in `lode/src/lode/tools/checklist/`; see [WORKFLOW.md](WORKFLOW.md#1-data-collection)
+for the full step-by-step. Quick start, from the repo root:
 
 ```
-python3 classification-review/sample_points.py --config classification-review/config/cycle_network_2024.yaml
-cp classification-review/web/config.example.js classification-review/web/config.js  # add your Google Maps API key
-python3 -m http.server 8000 --directory classification-review/web
+python lode/src/lode/tools/checklist/sync_checklist.py       # build/update sources/checklist.csv
+python lode/src/lode/tools/checklist/web/server.py           # then open http://localhost:8642
+python lode/src/lode/tools/checklist/process_checklist.py    # once ready, scaffold yaml for confirmed finds
+```
+
+## Classification review tool
+
+`lode/src/lode/tools/classification-review/` lets you spot-check *classification* output — a
+classified network dataset's (municipality, class) groups — by sampling random points and
+eyeballing them in Street View. Assumes the [Setup](#setup) venv is already active. Run
+everything from the repo root, no `cd` needed:
+
+```
+python3 lode/src/lode/tools/classification-review/sample_points.py --config lode/src/lode/tools/classification-review/config/cycle_network_2024.yaml
+cp lode/src/lode/tools/classification-review/web/config.example.js lode/src/lode/tools/classification-review/web/config.js  # add your Google Maps API key
+python3 -m http.server 8000 --directory lode/src/lode/tools/classification-review/web
 ```
 
 Then open `http://localhost:8000`. See
-[classification-review/README.md](classification-review/README.md) for details (getting an
-API key, filters, current limitations).
+[lode/src/lode/tools/classification-review/README.md](lode/src/lode/tools/classification-review/README.md)
+for details (getting an API key, filters, current limitations).

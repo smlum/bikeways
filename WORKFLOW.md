@@ -13,32 +13,27 @@
 
 ## 1. Data collection
 
-In this step, we collect data from various sources. 
-
-To start, we have our source list from our previous iteration of the data. Second, we can search our provider list for new data. 
-
-The workflow is to first generate a sources check list from our list of previous sources and the provider list. 
-One a source is found, we:
-
-1. Download the data file to `data/raw/provider`
-2. Mark the source as checked in our sources checklist
-3. Fill out metadata for the source. Some of this can be automated, but some will require manual input.
-
-**Input**
-- Data providers master directory
-
-**Output**
-- Collected data
-- Metadata files
+Providers live in `providers-directory/providers.csv`. Checklist + per-source metadata live in
+`sources/` (`checklist.csv`, `datasets/*.yaml`); the tools that manage them are in
+`lode/src/lode/tools/checklist/`.
 
 **Workflow**
-- Go through sources checklist, search for new data
-- Manually search websites for new data
-- If data found:
-  - Download file
-  - Mark on sources checklist
-  - Fill out metadata — can we part-automate? (e.g. CKAN/ArcGIS Hub portals expose metadata APIs — could pre-fill format/license/updated-date for those; still manual for one-off pages)
-- Checklist should track checked-date, not just found/not-found, so future years know what's already been checked (100+ entries — simple UI/workflow TBD)
+- `python sync_checklist.py` — builds/updates `checklist.csv` from `providers.csv`. Safe to
+  re-run any time; never loses progress.
+- Browse each row's portal, either directly in the CSV or via the checklist web UI
+  (`python web/server.py`, http://localhost:8642). Found something → `source_url`. Nothing →
+  `checked`. `prior_url` (e.g. a 2024 CCND lead) is offered as a starting point but is never
+  overwritten by these actions, so a mistaken "not found" can't destroy it.
+- `python process_checklist.py` — run whenever ready to turn confirmed `source_url` rows into
+  `sources/datasets/<id>.yaml`, and stamp `checked_date` for manually-marked rows. Deliberately
+  a separate step from browsing, so scaffolding doesn't happen before you're ready for it.
+- Fill in the rest of each yaml by hand (`download_url`, `format`, etc.) — a stage-2 UI for
+  this is still TBD.
+
+**Notes**
+- `checked`/`checked_date` are tracked distinctly from what was found, so future years know
+  what's already been reviewed, not just what's been found so far.
+- A provider with more than one dataset gets a duplicated checklist row, not a list column.
 
 ## 2. Data inspection
 

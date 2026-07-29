@@ -1,5 +1,11 @@
 let rows = [];
 
+async function loadMeta() {
+  const res = await fetch("/api/meta");
+  const meta = await res.json();
+  document.getElementById("checklist-path").textContent = meta.checklist_path;
+}
+
 async function loadRows() {
   const res = await fetch("/api/rows");
   rows = await res.json();
@@ -31,57 +37,75 @@ function renderRow(row) {
   tr.className = isDone(row) ? "done" : "";
 
   const nameTd = document.createElement("td");
-  nameTd.innerHTML = `<div class="name">${escapeHtml(row.name)}</div><div class="meta">${row.province} · ${row.geography_level}</div>`;
+  nameTd.innerHTML = `<div class="name" title="${escapeHtml(row.name)}">${escapeHtml(row.name)}</div><div class="meta">${row.province} · ${row.geography_level}</div>`;
   tr.appendChild(nameTd);
 
   const portalTd = document.createElement("td");
   if (row.portal_url) {
-    portalTd.innerHTML = `<a class="portal-link" href="${escapeHtml(row.portal_url)}" target="_blank" rel="noopener">${escapeHtml(truncateUrl(row.portal_url))}</a>`;
+    portalTd.innerHTML = `<a class="portal-link" href="${escapeHtml(row.portal_url)}" target="_blank" rel="noopener">${escapeHtml(truncateUrl(row.portal_url, 24))}</a>`;
   } else {
     portalTd.innerHTML = `<span class="meta">no portal known</span>`;
   }
   tr.appendChild(portalTd);
 
-  const urlTd = document.createElement("td");
-  if (isDone(row)) {
-    urlTd.innerHTML = row.source_url
-      ? `<a href="${escapeHtml(row.source_url)}" target="_blank" rel="noopener">${escapeHtml(truncateUrl(row.source_url))}</a>`
-      : `<span class="meta">not found</span>`;
-  } else {
-    if (row.source_url) {
-      const lead = document.createElement("div");
-      lead.innerHTML = `<a href="${escapeHtml(row.source_url)}" target="_blank" rel="noopener">Open lead ↗</a> <span class="meta">from a prior run — re-verify</span>`;
-      urlTd.appendChild(lead);
-    }
-    const input = document.createElement("input");
-    input.type = "text";
-    input.placeholder = "paste dataset URL or a note";
-    input.id = `input-${row.row_index}`;
-    input.value = row.source_url || "";
-    urlTd.appendChild(input);
-  }
-  tr.appendChild(urlTd);
-
   const actionsTd = document.createElement("td");
-  if (!isDone(row)) {
-    const foundBtn = document.createElement("button");
-    foundBtn.className = "found";
-    foundBtn.textContent = "Found";
-    foundBtn.onclick = () => submitFound(row);
-    actionsTd.appendChild(foundBtn);
+  actionsTd.className = "actions-cell";
+  const foundBtn = document.createElement("button");
+  foundBtn.className = "found";
+  foundBtn.textContent = "Found";
+  foundBtn.onclick = () => submitFound(row);
+  actionsTd.appendChild(foundBtn);
 
-    const notFoundBtn = document.createElement("button");
-    notFoundBtn.className = "not-found";
-    notFoundBtn.textContent = "Not found";
-    notFoundBtn.onclick = () => submitNotFound(row);
-    actionsTd.appendChild(notFoundBtn);
+  const notFoundBtn = document.createElement("button");
+  notFoundBtn.className = "not-found";
+  notFoundBtn.textContent = "Not found";
+  notFoundBtn.onclick = () => submitNotFound(row);
+  actionsTd.appendChild(notFoundBtn);
 
-    const errorDiv = document.createElement("div");
-    errorDiv.className = "error";
-    errorDiv.id = `error-${row.row_index}`;
-    actionsTd.appendChild(errorDiv);
-  }
+  const errorDiv = document.createElement("div");
+  errorDiv.className = "error";
+  errorDiv.id = `error-${row.row_index}`;
+  actionsTd.appendChild(errorDiv);
   tr.appendChild(actionsTd);
+
+  const urlTd = document.createElement("td");
+  const confirmedNotFound = isDone(row) && !row.source_url;
+  // prior_url is permanent reference data (e.g. a 2024 CCND lead) — still
+  // offered here regardless of checked state, including after a "Not found",
+  // so it's never just gone if that judgment gets reconsidered.
+  const displayUrl = row.source_url || row.prior_url || "";
+
+  const urlWrapper = document.createElement("div");
+  urlWrapper.className = "url-cell";
+
+  if (confirmedNotFound && !displayUrl) {
+    urlWrapper.innerHTML = `<span class="meta">marked not found</span>`;
+  } else {
+    if (displayUrl) {
+      const openLink = document.createElement("a");
+      openLink.className = "open-link";
+      openLink.href = displayUrl;
+      openLink.target = "_blank";
+      openLink.rel = "noopener";
+      openLink.textContent = "Open";
+      urlWrapper.appendChild(openLink);
+    }
+    if (confirmedNotFound) {
+      urlWrapper.appendChild(Object.assign(document.createElement("span"), {
+        className: "meta",
+        textContent: "marked not found",
+      }));
+    } else {
+      const input = document.createElement("input");
+      input.type = "text";
+      input.placeholder = "paste dataset URL";
+      input.id = `input-${row.row_index}`;
+      input.value = displayUrl;
+      urlWrapper.appendChild(input);
+    }
+  }
+  urlTd.appendChild(urlWrapper);
+  tr.appendChild(urlTd);
 
   const notesTd = document.createElement("td");
   const notesInput = document.createElement("input");
@@ -106,9 +130,12 @@ async function saveNote(rowIndex, notes) {
 
 async function submitFound(row) {
   const input = document.getElementById(`input-${row.row_index}`);
-  const sourceUrl = input.value.trim();
   const errorDiv = document.getElementById(`error-${row.row_index}`);
   errorDiv.textContent = "";
+
+  // Rows already confirmed "not found" don't render an input box (nothing to
+  // edit) — fall back to a prompt if someone reconsiders and finds something.
+  const sourceUrl = (input ? input.value : prompt("Paste dataset URL:", row.prior_url || "") || "").trim();
 
   if (!sourceUrl) {
     errorDiv.textContent = "Paste a URL first.";
@@ -157,4 +184,5 @@ function truncateUrl(url, maxLen = 40) {
 }
 
 document.getElementById("unchecked-only").addEventListener("change", render);
+loadMeta();
 loadRows();

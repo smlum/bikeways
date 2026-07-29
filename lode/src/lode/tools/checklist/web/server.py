@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Local web UI for working through checklist.csv in a browser instead of
-editing the raw CSV. Reuses scaffold()/next_slug() from process_checklist.py
-so "Found" does the same thing the batch script does — write the yaml,
-record source_ids, stamp checked_date — just immediately, per row.
+editing the raw CSV. This stage only fills in the checklist itself (found/
+not-found, source_url, notes) — it does not scaffold source yaml files.
+Run process_checklist.py separately, whenever you're ready, to turn
+confirmed source_url rows into sources/datasets/<id>.yaml files.
 
 Usage:
     python server.py
@@ -19,12 +20,9 @@ from flask import Flask, jsonify, request, send_from_directory
 CHECKLIST_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(CHECKLIST_DIR))
 from _paths import find_repo_root  # noqa: E402
-from process_checklist import next_slug, scaffold  # noqa: E402
 
 REPO_ROOT = find_repo_root(Path(__file__).resolve())
 CHECKLIST_CSV = REPO_ROOT / "sources" / "checklist.csv"
-PROVIDERS_CSV = REPO_ROOT / "providers-directory" / "providers.csv"
-SOURCES_DIR = REPO_ROOT / "sources" / "datasets"
 
 app = Flask(__name__, static_folder=str(Path(__file__).parent), static_url_path="")
 
@@ -40,6 +38,11 @@ def save_checklist(df: pd.DataFrame):
 @app.route("/")
 def index():
     return send_from_directory(app.static_folder, "index.html")
+
+
+@app.route("/api/meta")
+def api_meta():
+    return jsonify({"checklist_path": str(CHECKLIST_CSV.relative_to(REPO_ROOT))})
 
 
 @app.route("/api/rows")
@@ -61,29 +64,11 @@ def api_found():
         return jsonify({"error": "row not found"}), 404
 
     today = str(date.today())
-
-    if df.at[row_index, "source_ids"]:
-        # Already scaffolded (e.g. a prior-vintage lead) — this is a re-confirmation,
-        # not a new find, so just record the judgment rather than re-scaffolding.
-        df.at[row_index, "source_url"] = source_url
-        df.at[row_index, "checked_date"] = today
-        save_checklist(df)
-        return jsonify({"source_id": df.at[row_index, "source_ids"], "checked_date": today})
-
-    provider_id = df.at[row_index, "provider_id"]
-    providers = pd.read_csv(PROVIDERS_CSV, dtype=str).fillna("").set_index("provider_id")
-    provider_row = providers.loc[provider_id] if provider_id in providers.index else None
-
-    existing_count = int(((df["provider_id"] == provider_id) & (df["source_ids"] != "")).sum())
-    source_id, err = scaffold(SOURCES_DIR, provider_id, source_url, provider_row, next_slug(existing_count))
-    if err:
-        return jsonify({"error": err}), 409
-
     df.at[row_index, "source_url"] = source_url
-    df.at[row_index, "source_ids"] = source_id
+    df.at[row_index, "checked"] = "x"
     df.at[row_index, "checked_date"] = today
     save_checklist(df)
-    return jsonify({"source_id": source_id, "checked_date": today})
+    return jsonify({"checked_date": today})
 
 
 @app.route("/api/not_found", methods=["POST"])
@@ -99,6 +84,11 @@ def api_not_found():
     today = str(date.today())
     df.at[row_index, "checked"] = "x"
     df.at[row_index, "checked_date"] = today
+    # Retract any previously recorded source_url/source_ids (e.g. correcting a
+    # mistaken "Found"). prior_url (the permanent CCND-lead reference, if any)
+    # is never touched here, so it's never lost to a retraction.
+    df.at[row_index, "source_url"] = ""
+    df.at[row_index, "source_ids"] = ""
     if notes:
         existing = df.at[row_index, "notes"]
         df.at[row_index, "notes"] = f"{existing}; {notes}" if existing else notes
