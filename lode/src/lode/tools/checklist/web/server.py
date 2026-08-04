@@ -2,7 +2,7 @@
 """Local web UI for working through checklist.csv in a browser instead of
 editing the raw CSV: found/not-found, source_url, notes. Also serves the
 per-source metadata editor (a modal on the same page) for confirmed finds —
-yaml under sources/datasets/ is only ever generated on demand, via the
+sources/<source_id>/metadata.yaml is only ever generated on demand, via the
 "Add metadata" button for a row, never automatically.
 
 Usage:
@@ -25,7 +25,7 @@ from _paths import find_repo_root  # noqa: E402
 REPO_ROOT = find_repo_root(Path(__file__).resolve())
 CHECKLIST_CSV = REPO_ROOT / "sources" / "checklist.csv"
 PROVIDERS_CSV = REPO_ROOT / "providers-directory" / "providers.csv"
-DATASETS_DIR = REPO_ROOT / "sources" / "datasets"
+SOURCES_DIR = REPO_ROOT / "sources"
 SCHEMA_YAML = REPO_ROOT / "schema" / "sources.yaml"
 RAW_DIR = REPO_ROOT / "data" / "raw"
 
@@ -75,11 +75,11 @@ def format_options() -> list:
 
 
 def yaml_path_for(source_id: str) -> Path:
-    return DATASETS_DIR / f"{source_id}.yaml"
+    return SOURCES_DIR / source_id / "metadata.yaml"
 
 
 def next_source_id(provider_id: str) -> str:
-    existing = {p.stem for p in DATASETS_DIR.glob(f"{provider_id}_*.yaml")}
+    existing = {p.parent.name for p in SOURCES_DIR.glob(f"{provider_id}_*/metadata.yaml")}
     if f"{provider_id}_cycling" not in existing:
         return f"{provider_id}_cycling"
     n = 2
@@ -110,7 +110,7 @@ def index():
 def api_meta():
     return jsonify({
         "checklist_path": str(CHECKLIST_CSV.relative_to(REPO_ROOT)),
-        "datasets_dir": str(DATASETS_DIR.relative_to(REPO_ROOT)),
+        "sources_dir": str(SOURCES_DIR.relative_to(REPO_ROOT)),
         "required_fields": required_fields(),
         "format_options": format_options(),
     })
@@ -212,7 +212,7 @@ def api_generate():
     providers = pd.read_csv(PROVIDERS_CSV, dtype=str).fillna("").set_index("provider_id")
     provider_row = providers.loc[row["provider_id"]] if row["provider_id"] in providers.index else None
 
-    DATASETS_DIR.mkdir(parents=True, exist_ok=True)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     source = {
         "source_id": source_id,
         "provider_id": row["provider_id"],

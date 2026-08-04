@@ -81,20 +81,36 @@ fields:
     type: string
     required: false
 
-  - name: surface_type
+  - name: source_surface_type
     type: string
     required: false
-    description: Not part of Can-BICS; recorded when the source provides it.
+    description: >
+      Raw surface value from the source, verbatim (via column mapping). Not part of
+      Can-BICS; recorded when the source provides it.
+
+  - name: source_width
+    type: float
+    required: false
+    description: >
+      Raw width value from the source, verbatim, in whatever unit the source uses
+      (see that source's column_map.yaml for width_unit).
 
   - name: width_m
     type: float
     required: false
-    description: Not part of Can-BICS; recorded when the source provides it.
+    description: source_width converted to meters during preprocessing.
+
+  - name: source_install_date
+    type: string
+    required: false
+    description: >
+      Raw install-date value from the source, verbatim (format/granularity varies
+      by source).
 
   - name: install_year
     type: integer
     required: false
-    description: Year facility was introduced, if known.
+    description: Year facility was introduced, parsed from source_install_date during preprocessing.
 
   - name: length_km
     type: float

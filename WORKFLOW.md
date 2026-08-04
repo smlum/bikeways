@@ -1,20 +1,46 @@
 # Workflow
 
-## General notes for `lode` package
+This document explains the intended workflow to create a new LODE dataset.
 
-- Should deal with point, line, polygon data. Some steps will be geometry-specific — pipeline may run one geometry type at a time to keep this simple, rather than mixing within a run.
-- Deal with multiple input formats (geopackage, parquet, geojson, json, csv, shp, etc)
-- Work across several domains. Test case here is bike lane data. Next up will be pedestrian. Other might be healthcare facilities.
-- Includes:
-    1. Providers list and common column schema (copyable)
-    2. Pipeline codebase (preprocess, process, validate)
-    4. Workflow tools (classification, column map, dashboard)
-    5. Reference data + fetch scripts (StatCan CSD, population)
+## What are LODE datasets?
+
+LODE datasets are collections of geospatial data collected from open data sources in Canada. They are grouped by domain (e.g. bikeways, pedestrian, healthcare facilities).
+
+Some common characteristics are:
+
+- They may include point, line, or polygon data. 
+- They may ingest a data of variety of formats (e.g. geopackage, parquet, geojson, json, csv, shp).
+- They require that all data be released under an open license (e.g. ODbL, CC-BY, CC0, etc).
+- They generally aim to standardize the data to a common schema.
+
+## Workflow overview
+
+While each dataset has different needs, there are some common steps to each data processing workflow. 
+
+A broad overview of the workflow is:
+
+1. Collection
+2. Inspection
+3. Preprocessing (standardize columns, geometry, CRS, formatting, etc)
+4. Classification 
+5. Processing (filtering, assigning CSD, calculating lengths, merging, deduplication)
+6. Validation
+7. Data visualization
+8. Dissemination 
+
+## Aims for a `lode` package
+
+To help with these common tasks across datasets, this packaged is intended to provide:
+
+1. A common data providers list
+2. Tools to assist with manual steps in the workflow ()
+3. A pipeline to automate the processing of data from raw to processed
+4. Reference data and fetch scripts (CSDs, population, etc)
 
 ## 1. Data collection
 
-Providers live in `providers-directory/providers.csv`. Checklist + per-source metadata live in
-`sources/` (`checklist.csv`, `datasets/*.yaml`); the tools that manage them are in
+Providers live in `providers-directory/providers.csv`. Checklist + per-source files live in
+`sources/` (`checklist.csv`, `<source_id>/metadata.yaml`); the tools that manage them are in
 `lode/src/lode/tools/checklist/`.
 
 **Workflow**
@@ -25,7 +51,7 @@ Providers live in `providers-directory/providers.csv`. Checklist + per-source me
     `prior_url` (e.g. a 2024 CCND lead) is offered as a starting point but never overwritten by
     these actions, so a mistaken "not found" can't destroy it. As soon as a row is Found,
     `data/raw/<source_id>/` is created so there's somewhere to land the download.
-  - Once found, the row's Metadata column lets you generate `sources/datasets/<id>.yaml`
+  - Once found, the row's Metadata column lets you generate `sources/<source_id>/metadata.yaml`
     (deliberately on demand, not automatic) and fill in the rest (`format`, `raw_filename`,
     etc.) in a modal — including a "Detect" button that reads whatever you've dropped in
     `data/raw/<source_id>/` to prefill `format`/`raw_filename`.

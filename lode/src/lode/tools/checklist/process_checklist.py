@@ -4,8 +4,8 @@ CSV edits) that don't have one yet. The web UI (web/server.py) already stamps
 checked_date itself on every Found/Not found click, so this only matters for
 rows checked off outside the UI.
 
-Yaml generation lives in metadata/server.py, not here — this script never
-creates or touches sources/datasets/*.yaml.
+Yaml generation lives in web/server.py, not here — this script never creates
+or touches sources/<source_id>/metadata.yaml.
 
 Usage:
     python process_checklist.py [--checklist-csv path]

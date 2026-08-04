@@ -1,5 +1,5 @@
 let rows = [];
-let datasetsDir = "";
+let sourcesDir = "";
 let requiredFields = [];
 let formatOptions = [];
 
@@ -7,7 +7,7 @@ async function loadMeta() {
   const res = await fetch("/api/meta");
   const meta = await res.json();
   document.getElementById("checklist-path").textContent = meta.checklist_path;
-  datasetsDir = meta.datasets_dir;
+  sourcesDir = meta.sources_dir;
   requiredFields = meta.required_fields;
   formatOptions = meta.format_options;
 }
@@ -246,7 +246,7 @@ async function openMetadata(row) {
 async function openModal(sourceId, checklistNotes) {
   modalSourceId = sourceId;
   document.getElementById("modal-title").textContent = sourceId;
-  document.getElementById("modal-path").textContent = `${datasetsDir}/${sourceId}.yaml`;
+  document.getElementById("modal-path").textContent = `${sourcesDir}/${sourceId}/metadata.yaml`;
   document.getElementById("modal-save-status").textContent = "";
 
   const res = await fetch(`/api/source/${encodeURIComponent(sourceId)}`);

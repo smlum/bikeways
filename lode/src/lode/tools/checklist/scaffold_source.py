@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Manually scaffold <sources-dir>/<source_id>.yaml for a specific provider+slug.
+"""Manually scaffold <sources-dir>/<source_id>/metadata.yaml for a specific provider+slug.
 
 Most sources should go through the checklist.csv + process_checklist.py
 batch flow instead — this is for the manual exception: a provider with a
@@ -23,7 +23,7 @@ from _paths import find_repo_root
 REPO_ROOT = find_repo_root(Path(__file__).resolve())
 DEFAULT_PROVIDERS_CSV = REPO_ROOT / "providers-directory" / "providers.csv"
 DEFAULT_CHECKLIST_CSV = REPO_ROOT / "sources" / "checklist.csv"
-DEFAULT_SOURCES_DIR = REPO_ROOT / "sources" / "datasets"
+DEFAULT_SOURCES_DIR = REPO_ROOT / "sources"
 
 
 def update_checklist(checklist_csv: Path, provider_id: str, source_id: str, source_url: str):
@@ -70,7 +70,7 @@ def main():
     provider = matches.iloc[0]
 
     source_id = f"{args.provider_id}_{args.slug}"
-    out_path = args.sources_dir / f"{source_id}.yaml"
+    out_path = args.sources_dir / source_id / "metadata.yaml"
     if out_path.exists():
         raise FileExistsError(f"{out_path} already exists")
 
@@ -89,7 +89,7 @@ def main():
         "raw_filename": "",
         "notes": "",
     }
-    args.sources_dir.mkdir(parents=True, exist_ok=True)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w") as f:
         yaml.dump(source, f, sort_keys=False, allow_unicode=True)
     print(f"Wrote {out_path}")
