@@ -1,6 +1,7 @@
 # Folders
 canadian_cycling_network_database/
 data/
+.claude/
 
 # classification-review: generated manifests and local API key, per source config
 classification-review/web/manifest.json
