@@ -28,14 +28,6 @@ A broad overview of the workflow is:
 7. Data visualization
 8. Dissemination 
 
-## Aims for a `lode` package
-
-To help with these common tasks across datasets, this packaged is intended to provide:
-
-1. A common data providers list
-2. Tools to assist with manual steps in the workflow ()
-3. A pipeline to automate the processing of data from raw to processed
-4. Reference data and fetch scripts (CSDs, population, etc)
 
 ## 1. Data collection
 

@@ -1,0 +1,60 @@
+# Rules for a first pass column matching between raw columns and 
+# target fields, defined in schema/ccnd.yaml.
+#
+# Each target has two match buckets:
+#   exact    - matches a raw column whose normalized name equals
+#              the term exactly. 
+#   contains - matches a raw column whose normalized name equals OR contains
+#              (in either direction) the term. 
+
+source_feature_id:
+  exact:
+    - id
+    - objectid
+    - object_id
+    - fid
+    - recordid
+    - record_id
+  contains: []
+
+source_class:
+  exact: []
+  contains:
+    - class
+    - type
+
+source_class_secondary:
+  exact: []
+  contains:
+    - subtype
+    - sub_type
+    - secondary_type
+
+source_surface_type:
+  exact: []
+  contains:
+    - surface
+    - pavement
+
+source_width:
+  exact: []
+  contains:
+    - width
+
+source_install_date:
+  exact: []
+  contains:
+    - install_date
+    - installdate
+    - installed
+    - year_built
+    - construction_year
+    - year_of_construction
+    - created
+
+source_status:
+  exact: []
+  contains:
+    - status
+    - state
+    - lifecycle
