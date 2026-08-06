@@ -33,7 +33,7 @@ from inspect_raw import GEO_FORMATS, inspect_columns  # noqa: E402
 
 CONFIG = load_config(Path(__file__).resolve())
 REPO_ROOT = CONFIG["repo_root"]
-TOOL_CONFIG = CONFIG["column_mapping"]
+TOOL_CONFIG = CONFIG["tools"]["column_mapping"]
 
 TARGET_SCHEMA_PATH = REPO_ROOT / CONFIG["target_schema"]
 MATCHING_RULES_PATH = REPO_ROOT / TOOL_CONFIG["matching_rules"]

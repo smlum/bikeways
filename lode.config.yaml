@@ -1,24 +1,32 @@
 # Project-level config for reusable lode/ tool package.
 #
-# NOTE: only lode/src/lode/tools/column_mapping/ reads this so far. The other
-# tools (checklist/, statcan/, classification-review/) still hardcode their
-# paths — retrofitting them onto this config is a follow-up, not done yet.
+# TODO: only lode/src/lode/tools/column_mapping/ and lode/src/lode/pipeline/
+# read this so far. The other tools (checklist/, statcan/,
+# classification-review/) still hardcode their paths.
 #
-# Shared, top-level: paths any tool might need.
-# Nested per-tool sections: settings specific to one tool (e.g. a display
-# knob one tool wants that another might want set differently).
+# Shared, top-level: paths any tool or pipeline step might need.
 #
-# TODO once there's more than one of each: split tools (interactive review
-# UIs — checklist, column_mapping, classification-review) from pipeline
-# steps (automated stages — preprocess, classify, process, validate) into
-# their own top-level groups, rather than one flat set of tool sections.
+# tools: per-tool settings for interactive review UIs.
+#
+# pipeline: stage/step definitions for the automated data pipeline.
 
 target_schema: schema/ccnd.yaml
 sources_dir: sources
 raw_dir: data/raw
 providers_csv: providers-directory/providers.csv
 
-column_mapping:
-  matching_rules: schema/column_matching_rules.yaml
-  sample_count: 3
-  sample_max_len: 25
+tools:
+  column_mapping:
+    matching_rules: schema/column_matching_rules.yaml
+    sample_count: 3
+    sample_max_len: 25
+
+pipeline:
+  stages:
+    - name: preprocessing
+      output_dir: data/preprocessing
+      steps:
+        - lode.pipeline.steps.column_map:apply
+        - lode.pipeline.steps.standardize_geometry:apply
+        - lode.pipeline.steps.standardize_crs:apply
+        - lode.pipeline.steps.assign_ids:apply

@@ -1,5 +1,6 @@
 geopandas
 shapely
+pyproj
 pyyaml
 numpy
 pyarrow

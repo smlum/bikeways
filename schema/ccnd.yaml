@@ -89,17 +89,13 @@ fields:
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw surface value from the source, verbatim (via column mapping). Not part of
-      Can-BICS; recorded when the source provides it.
+    description: Raw surface value, verbatim. Not part of Can-BICS.
 
   - name: source_width
     type: float
     required: false
     source_mappable: true
-    description: >
-      Raw width value from the source, verbatim, in whatever unit the source uses
-      (see that source's column_map.yaml for width_unit).
+    description: Raw width, verbatim, in whatever unit the source uses (see column_map.yaml's width_unit).
 
   - name: width_m
     type: float
@@ -110,9 +106,7 @@ fields:
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw install-date value from the source, verbatim (format/granularity varies
-      by source).
+    description: Raw install date, verbatim (format varies by source).
 
   - name: install_year
     type: integer
@@ -123,45 +117,31 @@ fields:
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw status/lifecycle value from the source, verbatim, if provided (e.g.
-      "existing", "proposed", "removed"). Absent if the source doesn't
-      distinguish status — the pipeline treats that as existing infrastructure.
+    description: Raw status/lifecycle value, verbatim, if provided. Absent means the source doesn't distinguish status (treated as existing).
 
   - name: status
     type: string
     required: true
     enum: [existing, proposed, planned, under_construction, removed, other]
-    description: >
-      Harmonized status, parsed from source_status during preprocessing (or
-      defaulted to "existing" when the source has no status field). Lets
-      downstream steps filter out proposed/planned/removed segments before
-      computing infrastructure length.
+    description: Harmonized status, derived from source_status. Used to filter out non-existing segments before computing length.
 
   - name: source_road_type
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw underlying-road classification from the source, verbatim (e.g.
-      "arterial", "residential", "collector") — the road the bikeway sits
-      on/beside, not the bikeway's own classification (that's source_class).
+    description: Raw underlying-road classification, verbatim (e.g. arterial, residential) — the road itself, not the bikeway (that's source_class).
 
   - name: source_snow_removal
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw winter-maintenance/snow-removal indicator, verbatim (format varies
-      by source — yes/no, boolean, enum). No harmonized version yet.
+    description: Raw snow-removal/winter-maintenance indicator, verbatim (format varies by source). No harmonized version yet.
 
   - name: source_upgrade_date
     type: string
     required: false
     source_mappable: true
-    description: >
-      Raw most-recent-upgrade/reconstruction date, verbatim — distinct from
-      source_install_date (original installation).
+    description: Raw most-recent-upgrade/reconstruction date, verbatim — distinct from source_install_date (original installation).
 
   - name: length_km
     type: float
