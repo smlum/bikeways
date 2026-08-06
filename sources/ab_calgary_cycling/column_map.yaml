@@ -1,0 +1,14 @@
+source_id: ab_calgary_cycling
+column_map:
+  :id: source_feature_id
+  type: source_class
+  status: source_status
+dropped:
+- :created_at
+- :updated_at
+- :version
+- bicycle_class
+- comfort_level
+- created_dt
+- length
+- modified_dt

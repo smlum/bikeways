@@ -102,9 +102,17 @@ function recomputeCollisions() {
   for (const select of selects) {
     if (select.value) counts[select.value] = (counts[select.value] || 0) + 1;
   }
+  let anyCollision = false;
   for (const select of selects) {
     const isCollision = select.value && counts[select.value] > 1;
+    if (isCollision) anyCollision = true;
     select.closest("tr").classList.toggle("collision", isCollision);
+  }
+
+  const title = anyCollision ? "Resolve the highlighted collisions first" : "";
+  for (const btn of [document.getElementById("save-next-btn"), document.getElementById("save-back-btn")]) {
+    btn.disabled = anyCollision;
+    btn.title = title;
   }
 }
 
@@ -129,7 +137,7 @@ function updateWidthUnitVisibility() {
   document.getElementById("width-unit-row").classList.toggle("hidden", !anyWidth);
 }
 
-async function save() {
+async function save(destination) {
   const assignments = {};
   for (const select of document.querySelectorAll("select[data-column]")) {
     assignments[select.dataset.column] = select.value || null;
@@ -142,7 +150,27 @@ async function save() {
     body: JSON.stringify({ assignments, width_unit: widthUnit }),
   });
   const data = await res.json();
-  document.getElementById("save-status").textContent = res.ok ? "Saved" : data.error || "Failed to save";
+  if (!res.ok) {
+    document.getElementById("save-status").textContent = data.error || "Failed to save";
+    return;
+  }
+
+  if (destination === "back") {
+    location.href = "index.html";
+    return;
+  }
+
+  const nextSourceId = await findNextSource();
+  location.href = nextSourceId ? `map.html?id=${encodeURIComponent(nextSourceId)}` : "index.html";
+}
+
+async function findNextSource() {
+  const res = await fetch("/api/sources");
+  const sources = await res.json();
+  const next = sources.find(
+    (s) => s.source_id !== sourceId && s.has_data && s.has_metadata && s.column_map_status !== "complete"
+  );
+  return next ? next.source_id : null;
 }
 
 function escapeHtml(s) {
@@ -155,5 +183,6 @@ function cssEscape(s) {
   return s.replace(/[^a-zA-Z0-9_-]/g, "_");
 }
 
-document.getElementById("save-btn").addEventListener("click", save);
+document.getElementById("save-next-btn").addEventListener("click", () => save("next"));
+document.getElementById("save-back-btn").addEventListener("click", () => save("back"));
 load();

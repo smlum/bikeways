@@ -1,0 +1,26 @@
+source_id: bc_vancouver_cycling
+column_map:
+  object_id: source_feature_id
+  bikeway_type: source_class
+  subtype: source_class_secondary
+  status: source_status
+  street_segment_type: source_road_type
+  surface_type: source_surface_type
+  snow_removal: source_snow_removal
+  upgrade_year: source_upgrade_date
+  year_of_construction: source_install_date
+dropped:
+- aaa_network
+- aaa_segment
+- bike_route_name
+- bikeway_direction
+- construction_note
+- e_s_bound_type
+- geo_point_2d
+- geom
+- notes
+- overall_direction
+- speed_limit
+- street_name
+- vehicle_direction
+- w_n_bound_type

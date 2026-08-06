@@ -1,0 +1,19 @@
+source_id: on_toronto_cycling
+column_map:
+  SEGMENT_ID: source_feature_id
+  INSTALLED: source_install_date
+  UPGRADED: source_upgrade_date
+  INFRA_LOWORDER: source_class
+dropped:
+- CNPCLASS
+- CONVERTED
+- DIR_LOWORDER
+- FROM_STREET
+- INFRA_HIGHORDER
+- OWNER
+- PRE_AMALGAMATION
+- ROADCLASS
+- STREET_NAME
+- SURFACE
+- TO_STREET
+- _id

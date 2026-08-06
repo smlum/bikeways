@@ -1,0 +1,17 @@
+source_id: ab_edmonton_cycling
+column_map:
+  id: source_feature_id
+  type: source_surface_type
+  classification: source_class
+  network_classification: source_class_secondary
+  route_coming_soon: source_status
+  construction_year: source_install_date
+dropped:
+- :created_at
+- :id
+- :updated_at
+- :version
+- duration
+- line_weight
+- road_segment_type
+- street_name_full

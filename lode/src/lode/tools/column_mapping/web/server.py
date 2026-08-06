@@ -182,6 +182,40 @@ def api_column_map_save(source_id):
     assignments = data.get("assignments", {})
     width_unit = (data.get("width_unit") or "").strip()
 
+    # Guard against a partial/stale submission silently clobbering a good
+    # mapping (e.g. a direct API call, or two tabs open on the same source) —
+    # the payload must cover every column currently in the raw file, not just
+    # some of them.
+    source_dir = SOURCES_DIR / source_id
+    metadata = load_yaml(source_dir / "metadata.yaml")
+    raw_filename = metadata.get("raw_filename")
+    fmt = metadata.get("format")
+    if raw_filename and fmt:
+        raw_path = RAW_DIR / source_id / raw_filename
+        if raw_path.exists():
+            try:
+                raw_columns = {c["name"] for c in inspect_columns(raw_path, fmt)}
+            except ValueError:
+                raw_columns = None
+            if raw_columns is not None:
+                submitted = set(assignments)
+                missing = raw_columns - submitted
+                extra = submitted - raw_columns
+                if missing or extra:
+                    detail = []
+                    if missing:
+                        detail.append(f"missing: {', '.join(sorted(missing))}")
+                    if extra:
+                        detail.append(f"not in raw file: {', '.join(sorted(extra))}")
+                    return jsonify({"error": f"assignments don't match the current raw file's columns ({'; '.join(detail)})"}), 400
+
+    # Soft-flag collisions can still be saved from a normal edit in progress,
+    # but the final save must have every collision actually resolved.
+    target_counts = Counter(target for target in assignments.values() if target)
+    collisions = sorted(target for target, count in target_counts.items() if count > 1)
+    if collisions:
+        return jsonify({"error": f"resolve before saving — assigned to more than one column: {', '.join(collisions)}"}), 400
+
     column_map = {name: target for name, target in assignments.items() if target}
     dropped = sorted(name for name, target in assignments.items() if not target)
 

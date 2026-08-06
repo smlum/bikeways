@@ -138,6 +138,31 @@ fields:
       downstream steps filter out proposed/planned/removed segments before
       computing infrastructure length.
 
+  - name: source_road_type
+    type: string
+    required: false
+    source_mappable: true
+    description: >
+      Raw underlying-road classification from the source, verbatim (e.g.
+      "arterial", "residential", "collector") — the road the bikeway sits
+      on/beside, not the bikeway's own classification (that's source_class).
+
+  - name: source_snow_removal
+    type: string
+    required: false
+    source_mappable: true
+    description: >
+      Raw winter-maintenance/snow-removal indicator, verbatim (format varies
+      by source — yes/no, boolean, enum). No harmonized version yet.
+
+  - name: source_upgrade_date
+    type: string
+    required: false
+    source_mappable: true
+    description: >
+      Raw most-recent-upgrade/reconstruction date, verbatim — distinct from
+      source_install_date (original installation).
+
   - name: length_km
     type: float
     required: true

@@ -58,3 +58,29 @@ source_status:
     - status
     - state
     - lifecycle
+
+source_road_type:
+  exact: []
+  contains:
+    - road_type
+    - roadtype
+    - street_type
+    - streettype
+    - functional_class
+
+source_snow_removal:
+  exact: []
+  contains:
+    - snow_removal
+    - snowremoval
+    - snow_clearing
+    - winter_maintenance
+
+source_upgrade_date:
+  exact: []
+  contains:
+    - upgrade_year
+    - upgrade_date
+    - last_upgrade
+    - reconstruction_year
+    - resurfaced

@@ -200,7 +200,7 @@ button {
   cursor: pointer;
 }
 
-#save-btn {
+#save-next-btn {
   padding: 0.45rem 1.1rem;
   font-size: 0.9rem;
   font-weight: 600;
@@ -209,8 +209,34 @@ button {
   color: white;
 }
 
-#save-btn:hover {
+#save-next-btn:hover {
   background: #234881;
+}
+
+#save-back-btn {
+  padding: 0.45rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid #2c5aa0;
+  background: white;
+  color: #2c5aa0;
+}
+
+#save-back-btn:hover {
+  background: #eef3fa;
+}
+
+#save-next-btn:disabled,
+#save-back-btn:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
+
+#save-next-btn:disabled:hover,
+#save-back-btn:disabled:hover {
+  background: #ccc;
 }
 
 button:hover {
