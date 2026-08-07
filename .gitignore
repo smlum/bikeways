@@ -2,6 +2,7 @@
 canadian_cycling_network_database/
 data/
 .claude/
+.DS_Store
 
 # classification-review: generated manifests and local API key, per source config
 classification-review/web/manifest.json
