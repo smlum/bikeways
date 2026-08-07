@@ -91,6 +91,11 @@ fields:
     source_mappable: true
     description: Raw surface value, verbatim. Not part of Can-BICS.
 
+  - name: surface_type
+    type: string
+    required: false
+    description: Harmonized surface type, derived from source_surface_type during classification. Enum TBD, pending classify step design.
+
   - name: source_width
     type: float
     required: false
@@ -135,7 +140,12 @@ fields:
     type: string
     required: false
     source_mappable: true
-    description: Raw snow-removal/winter-maintenance indicator, verbatim (format varies by source). No harmonized version yet.
+    description: Raw snow-removal/winter-maintenance indicator, verbatim (format varies by source).
+
+  - name: snow_removal
+    type: string
+    required: false
+    description: Harmonized snow-removal/winter-maintenance indicator, derived from source_snow_removal during classification. Enum TBD, pending classify step design.
 
   - name: source_upgrade_date
     type: string

@@ -30,3 +30,45 @@ pipeline:
         - lode.pipeline.steps.standardize_geometry:apply
         - lode.pipeline.steps.standardize_crs:apply
         - lode.pipeline.steps.assign_ids:apply
+        # - lode.pipeline.steps.dedupe_within_source:apply  # TODO: basic, non-spatial
+        # dedup within one source's own file — listed as expected preprocessing output
+        # in WORKFLOW.md #3, never implemented.
+
+    - name: processing
+      input_dir: data/preprocessing
+      output_dir: data/processing
+      steps:
+        # - lode.pipeline.steps.classify:apply  # TODO: harmonizes EVERY categorical
+        # source column in one pass — source_class -> canbics_class, plus
+        # source_surface_type/source_status/source_snow_removal -> surface_type/
+        # status/snow_removal (schema/ccnd.yaml). Needs the concordance-mapping
+        # workflow (rules + manual review UI, like tools/column_mapping/) designed
+        # and built first — see lode/WORKFLOW.md #4.
+        # - lode.pipeline.steps.filter:apply  # TODO: generic filter by any
+        # harmonized column, runs after classify. Likely reused more than once
+        # with different arguments (e.g. filter by status, later by something
+        # else) — probably the first step that needs per-invocation config, e.g.
+        # {step: lode.pipeline.steps.filter:apply, column: status, keep: [existing]}
+        # instead of a bare string. `run.py` doesn't support dict step entries yet.
+        - lode.pipeline.steps.assign_csd:apply
+        - lode.pipeline.steps.compute_length:apply
+
+    - name: merge
+      merge: true
+      input_dir: data/processing
+      output_dir: data/merged
+      output_filename: network_segments.parquet
+      steps: []
+        # - lode.pipeline.steps.dedupe_spatial:apply  # TODO: cross-provider spatial
+        # dedup (WORKFLOW.md #5) — overlap-detection approach not designed yet.
+
+    # - name: aggregate  # TODO: future merge:true stage reading merge's single
+    #   output. Envisioned steps: summarize_by_municipality (-> summary CSV),
+    #   build_concordance_output (-> concordance CSV), generate_metadata (-> data
+    #   dictionary / source list) — README's declared outputs, flagged as still
+    #   TBD in WORKFLOW.md #5's "still missing" note.
+
+    # - name: validate  # TODO: pass/fail sanity checks against final data
+    #   (WORKFLOW.md #6). Doesn't fit the transform-and-write shape every other
+    #   stage uses — its output is a report, not a modified dataset — so it may
+    #   need its own shape rather than reusing `merge: true`.

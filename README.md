@@ -1,12 +1,21 @@
 # Bikeways
 
+Code and tools to build a national cycling network dataset from Canadian municipal data sources.
+
 ## Repo structure
 
-- **This project** (root: `reference/`, `schema/`, `sources/`, `data/`, `WORKFLOW.md`) — configuration and data specific to building the cycling network dataset: Can-BICS reference material, target schemas, per-source registry entries, raw downloads.
-- **`providers-directory/`** — canonical, cross-project directory of Canadian data providers (municipal/regional/provincial). Domain-agnostic; reused by any future project, not just this one.
-- **`lode/`** — reusable, domain-agnostic pipeline code and tools (ingestion, column mapping, spatial join, classification, aggregation) that this project's config plugs into. Its own repo, included here as a **git submodule**.
-- **`tools/`** — one-off/self-contained scripts not (yet) part of the `lode` package: `statcan/` (StatCan boundary fetch) and `classification-review/` (Street View spot-checking).
-- **`scripts/`** — one-off, project-specific scripts (e.g. reconciling against a prior data vintage) that aren't part of the reusable `lode` pipeline.
+This project uses the [lode](https://github.com/smlum/lode) package to implement the data pipeline, which is included as a **git submodule**. 
+
+
+- This project (root: `reference/`, `schema/`, `sources/`, `data/`, `WORKFLOW.md`) — configuration and data specific to building the cycling network dataset: Can-BICS reference material, target schemas, per-source registry entries, raw downloads.
+- `providers-directory/` — canonical, cross-project directory of Canadian data providers (municipal/regional/provincial). Domain-agnostic; reused by any future project, not just this one.
+- `lode/` — reusable, domain-agnostic pipeline code and tools (ingestion, column mapping, spatial join, classification, aggregation) that this project's config plugs into. Its own repo, included here as a **git submodule**.
+- `sources/` — per-source configuration files and metadata
+- `scripts/` — one-off, project-specific scripts
+
+### lode package
+
+
 
 ## Setup
 
