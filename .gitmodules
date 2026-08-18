@@ -1,3 +1,6 @@
 [submodule "lode"]
 	path = lode
 	url = https://github.com/smlum/lode.git
+[submodule "ca-data-providers"]
+	path = ca-data-providers
+	url = https://github.com/smlum/ca-data-providers.git
