@@ -14,8 +14,8 @@ At root:
 
 External dependencies:
 
-- `lode/` — reusable pipeline code and tools included here as a **git submodule**.
-- `providers-directory/` — cross-project directory of Canadian data providers.
+- `lode/` — reusable pipeline code and tools, included here as a **git submodule**.
+- `ca-data-providers/` — cross-project directory of Canadian data providers, included here as a **git submodule**..
 
 Generated during the pipeline: 
 

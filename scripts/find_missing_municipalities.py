@@ -35,7 +35,7 @@ def normalize(name: str) -> str:
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CSD_PARQUET = REPO_ROOT / "data/reference/statcan_csd_2021.parquet"
 POPULATION_PARQUET = REPO_ROOT / "data/reference/statcan_population_2021.parquet"
-PROVIDERS_CSV = REPO_ROOT / "providers-directory/providers.csv"
+PROVIDERS_CSV = REPO_ROOT / "ca-data-providers/providers.csv"
 POPULATION_COLUMN = "Population and dwelling counts (5): Population, 2021 [1]"
 OUTPUT_CSV = Path(__file__).parent / "missing_municipalities_candidates.csv"
 

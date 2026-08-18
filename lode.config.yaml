@@ -1,7 +1,7 @@
 # Project-level config for reusable lode/ tool package.
 #
-# TODO: only lode/src/lode/tools/column_mapping/ and lode/src/lode/pipeline/
-# read this so far. The other tools (checklist/, statcan/,
+# TODO: only lode/src/lode/tools/column_mapping/, lode/src/lode/tools/checklist/,
+# and lode/src/lode/pipeline/ read this so far. The other tools (statcan/,
 # classification-review/) still hardcode their paths.
 #
 # Shared, top-level: paths any tool or pipeline step might need.
@@ -11,9 +11,10 @@
 # pipeline: stage/step definitions for the automated data pipeline.
 
 target_schema: schema/ccnd.yaml
+sources_schema: schema/sources.yaml
 sources_dir: sources
 raw_dir: data/raw
-providers_csv: providers-directory/providers.csv
+providers_csv: ca-data-providers/providers.csv
 
 tools:
   column_mapping:

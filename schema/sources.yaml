@@ -10,7 +10,7 @@ fields:
   - name: provider_id
     type: string
     required: true
-    description: Foreign key to provider_id in providers-directory/providers.csv.
+    description: Foreign key to provider_id in ca-data-providers/providers.csv.
 
   - name: dataset_page_url
     type: string
