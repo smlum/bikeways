@@ -1,0 +1,12 @@
+canbics_class:
+  source_columns:
+  - source_class
+  - source_class_secondary
+  - source_surface_type
+  mappings:
+  - values:
+      source_class: Shared Pathway
+      source_class_secondary: ''
+      source_surface_type: OFF ROAD
+    target: multi_use_path
+    method: rule

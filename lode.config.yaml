@@ -1,13 +1,7 @@
 # Project-level config for reusable lode/ tool package.
 #
-# TODO: only lode/src/lode/tools/column_mapping/, lode/src/lode/tools/checklist/,
-# and lode/src/lode/pipeline/ read this so far. The other tools (statcan/,
-# classification-review/) still hardcode their paths.
-#
-# Shared, top-level: paths any tool or pipeline step might need.
-#
-# tools: per-tool settings for interactive review UIs.
-#
+# top-level: paths any tool or pipeline step might need.
+# tools: per-tool settings eg interactive review UIs.
 # pipeline: stage/step definitions for the automated data pipeline.
 
 target_schema: schema/ccnd.yaml
@@ -21,6 +15,37 @@ tools:
     matching_rules: schema/column_matching_rules.yaml
     sample_count: 3
     sample_max_len: 25
+
+  classification:
+    matching_rules: schema/classification_matching_rules.yaml
+    # Which raw column(s) inform each target attribute (schema/ccnd.yaml), and
+    # whether the Street View sampling helper applies to it. A source that's
+    # missing some of a target's columns just reviews on whichever it has —
+    # see lode/src/lode/tools/classification/web/server.py's present_columns().
+    targets:
+      canbics_class:
+        source_columns: [source_class, source_class_secondary, source_surface_type]
+        street_view: true
+      status:
+        source_columns: [source_status]
+        street_view: false
+      surface_type:
+        source_columns: [source_surface_type]
+        street_view: false
+      snow_removal:
+        source_columns: [source_snow_removal]
+        street_view: false
+    street_view:
+      n_samples: 3
+      n_reserve: 5
+      seed: 42
+      # mock: true skips the real Google Maps API entirely (no key needed) —
+      # sampled points are shown as a plain maps.google.com deep link per
+      # sample instead of an embedded panorama. Default on so nothing
+      # touches the API until deliberately turned off. Live mode embeds via
+      # the Maps Embed API (needs "Maps Embed API" enabled on the key, not
+      # "Maps JavaScript API" — see README).
+      mock: false
 
 pipeline:
   stages:
@@ -39,12 +64,7 @@ pipeline:
       input_dir: data/preprocessing
       output_dir: data/processing
       steps:
-        # - lode.pipeline.steps.classify:apply  # TODO: harmonizes EVERY categorical
-        # source column in one pass — source_class -> canbics_class, plus
-        # source_surface_type/source_status/source_snow_removal -> surface_type/
-        # status/snow_removal (schema/ccnd.yaml). Needs the concordance-mapping
-        # workflow (rules + manual review UI, like tools/column_mapping/) designed
-        # and built first — see lode/WORKFLOW.md #4.
+        - lode.pipeline.steps.classify:apply
         # - lode.pipeline.steps.filter:apply  # TODO: generic filter by any
         # harmonized column, runs after classify. Likely reused more than once
         # with different arguments (e.g. filter by status, later by something

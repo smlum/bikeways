@@ -1,0 +1,10 @@
+canbics_class:
+  source_columns:
+  - source_class
+  - source_class_secondary
+  - source_surface_type
+  mappings:
+  - values:
+      source_class: Cycle Track
+    target: cycle_track
+    method: rule

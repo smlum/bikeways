@@ -1,0 +1,120 @@
+# Rules for a first-pass classification guess, matched against a single raw
+# value (the primary/first source column configured for that target in
+# lode.config.yaml's tools.classification.targets) via the same normalize +
+# exact/contains matching as schema/column_matching_rules.yaml.
+#
+# Only targets with a defined enum in schema/ccnd.yaml get rules here —
+# surface_type/snow_removal are still TBD there, so there's nothing to match
+# onto yet. The classification tool works fine without rules for a target;
+# it just has no automated suggestion, review is fully manual.
+
+canbics_class:
+  cycle_track:
+    exact: []
+    contains:
+      - cycle track
+      - cycletrack
+      - protected bike lane
+      - separated bike lane
+      - protected lane
+
+  local_street_bikeway:
+    exact: []
+    contains:
+      - bicycle boulevard
+      - bike boulevard
+      - local street bikeway
+      - neighbourhood bikeway
+      - neighborhood bikeway
+      - neighbourhood route
+      - bikeway
+
+  bike_path:
+    exact: []
+    contains:
+      - bike path
+      - bicycle path
+      - off street path
+      - off-street path
+
+  multi_use_path:
+    exact: []
+    contains:
+      - multi-use trail
+      - multi use trail
+      - multi-use path
+      - multi use path
+      - shared pathway
+      - shared trail
+      - mup
+      - walkway
+      - breezeway
+
+  painted_bike_lane:
+    exact: []
+    contains:
+      - painted bike lane
+      - bike lane
+      - conventional bike lane
+      - buffered bike lane
+
+  major_shared_roadway:
+    exact: []
+    contains:
+      - shared roadway - higher traffic
+      - major shared roadway
+
+  shared_roadway:
+    exact: []
+    contains:
+      - sharrows
+      - shared roadway
+      - shared roadway - lower traffic
+      - signed route
+      - signed bike route
+
+  gravel_trail:
+    exact: []
+    contains:
+      - gravel trail
+      - gravel
+      - unpaved trail
+
+status:
+  existing:
+    exact: []
+    contains:
+      - existing
+      - active
+      - in service
+      - complete
+      - built
+
+  proposed:
+    exact: []
+    contains:
+      - proposed
+
+  planned:
+    exact: []
+    contains:
+      - planned
+      - future
+
+  under_construction:
+    exact: []
+    contains:
+      - under construction
+      - in progress
+      - construction
+
+  removed:
+    exact: []
+    contains:
+      - removed
+      - decommissioned
+      - inactive
+
+  other:
+    exact: []
+    contains: []

@@ -95,6 +95,23 @@ In more detail:
 `scripts/classification-review/` lets you spot-check *classification* output — a classified
 network dataset's (municipality, class) groups — by sampling random points and checking them in Street View. 
 
+#### Google Street View
+
+The classification tool can include an optional Street View image for sampled points. 
+
+This option can be set for each variable being classified in `lode.config.yaml`.
+
+The classification tool's Street View feature needs a Google Maps API key.
+
+Once you have one, add it to the project's environment variables:
+
+```bash
+cp .env.example .env
+# edit .env, paste in your key
+```
+
+`.env` is gitignored — never commit it. 
+
 ### 5. Data processing
 
 - `lode pipeline run --stage processing` — assigns CSD (StatCan geometry) and computes segment lengths
