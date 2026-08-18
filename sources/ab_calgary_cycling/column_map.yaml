@@ -1,8 +1,8 @@
 source_id: ab_calgary_cycling
 column_map:
   :id: source_feature_id
-  type: source_class
   status: source_status
+  type: source_class
 dropped:
 - :created_at
 - :updated_at
