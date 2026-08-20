@@ -1,0 +1,14 @@
+source_id: bc_burnaby_cycling
+provider_id: bc_burnaby
+dataset_page_url: https://data.burnaby.ca/datasets/burnaby::bike-trails/explore
+download_url: ''
+format: geojson
+license_name: Open Government Licence – City of Burnaby
+license_url: https://data.burnaby.ca/pages/open-government-licence
+contact: ''
+source_updated_date: '2023'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Bike_Trails.geojson
+notes: from 2024 CCND
+open_license: true

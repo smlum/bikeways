@@ -21,31 +21,31 @@ x,ab_lethbridge,https://opendata.lethbridge.ca/,,,City of Lethbridge,municipalit
 x,ab_airdrie,https://data-airdrie.opendata.arcgis.com/,,,City of Airdrie,municipality,AB,2026-07-29,,
 x,ab_wood_buffalo,,,,Regional Municipality of Wood Buffalo,municipality,AB,2026-07-29,,
 x,ab_st_albert,https://data.stalbert.ca/,,,City of St. Albert,municipality,AB,2026-07-29,,
-,ab_grande_prairie_2,https://opendata-cityofgp.hub.arcgis.com/,,,City of Grande Prairie,municipality,AB,,,
-,ab_medicine_hat,https://www.medicinehat.ca/en/business-and-development/maps-and-gis.aspx,,,City of Medicine Hat,municipality,AB,,,
-,ab_parkland_county,https://opendata.parklandcounty.com/,,,Parkland County,municipality,AB,,,
-,ab_cochrane,https://geohub.cochrane.ca/,,,Town of Cochrane,municipality,AB,,,
-,ab_okotoks,https://okotoksmaps-okotoks.hub.arcgis.com/pages/open-data-portal,,,Town of Okotoks,municipality,AB,,,
-,ab_chestermere,https://data-chestermere.opendata.arcgis.com/,,,City of Chestermere,municipality,AB,,,
-,ab_sturgeon_county,https://data-sturgeoncounty.opendata.arcgis.com/,,,Sturgeon County,municipality,AB,,,
-,ab_canmore,https://opendata-canmore.opendata.arcgis.com/,,,Town of Canmore,municipality,AB,,,
-,ab_high_river,https://highriver-hrmdf.hub.arcgis.com/,,,Town of High River,municipality,AB,,,
-,ab_banff,https://maps.banff.ca/opendata/,,,Town of Banff,municipality,AB,,,
+x,ab_grande_prairie_2,https://opendata-cityofgp.hub.arcgis.com/,,,City of Grande Prairie,municipality,AB,2026-08-20,,
+x,ab_medicine_hat,https://www.medicinehat.ca/en/business-and-development/maps-and-gis.aspx,,,City of Medicine Hat,municipality,AB,2026-08-20,,
+x,ab_parkland_county,https://opendata.parklandcounty.com/,,,Parkland County,municipality,AB,2026-08-20,,
+x,ab_cochrane,https://geohub.cochrane.ca/,,https://geohub.cochrane.ca/datasets/123bf79bde3848ae9bb6ade297ea613b_30/explore?location=51.185106%2C-114.468118%2C5.00,Town of Cochrane,municipality,AB,2026-08-20,ab_cochrane_cycling,
+x,ab_okotoks,https://okotoksmaps-okotoks.hub.arcgis.com/pages/open-data-portal,,,Town of Okotoks,municipality,AB,2026-08-20,,
+x,ab_chestermere,https://data-chestermere.opendata.arcgis.com/,,,City of Chestermere,municipality,AB,2026-08-20,,
+x,ab_sturgeon_county,https://data-sturgeoncounty.opendata.arcgis.com/,,,Sturgeon County,municipality,AB,2026-08-20,,
+x,ab_canmore,https://opendata-canmore.opendata.arcgis.com/,,,Town of Canmore,municipality,AB,2026-08-20,,
+x,ab_high_river,https://highriver-hrmdf.hub.arcgis.com/,,,Town of High River,municipality,AB,2026-08-20,,
+x,ab_banff,https://maps.banff.ca/opendata/,,,Town of Banff,municipality,AB,2026-08-20,,
 x,ab_calgary_metropolitan_region,https://calgarymetroregion-cmrb.opendata.arcgis.com/,,,Calgary Metropolitan Region,region,AB,2026-07-29,,
-,ab_grande_prairie,https://opendata.countygp.ab.ca/,,,County of Grande Prairie,region,AB,,,
+x,ab_grande_prairie,https://opendata.countygp.ab.ca/,,,County of Grande Prairie,region,AB,2026-08-20,,
 x,bc_vancouver,https://opendata.vancouver.ca/pages/home/,https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction,https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction,City of Vancouver,municipality,BC,2026-07-29,bc_vancouver_cycling,from 2024 CCND; https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction
-,bc_surrey,https://data.surrey.ca/,https://data.surrey.ca/dataset/bike-routes/resource/e10c6ce3-454e-498e-901c-aeb44d04e78c?inner_span=True,,City of Surrey,municipality,BC,,,from 2024 CCND
-,bc_burnaby,https://data.burnaby.ca/,https://data.burnaby.ca/datasets/burnaby::bike-trails/explore,,City of Burnaby,municipality,BC,,,from 2024 CCND
-,bc_richmond,,,,City of Richmond,municipality,BC,,,
+x,bc_surrey,https://data.surrey.ca/,https://data.surrey.ca/dataset/bike-routes/resource/e10c6ce3-454e-498e-901c-aeb44d04e78c?inner_span=True,https://opendata-surrey.hub.arcgis.com/datasets/254d3851b1f74079bc1e5b01b1801381_0/explore?location=49.111570%2C-122.738820%2C0.00,City of Surrey,municipality,BC,2026-08-20,bc_surrey_cycling,from 2024 CCND
+x,bc_burnaby,https://data.burnaby.ca/,https://data.burnaby.ca/datasets/burnaby::bike-trails/explore,https://data.burnaby.ca/datasets/burnaby::bike-trails/explore,City of Burnaby,municipality,BC,2026-08-20,bc_burnaby_cycling,from 2024 CCND
+x,bc_richmond,,,,City of Richmond,municipality,BC,2026-08-20,,
 x,bc_abbotsford,https://opendata-abbotsford.hub.arcgis.com/,https://opendata-abbotsford.hub.arcgis.com/datasets/Abbotsford::cycling-routes/explore,,City of Abbotsford,municipality,BC,2026-07-29,,from 2024 CCND
-,bc_coquitlam,https://data.coquitlam.ca/,https://data.coquitlam.ca/datasets/Coquitlam::cycling-routes/about,,City of Coquitlam,municipality,BC,,,from 2024 CCND
-,bc_kelowna,https://opendata.kelowna.ca/,https://opendata.kelowna.ca/datasets/active-transportation-network/about,,City of Kelowna,municipality,BC,,,from 2024 CCND
-,bc_saanich,https://opendata-saanich.hub.arcgis.com/,,,District of Saanich,municipality,BC,,,
-,bc_delta,https://www.delta.ca/city-hall/municipal-information/open-data-catalogue,,,City of Delta,municipality,BC,,,
-,bc_nanaimo,https://www.nanaimo.ca/open-data-catalogue,,,City of Nanaimo,municipality,BC,,,
-,bc_kamloops,https://mydata-kamloops.opendata.arcgis.com/,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,,City of Kamloops,municipality,BC,,,from 2024 CCND
-,bc_chilliwack,https://www.chilliwack.com/main/page.cfm?id=2331,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,,City of Chilliwack,municipality,BC,,,from 2024 CCND
-,bc_victoria,https://opendata.victoria.ca/,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,,City of Victoria,municipality,BC,,,from 2024 CCND
+x,bc_coquitlam,https://data.coquitlam.ca/,https://data.coquitlam.ca/datasets/Coquitlam::cycling-routes/about,https://data.coquitlam.ca/datasets/Coquitlam::cycling-routes/about,City of Coquitlam,municipality,BC,2026-08-20,bc_coquitlam_cycling,from 2024 CCND
+x,bc_kelowna,https://opendata.kelowna.ca/,https://opendata.kelowna.ca/datasets/active-transportation-network/about,https://opendata.kelowna.ca/datasets/active-transportation-network/about,City of Kelowna,municipality,BC,2026-08-20,bc_kelowna_cycling,from 2024 CCND
+x,bc_saanich,https://opendata-saanich.hub.arcgis.com/,,,District of Saanich,municipality,BC,2026-08-20,,
+x,bc_delta,https://www.delta.ca/city-hall/municipal-information/open-data-catalogue,,,City of Delta,municipality,BC,2026-08-20,,
+x,bc_nanaimo,https://gisdata.nanaimo.ca,,https://gisdata.nanaimo.ca/datasets/b8a900610d26496d9e8e48cd3deb40fc_11/explore?location=49.175479%2C-123.973959%2C11,City of Nanaimo,municipality,BC,2026-08-20,bc_nanaimo_cycling,
+x,bc_kamloops,https://mydata-kamloops.opendata.arcgis.com/,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,City of Kamloops,municipality,BC,2026-08-20,bc_kamloops_cycling,from 2024 CCND
+x,bc_chilliwack,https://www.chilliwack.com/main/page.cfm?id=2331,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,City of Chilliwack,municipality,BC,2026-08-20,bc_chilliwack_cycling,from 2024 CCND
+x,bc_victoria,https://opendata.victoria.ca/,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,City of Victoria,municipality,BC,2026-08-20,bc_victoria_cycling,from 2024 CCND
 ,bc_maple_ridge,https://opengov.mapleridge.ca/,https://opengov.mapleridge.ca/datasets/mapleridge::bike-routes/explore,,City of Maple Ridge,municipality,BC,,,from 2024 CCND
 ,bc_north_vancouver,https://www.geoweb.dnv.org/data/,https://www.geoweb.dnv.org/data/,,District of North Vancouver,municipality,BC,,,from 2024 CCND
 ,bc_new_westminster,https://opendata.newwestcity.ca/,,,City of New Westminster,municipality,BC,,,
@@ -87,9 +87,9 @@ x,bc_abbotsford,https://opendata-abbotsford.hub.arcgis.com/,https://opendata-abb
 ,bc_westbank_first_nation,https://wfn-open-data-rdco.opendata.arcgis.com/,,,Westbank First Nation,other,BC,,,
 ,mb_winnipeg,https://data.winnipeg.ca/,https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data,,City of Winnipeg,municipality,MB,,,from 2024 CCND
 ,mb_brandon,http://opengov.brandon.ca/,,,City of Brandon,municipality,MB,,,
-,nb_moncton,https://open.moncton.ca/,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,,City of Moncton,municipality,NB,,,from 2024 CCND
-,nb_saint_john,https://catalogue-saintjohn.opendata.arcgis.com/,,,City of Saint John,municipality,NB,,,
-,nb_fredericton,https://data-fredericton.opendata.arcgis.com/,https://environment-fredericton.hub.arcgis.com/datasets/bike-lanes/explore?location=45.950252%2C-66.625723%2C12.40,,City of Fredericton,municipality,NB,,,from 2024 CCND
+x,nb_moncton,https://open.moncton.ca/,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,City of Moncton,municipality,NB,2026-08-20,nb_moncton_cycling,from 2024 CCND
+x,nb_saint_john,https://catalogue-saintjohn.opendata.arcgis.com/,,https://catalogue-saintjohn.opendata.arcgis.com/datasets/12fa18af97964cf987593c4d907aa960_0/explore?location=45.298856%2C-66.106401%2C12,City of Saint John,municipality,NB,2026-08-20,nb_saint_john_cycling,
+x,nb_fredericton,https://data-fredericton.opendata.arcgis.com/,https://environment-fredericton.hub.arcgis.com/datasets/bike-lanes/explore?location=45.950252%2C-66.625723%2C12.40,https://environment-fredericton.hub.arcgis.com/datasets/bike-lanes/explore?location=45.950252%2C-66.625723%2C12.40,City of Fredericton,municipality,NB,2026-08-20,nb_fredericton_cycling,from 2024 CCND
 ,nb_edmundston,https://data-edmundston.opendata.arcgis.com/,,,Ville d'Edmundston,municipality,NB,,,
 ,nb_new_brunswick,https://gnb.socrata.com/,,,Government of New Brunswick,other,NB,,,
 ,nl_st_johns,,,,City of St. John's,municipality,NL,,,

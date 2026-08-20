@@ -1,0 +1,14 @@
+source_id: bc_nanaimo_cycling
+provider_id: bc_nanaimo
+dataset_page_url: https://gisdata.nanaimo.ca/datasets/b8a900610d26496d9e8e48cd3deb40fc_11/explore?location=49.175479%2C-123.973959%2C11
+download_url: ''
+format: gpkg
+license_name: Open Government Licence - Nanaimo
+license_url: https://www.nanaimo.ca/your-government/maps-data/open-data-catalogue/open-data-catalogue-licence
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Bicycle_Facility_-4279486314389067242.gpkg
+notes: ''

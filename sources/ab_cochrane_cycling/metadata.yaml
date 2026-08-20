@@ -1,0 +1,14 @@
+source_id: ab_cochrane_cycling
+provider_id: ab_cochrane
+dataset_page_url: https://geohub.cochrane.ca/datasets/123bf79bde3848ae9bb6ade297ea613b_30/explore?location=51.185106%2C-114.468118%2C5.00
+download_url: ''
+format: geojson
+license_name: Open Data Licence – Town of Cochrane
+license_url: https://geohub.cochrane.ca/pages/open-data-license-agreement
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Bike_Lanes_9097252065053946695.geojson
+notes: ''
+open_license: true

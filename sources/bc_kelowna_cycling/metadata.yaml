@@ -1,0 +1,14 @@
+source_id: bc_kelowna_cycling
+provider_id: bc_kelowna
+dataset_page_url: https://opendata.kelowna.ca/datasets/active-transportation-network/about
+download_url: ''
+format: geojson
+license_name: Open Government Licence – City of Kelowna
+license_url: https://apps.kelowna.ca/images/opendata/OpenGovernmentLicence.pdf
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Active_Transportation_Existing.geojson
+notes: from 2024 CCND
+open_license: true

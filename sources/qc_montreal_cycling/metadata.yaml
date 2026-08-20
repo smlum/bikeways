@@ -11,3 +11,4 @@ retrieved_date: '2026-07-29'
 data_dictionary_url: https://donnees.montreal.ca/dataset/pistes-cyclables
 raw_filename: reseau_cyclable/reseau_cyclable.shp
 notes: from 2024 CCND
+open_license: true

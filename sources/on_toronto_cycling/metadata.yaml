@@ -11,3 +11,4 @@ retrieved_date: '2026-07-29'
 data_dictionary_url: https://open.toronto.ca/dataset/cycling-network/
 raw_filename: cycling-network - 4326.geojson
 notes: ''
+open_license: true

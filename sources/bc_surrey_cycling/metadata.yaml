@@ -1,0 +1,14 @@
+source_id: bc_surrey_cycling
+provider_id: bc_surrey
+dataset_page_url: https://opendata-surrey.hub.arcgis.com/datasets/254d3851b1f74079bc1e5b01b1801381_0/explore?location=49.111570%2C-122.738820%2C0.00
+download_url: ''
+format: geojson
+license_name: Open Government License – City of Surrey
+license_url: https://data.surrey.ca/pages/open-government-licence-surrey
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Bike Routes_-4165261533194020284.geojson
+notes: from 2024 CCND
+open_license: true

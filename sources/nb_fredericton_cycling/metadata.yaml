@@ -1,0 +1,13 @@
+source_id: nb_fredericton_cycling
+provider_id: nb_fredericton
+dataset_page_url: https://environment-fredericton.hub.arcgis.com/datasets/bike-lanes/explore?location=45.950252%2C-66.625723%2C12.40
+download_url: ''
+format: geojson
+license_name: No License Provided - Request permission to use
+license_url: ''
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Bike_Lanes.geojson
+notes: from 2024 CCND

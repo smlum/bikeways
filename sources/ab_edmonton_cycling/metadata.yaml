@@ -11,3 +11,4 @@ retrieved_date: '2026-07-29'
 data_dictionary_url: https://data.edmonton.ca/Transportation-Infrastructure/Bike-Routes/vd4b-a4iv
 raw_filename: Bike_Routes_20260729.geojson
 notes: from 2024 CCND
+open_license: true

@@ -11,3 +11,4 @@ retrieved_date: '2026-07-29'
 data_dictionary_url: ''
 raw_filename: bikeways.parquet
 notes: from 2024 CCND; https://opendata.vancouver.ca/explore/dataset/bikeways/information/?disjunctive.bike_route_name&disjunctive.bikeway_type&disjunctive.subtype&disjunctive.year_of_construction
+open_license: true

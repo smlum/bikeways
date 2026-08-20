@@ -1,0 +1,14 @@
+source_id: bc_coquitlam_cycling
+provider_id: bc_coquitlam
+dataset_page_url: https://data.coquitlam.ca/datasets/Coquitlam::cycling-routes/about
+download_url: ''
+format: gpkg
+license_name: Open Government Licence – Coquitlam
+license_url: https://www.coquitlam.ca/894/Open-Government-Licence
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Transportation_-8430084888532164231.gpkg
+notes: from 2024 CCND
+open_license: true

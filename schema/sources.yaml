@@ -35,6 +35,11 @@ fields:
     type: string
     required: false
 
+  - name: open_license
+    type: boolean
+    required: false
+    description: Whether this source has a genuinely open license permitting reuse, as opposed to requiring permission (e.g. "Request permission to use"). Unset until reviewed.
+
   - name: contact
     type: string
     required: false

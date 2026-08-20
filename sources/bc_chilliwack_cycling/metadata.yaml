@@ -1,0 +1,14 @@
+source_id: bc_chilliwack_cycling
+provider_id: bc_chilliwack
+dataset_page_url: https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139
+download_url: ''
+format: shapefile
+license_name: City of Chilliwack Open Data License
+license_url: https://opendata.chilliwack.com/Chilliwack_Open_Data_License/Open_Data_License-City_of_Chilliwack.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139
+raw_filename: Bicycle_Trails_SHP/Bicycle_Trails.shp
+notes: from 2024 CCND

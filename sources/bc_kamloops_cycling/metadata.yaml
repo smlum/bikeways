@@ -1,0 +1,14 @@
+source_id: bc_kamloops_cycling
+provider_id: bc_kamloops
+dataset_page_url: https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91
+download_url: ''
+format: geojson
+license_name: Open Government Licence - Kamloops
+license_url: https://www.kamloops.ca/open-data-catalogue-disclaimer
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: Trail_Bikeway.geojson
+notes: from 2024 CCND

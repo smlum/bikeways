@@ -1,0 +1,14 @@
+source_id: nb_moncton_cycling
+provider_id: nb_moncton
+dataset_page_url: https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92
+download_url: ''
+format: geojson
+license_name: City of Moncton Open Data Terms of Use
+license_url: https://www5.moncton.ca/docs/Open_Data_Terms_of_Use.pdf
+open_license: null
+contact: opendata@moncton.ca
+source_updated_date: '2021'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: ACTIVE_TRANSPORTATION.geojson
+notes: from 2024 CCND
