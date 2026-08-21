@@ -1,0 +1,14 @@
+source_id: ns_halifax_regional_municipality_cycling
+provider_id: ns_halifax_regional_municipality
+dataset_page_url: https://data-hrm.hub.arcgis.com/datasets/460bba0983504ff9a3d74f144128b1ad_0/explore?location=44.762512%2C-63.246358%2C8
+download_url: ''
+format: gpkg
+license_name: Open Government Licence - Halifax
+license_url: https://data-hrm.hub.arcgis.com/pages/open-data-licence
+open_license: true
+contact: opendata@halifax.ca
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Infrastructure_and_Suggested_Routes_-8399437811135691278.gpkg
+notes: ''

@@ -1,0 +1,14 @@
+source_id: mb_brandon_cycling
+provider_id: mb_brandon
+dataset_page_url: http://opengov.brandon.ca/catalog.php?dataset=bike
+download_url: ''
+format: csv
+license_name: Open Data Catalog Terms & Conditions
+license_url: http://opengov.brandon.ca/terms.php
+open_license: true
+contact: feedback@brandon.ca
+source_updated_date: '2018'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: bike-export.csv
+notes: ''
