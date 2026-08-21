@@ -1,0 +1,14 @@
+source_id: bc_north_vancouver_cycling
+provider_id: bc_north_vancouver
+dataset_page_url: https://www.geoweb.dnv.org/data/
+download_url: ''
+format: shapefile
+license_name: Open Government Licence for District of North Vancouver
+license_url: https://geoweb.dnv.org/data/metadata.php?dataset=TrnBiking#
+open_license: true
+contact: ''
+source_updated_date: '2022'
+retrieved_date: '2026-08-20'
+data_dictionary_url: ''
+raw_filename: TrnBiking_shp/TrnBiking.shp
+notes: from 2024 CCND

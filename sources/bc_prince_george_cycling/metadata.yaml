@@ -1,0 +1,14 @@
+source_id: bc_prince_george_cycling
+provider_id: bc_prince_george
+dataset_page_url: https://data-cityofpg.opendata.arcgis.com/datasets/CityofPG::ocp-8383-cycle-network/explore
+download_url: ''
+format: gpkg
+license_name: Open Government License – City of Prince George
+license_url: https://pgmapinfo.princegeorge.ca/opendata/CityofPrinceGeorge_Open_Government_License_Open_Data.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: OpenData_OCPLanduse_-2126769323670561517.gpkg
+notes: from 2024 CCND

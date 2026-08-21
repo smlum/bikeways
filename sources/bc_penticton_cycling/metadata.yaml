@@ -1,0 +1,14 @@
+source_id: bc_penticton_cycling
+provider_id: bc_penticton
+dataset_page_url: https://open.penticton.ca/datasets/a083f8d8cb004932abab4406b28994bd_822/explore
+download_url: ''
+format: geojson
+license_name: Open Government Licence - City of Penticton
+license_url: https://www.penticton.ca/sites/default/files/docs/our-community/maps-gis/2020-07-02-PDF-Open%20Data%20Government%20Licence.pdf
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Street_Bike_Lane.geojson
+notes: from 2024 CCND

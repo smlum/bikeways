@@ -1,0 +1,14 @@
+source_id: bc_port_coquitlam_cycling
+provider_id: bc_port_coquitlam
+dataset_page_url: https://data-poco.hub.arcgis.com/datasets/8d7e25b3b15048fbbfde174ea6ffc7be_0/explore?location=49.258147%2C-122.761577%2C13
+download_url: ''
+format: gpkg
+license_name: Open Government Licence - City of Port Coquitlam
+license_url: https://data-poco.hub.arcgis.com/pages/terms
+open_license: true
+contact: ''
+source_updated_date: '2024'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Routes_2642804682943716225.gpkg
+notes: ''

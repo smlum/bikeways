@@ -1,0 +1,14 @@
+source_id: bc_new_westminster_cycling
+provider_id: bc_new_westminster
+dataset_page_url: https://opendata.newwestcity.ca/datasets/a9bbaf9a26ba4a12b99866a2e46d55d5_0/explore?location=49.201367%2C-122.890288%2C12
+download_url: ''
+format: geojson
+license_name: Open Government Licence - City of New Westminster
+license_url: https://data-60320-newwestcity.opendata.arcgis.com/pages/terms-of-use
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Trails_and_Bikeways.geojson
+notes: ''

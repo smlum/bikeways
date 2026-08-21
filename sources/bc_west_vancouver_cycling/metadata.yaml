@@ -1,0 +1,14 @@
+source_id: bc_west_vancouver_cycling
+provider_id: bc_west_vancouver
+dataset_page_url: https://mapping.westvancouver.ca/OD/dbo_OPENDATA_FILES_list.php?page=list
+download_url: ''
+format: shapefile
+license_name: Open Government license - West Vancouver
+license_url: https://mapping.westvancouver.ca/OD/Open_Government_License_West_Vancouver-final.pdf
+open_license: true
+contact: ''
+source_updated_date: ''
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycle_Routes_SHP/ROADS_CYCLE_ROUTES.shp
+notes: from 2024 CCND

@@ -1,0 +1,14 @@
+source_id: bc_cranbrook_cycling
+provider_id: bc_cranbrook
+dataset_page_url: https://cranbrook-open-data-cranbrook.hub.arcgis.com/datasets/beb2258492404d39880f55d0803526e0_123/explore?location=49.507981%2C-115.764835%2C13
+download_url: ''
+format: geojson
+license_name: Open Government License – British Columbia (version 2.0)
+license_url: https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Lane_6879342125458411938.geojson
+notes: ''

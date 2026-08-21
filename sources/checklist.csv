@@ -46,46 +46,46 @@ x,bc_nanaimo,https://gisdata.nanaimo.ca,,https://gisdata.nanaimo.ca/datasets/b8a
 x,bc_kamloops,https://mydata-kamloops.opendata.arcgis.com/,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,https://mydata-kamloops.opendata.arcgis.com/datasets/3dff112559bc4fcda83a3a36e75b63ac_13/explore?location=50.725351%2C-120.315129%2C11.91,City of Kamloops,municipality,BC,2026-08-20,bc_kamloops_cycling,from 2024 CCND
 x,bc_chilliwack,https://www.chilliwack.com/main/page.cfm?id=2331,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,https://www.chilliwack.com/main/page.cfm?id=2331&odAction=viewItem&odID=139,City of Chilliwack,municipality,BC,2026-08-20,bc_chilliwack_cycling,from 2024 CCND
 x,bc_victoria,https://opendata.victoria.ca/,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,https://opendata.victoria.ca/datasets/34632d5ee89d40ffa0462e717ae49d0b/explore?location=48.425669%2C-123.350522%2C13.67,City of Victoria,municipality,BC,2026-08-20,bc_victoria_cycling,from 2024 CCND
-,bc_maple_ridge,https://opengov.mapleridge.ca/,https://opengov.mapleridge.ca/datasets/mapleridge::bike-routes/explore,,City of Maple Ridge,municipality,BC,,,from 2024 CCND
-,bc_north_vancouver,https://www.geoweb.dnv.org/data/,https://www.geoweb.dnv.org/data/,,District of North Vancouver,municipality,BC,,,from 2024 CCND
-,bc_new_westminster,https://opendata.newwestcity.ca/,,,City of New Westminster,municipality,BC,,,
-,bc_prince_george,https://data-cityofpg.opendata.arcgis.com/,https://data-cityofpg.opendata.arcgis.com/datasets/CityofPG::ocp-8383-cycle-network/explore,,City of Prince George,municipality,BC,,,from 2024 CCND
-,bc_port_coquitlam,https://data-poco.hub.arcgis.com/,,,City of Port Coquitlam,municipality,BC,,,
-,bc_vernon,https://cov-open-data-vernon.hub.arcgis.com/,https://cov-open-data-vernon.hub.arcgis.com/datasets/vernon-bike-routes/explore?location=50.072859%2C-119.359818%2C12.49,,City of Vernon,municipality,BC,,,from 2024 CCND
-,bc_west_vancouver,https://westmap.westvancouver.ca/,https://mapping.westvancouver.ca/OD/dbo_OPENDATA_FILES_list.php?page=list,,District of West Vancouver,municipality,BC,,,from 2024 CCND
-,bc_penticton,https://open.penticton.ca/,https://open.penticton.ca/datasets/a083f8d8cb004932abab4406b28994bd_822/explore,,City of Penticton,municipality,BC,,,from 2024 CCND
-,bc_campbell_river,https://data-crcc.opendata.arcgis.com/,https://data-crcc.opendata.arcgis.com/datasets/090691684a21480aa859654821aae349/explore,,City of Campbell River,municipality,BC,,,from 2024 CCND
-,bc_port_moody,https://data.portmoody.ca/,https://data.portmoody.ca/datasets/9f3aa5c190924e6dafad7cb588716c70_46/about,,City of Port Moody,municipality,BC,,,from 2024 CCND
-,bc_north_cowichan,https://www.northcowichan.ca/municipal-services/maps,,,Municipality of North Cowichan,municipality,BC,,,
-,bc_langley,https://data-langleycity.opendata.arcgis.com/,https://data-langleycity.opendata.arcgis.com/datasets/3480ae6d305045139d4cd27a5d004492_157/explore,,City of Langley,municipality,BC,,,from 2024 CCND
-,bc_courtenay,https://data-courtenay.opendata.arcgis.com/,https://data-courtenay.opendata.arcgis.com/datasets/Courtenay::cycling-network-plan/explore,,City of Courtenay,municipality,BC,,,from 2024 CCND
-,bc_squamish,https://data.squamish.ca/,https://opendata-squamish.hub.arcgis.com/datasets/526e12633e2e404cb229d0d2657e7092/explore?location=49.662123%2C-123.000688%2C10.04,,District of Squamish,municipality,BC,,,from 2024 CCND
-,bc_white_rock,https://data.whiterockcity.ca/,,,City of White Rock,municipality,BC,,,
-,bc_cranbrook,https://cranbrook-open-data-cranbrook.hub.arcgis.com/,,,City of Cranbrook,municipality,BC,,,
-,bc_esquimalt,https://opendata.esquimalt.ca/,,,Township of Esquimalt,municipality,BC,,,
-,bc_lake_country,https://dlc-open-data-dlc.hub.arcgis.com/,,,District of Lake Country,municipality,BC,,,
-,bc_whistler,https://portal-rmow.opendata.arcgis.com/,,,Resort Municipality of Whistler,municipality,BC,,,
-,bc_parksville,https://city-of-parksville-city-parksville.hub.arcgis.com/,,,City of Parksville,municipality,BC,,,
-,bc_summerland,https://open-data-summerland.hub.arcgis.com/,,,District of Summerland,municipality,BC,,,
-,bc_peachland,https://peachland2017-01-16t194902237z-rdco.opendata.arcgis.com/,,,District of Peachland,municipality,BC,,,
-,bc_gibsons,https://town-of-gibsons-open-data-portal-myscrd.hub.arcgis.com/,,,Town of Gibsons,municipality,BC,,,
-,bc_grand_forks,https://opendata.grandforks.ca/,,,City of Grand Forks,municipality,BC,,,
-,bc_capital_regional_district,https://www.crd.bc.ca/about/data/geospatial-data,,,Capital Regional District,region,BC,,,
-,bc_cariboo_regional_district,https://crd-true-consulting.hub.arcgis.com/,,,Cariboo Regional District,region,BC,,,
-,bc_columbia_shuswap_regional_district,https://data-csrd.opendata.arcgis.com/,,,Columbia Shuswap Regional District,region,BC,,,
-,bc_cowichan_valley_regional_district,https://cvrd.ca/3239/GIS-Downloads,,,Cowichan Valley Regional District,region,BC,,,
-,bc_regional_district_okanagan_similkameen,https://hub-rdos.opendata.arcgis.com/,,,Regional District Okanagan-Similkameen,region,BC,,,
-,bc_central_okanagan,https://gis-rdco.hub.arcgis.com/pages/open-data,,,Regional District of Central Okanagan,region,BC,,,
-,bc_east_kootenay,https://data3-ca5c0-rdek.opendata.arcgis.com/,,,Regional District of East Kootenay,region,BC,,,
-,bc_fraser_fort_george,https://www.rdffg.ca/node/383,,,Regional District of Fraser-Fort George,region,BC,,,
-,bc_nanaimo_2,https://www.rdn.bc.ca/spatial-data-files,,,Regional District of Nanaimo,region,BC,,,
-,bc_north_okanagan,https://regional-district-of-north-okanagan-gis-open-data-site-rdnogis.hub.arcgis.com/,,,Regional District of North Okanagan,region,BC,,,
-,bc_strathcona_regional_district,https://data-strathconard.opendata.arcgis.com/,,,Strathcona Regional District,region,BC,,,
-,bc_sunshine_coast_regional_district,https://data-myscrd.opendata.arcgis.com/,,,Sunshine Coast Regional District,region,BC,,,
-,bc_thompson_nicola_regional_district,https://my-tnrd.hub.arcgis.com/pages/opendata,,,Thompson-Nicola Regional District,region,BC,,,
-,bc_the_city_of_west_kelowna,https://www.westkelownacity.ca/en/building-business-and-development/open-data.aspx,,,The City of West Kelowna,other,BC,,,
-,bc_westbank_first_nation,https://wfn-open-data-rdco.opendata.arcgis.com/,,,Westbank First Nation,other,BC,,,
-,mb_winnipeg,https://data.winnipeg.ca/,https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data,,City of Winnipeg,municipality,MB,,,from 2024 CCND
+x,bc_maple_ridge,https://opengov.mapleridge.ca/,https://opengov.mapleridge.ca/datasets/mapleridge::bike-routes/explore,https://opengov.mapleridge.ca/datasets/mapleridge::bike-routes/explore,City of Maple Ridge,municipality,BC,2026-08-20,bc_maple_ridge_cycling,from 2024 CCND
+x,bc_north_vancouver,https://www.geoweb.dnv.org/data/,https://www.geoweb.dnv.org/data/,https://www.geoweb.dnv.org/data/,District of North Vancouver,municipality,BC,2026-08-20,bc_north_vancouver_cycling,from 2024 CCND
+x,bc_new_westminster,https://opendata.newwestcity.ca/,,https://opendata.newwestcity.ca/datasets/a9bbaf9a26ba4a12b99866a2e46d55d5_0/explore?location=49.201367%2C-122.890288%2C12,City of New Westminster,municipality,BC,2026-08-21,bc_new_westminster_cycling,
+x,bc_prince_george,https://data-cityofpg.opendata.arcgis.com/,https://data-cityofpg.opendata.arcgis.com/datasets/CityofPG::ocp-8383-cycle-network/explore,https://data-cityofpg.opendata.arcgis.com/datasets/CityofPG::ocp-8383-cycle-network/explore,City of Prince George,municipality,BC,2026-08-21,bc_prince_george_cycling,from 2024 CCND
+x,bc_port_coquitlam,https://data-poco.hub.arcgis.com/,,https://data-poco.hub.arcgis.com/datasets/8d7e25b3b15048fbbfde174ea6ffc7be_0/explore?location=49.258147%2C-122.761577%2C13,City of Port Coquitlam,municipality,BC,2026-08-21,bc_port_coquitlam_cycling,
+x,bc_vernon,https://cov-open-data-vernon.hub.arcgis.com/,https://cov-open-data-vernon.hub.arcgis.com/datasets/vernon-bike-routes/explore?location=50.072859%2C-119.359818%2C12.49,,City of Vernon,municipality,BC,2026-08-21,,from 2024 CCND; https://cov-open-data-vernon.hub.arcgis.com/datasets/vernon-bike-routes/explore?location=50.072859%2C-119.359818%2C12.49
+x,bc_west_vancouver,https://westmap.westvancouver.ca/,https://mapping.westvancouver.ca/OD/dbo_OPENDATA_FILES_list.php?page=list,https://mapping.westvancouver.ca/OD/dbo_OPENDATA_FILES_list.php?page=list,District of West Vancouver,municipality,BC,2026-08-21,bc_west_vancouver_cycling,from 2024 CCND
+x,bc_penticton,https://open.penticton.ca/,https://open.penticton.ca/datasets/a083f8d8cb004932abab4406b28994bd_822/explore,https://open.penticton.ca/datasets/a083f8d8cb004932abab4406b28994bd_822/explore,City of Penticton,municipality,BC,2026-08-21,bc_penticton_cycling,from 2024 CCND
+x,bc_campbell_river,https://data-crcc.opendata.arcgis.com/,https://data-crcc.opendata.arcgis.com/datasets/090691684a21480aa859654821aae349/explore,https://data-crcc.opendata.arcgis.com/datasets/48ac4600e6f44768930edbbdabc54c25_0/explore?location=50.017300%2C-125.255100%2C10,City of Campbell River,municipality,BC,2026-08-21,bc_campbell_river_cycling,from 2024 CCND
+x,bc_port_moody,https://data.portmoody.ca/,https://data.portmoody.ca/datasets/9f3aa5c190924e6dafad7cb588716c70_46/about,https://data.portmoody.ca/datasets/9f3aa5c190924e6dafad7cb588716c70_46/about,City of Port Moody,municipality,BC,2026-08-21,bc_port_moody_cycling,from 2024 CCND
+x,bc_north_cowichan,https://www.northcowichan.ca/municipal-services/maps,,,Municipality of North Cowichan,municipality,BC,2026-08-21,,
+x,bc_langley,https://data-langleycity.opendata.arcgis.com/,https://data-langleycity.opendata.arcgis.com/datasets/3480ae6d305045139d4cd27a5d004492_157/explore,https://data-langleycity.opendata.arcgis.com/datasets/3480ae6d305045139d4cd27a5d004492_157/explore,City of Langley,municipality,BC,2026-08-21,bc_langley_cycling,from 2024 CCND
+x,bc_courtenay,https://data-courtenay.opendata.arcgis.com/,https://data-courtenay.opendata.arcgis.com/datasets/Courtenay::cycling-network-plan/explore,https://data-courtenay.opendata.arcgis.com/datasets/Courtenay::cycling-network-plan/explore,City of Courtenay,municipality,BC,2026-08-21,bc_courtenay_cycling,from 2024 CCND
+x,bc_squamish,https://data.squamish.ca/,https://opendata-squamish.hub.arcgis.com/datasets/526e12633e2e404cb229d0d2657e7092/explore?location=49.662123%2C-123.000688%2C10.04,https://opendata-squamish.hub.arcgis.com/datasets/526e12633e2e404cb229d0d2657e7092/explore?location=49.662123%2C-123.000688%2C10.04,District of Squamish,municipality,BC,2026-08-21,bc_squamish_cycling,from 2024 CCND
+x,bc_white_rock,https://data.whiterockcity.ca/,,,City of White Rock,municipality,BC,2026-08-21,,
+x,bc_cranbrook,https://cranbrook-open-data-cranbrook.hub.arcgis.com/,,https://cranbrook-open-data-cranbrook.hub.arcgis.com/datasets/beb2258492404d39880f55d0803526e0_123/explore?location=49.507981%2C-115.764835%2C13,City of Cranbrook,municipality,BC,2026-08-21,bc_cranbrook_cycling,
+x,bc_esquimalt,https://opendata.esquimalt.ca/,,,Township of Esquimalt,municipality,BC,2026-08-21,,
+x,bc_lake_country,https://dlc-open-data-dlc.hub.arcgis.com/,,,District of Lake Country,municipality,BC,2026-08-21,,
+x,bc_whistler,https://portal-rmow.opendata.arcgis.com/,,,Resort Municipality of Whistler,municipality,BC,2026-08-21,,
+x,bc_parksville,https://city-of-parksville-city-parksville.hub.arcgis.com/,,,City of Parksville,municipality,BC,2026-08-21,,
+x,bc_summerland,https://open-data-summerland.hub.arcgis.com/,,,District of Summerland,municipality,BC,2026-08-21,,
+x,bc_peachland,https://peachland2017-01-16t194902237z-rdco.opendata.arcgis.com/,,,District of Peachland,municipality,BC,2026-08-21,,
+x,bc_gibsons,https://town-of-gibsons-open-data-portal-myscrd.hub.arcgis.com/,,,Town of Gibsons,municipality,BC,2026-08-21,,
+x,bc_grand_forks,https://opendata.grandforks.ca/,,,City of Grand Forks,municipality,BC,2026-08-21,,
+x,bc_capital_regional_district,https://www.crd.bc.ca/about/data/geospatial-data,,,Capital Regional District,region,BC,2026-08-21,,
+x,bc_cariboo_regional_district,https://crd-true-consulting.hub.arcgis.com/,,,Cariboo Regional District,region,BC,2026-08-21,,
+x,bc_columbia_shuswap_regional_district,https://data-csrd.opendata.arcgis.com/,,,Columbia Shuswap Regional District,region,BC,2026-08-21,,
+x,bc_cowichan_valley_regional_district,https://cvrd.ca/3239/GIS-Downloads,,,Cowichan Valley Regional District,region,BC,2026-08-21,,
+x,bc_regional_district_okanagan_similkameen,https://hub-rdos.opendata.arcgis.com/,,,Regional District Okanagan-Similkameen,region,BC,2026-08-21,,
+x,bc_central_okanagan,https://gis-rdco.hub.arcgis.com/pages/open-data,,,Regional District of Central Okanagan,region,BC,2026-08-21,,
+x,bc_east_kootenay,https://data3-ca5c0-rdek.opendata.arcgis.com/,,,Regional District of East Kootenay,region,BC,2026-08-21,,
+x,bc_fraser_fort_george,https://www.rdffg.ca/node/383,,,Regional District of Fraser-Fort George,region,BC,2026-08-21,,
+x,bc_nanaimo_2,https://www.rdn.bc.ca/spatial-data-files,,,Regional District of Nanaimo,region,BC,2026-08-21,,
+x,bc_north_okanagan,https://regional-district-of-north-okanagan-gis-open-data-site-rdnogis.hub.arcgis.com/,,,Regional District of North Okanagan,region,BC,2026-08-21,,
+x,bc_strathcona_regional_district,https://data-strathconard.opendata.arcgis.com/,,,Strathcona Regional District,region,BC,2026-08-21,,
+x,bc_sunshine_coast_regional_district,https://data-myscrd.opendata.arcgis.com/,,,Sunshine Coast Regional District,region,BC,2026-08-21,,
+x,bc_thompson_nicola_regional_district,https://my-tnrd.hub.arcgis.com/pages/opendata,,,Thompson-Nicola Regional District,region,BC,2026-08-21,,https://my-tnrd.hub.arcgis.com/maps/5fc763ec66804eb28efbff4af7d6d461/about
+x,bc_the_city_of_west_kelowna,https://www.westkelownacity.ca/en/building-business-and-development/open-data.aspx,,,The City of West Kelowna,other,BC,2026-08-21,,
+x,bc_westbank_first_nation,https://wfn-open-data-rdco.opendata.arcgis.com/,,https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc,Westbank First Nation,other,BC,2026-08-21,bc_westbank_first_nation_cycling,
+x,mb_winnipeg,https://data.winnipeg.ca/,https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data,https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data,City of Winnipeg,municipality,MB,2026-08-21,mb_winnipeg_cycling,from 2024 CCND
 ,mb_brandon,http://opengov.brandon.ca/,,,City of Brandon,municipality,MB,,,
 x,nb_moncton,https://open.moncton.ca/,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,https://open.moncton.ca/datasets/moncton::active-transportation/explore?location=46.141055%2C-64.803603%2C11.92,City of Moncton,municipality,NB,2026-08-20,nb_moncton_cycling,from 2024 CCND
 x,nb_saint_john,https://catalogue-saintjohn.opendata.arcgis.com/,,https://catalogue-saintjohn.opendata.arcgis.com/datasets/12fa18af97964cf987593c4d907aa960_0/explore?location=45.298856%2C-66.106401%2C12,City of Saint John,municipality,NB,2026-08-20,nb_saint_john_cycling,

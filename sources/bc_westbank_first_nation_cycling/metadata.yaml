@@ -1,0 +1,14 @@
+source_id: bc_westbank_first_nation_cycling
+provider_id: bc_westbank_first_nation
+dataset_page_url: https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc
+download_url: ''
+format: geojson
+license_name: Regional District of Central Okanagan (RDCO) Open Data License
+license_url: https://gis-rdco.hub.arcgis.com/pages/open-data-license
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: WFN_-_Bike_Lanes.geojson
+notes: ''

@@ -1,0 +1,14 @@
+source_id: mb_winnipeg_cycling
+provider_id: mb_winnipeg
+dataset_page_url: https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/Cycling-Network/kjd9-dvf5/about_data
+download_url: ''
+format: geojson
+license_name: Open Government Licence – Winnipeg
+license_url: https://data.winnipeg.ca/open-data-licence
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: https://legacy.winnipeg.ca/publicworks/pedestriansCycling/FacilityTypeDefinitions.stm
+raw_filename: Cycling_Network_20260821.geojson
+notes: from 2024 CCND

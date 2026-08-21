@@ -1,0 +1,14 @@
+source_id: bc_port_moody_cycling
+provider_id: bc_port_moody
+dataset_page_url: https://data.portmoody.ca/datasets/9f3aa5c190924e6dafad7cb588716c70_46/about
+download_url: ''
+format: geojson
+license_name: Open Government Licence – Port Moody
+license_url: https://www.portmoody.ca/en/city-hall/open-data-terms-of-use.aspx
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Pathways.geojson
+notes: from 2024 CCND

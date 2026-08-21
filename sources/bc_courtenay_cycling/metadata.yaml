@@ -1,0 +1,14 @@
+source_id: bc_courtenay_cycling
+provider_id: bc_courtenay
+dataset_page_url: https://data-courtenay.opendata.arcgis.com/datasets/Courtenay::cycling-network-plan/explore
+download_url: ''
+format: geojson
+license_name: Open Government Licence – City of Courtenay
+license_url: https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Network_Plan.geojson
+notes: from 2024 CCND

@@ -1,0 +1,14 @@
+source_id: bc_langley_cycling
+provider_id: bc_langley
+dataset_page_url: https://data-langleycity.opendata.arcgis.com/datasets/3480ae6d305045139d4cd27a5d004492_157/explore
+download_url: ''
+format: geojson
+license_name: Open Government License – Township of Langley
+license_url: https://www.tol.ca/en/connect/open-data-licence.aspx
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Network.geojson
+notes: from 2024 CCND

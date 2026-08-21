@@ -1,0 +1,14 @@
+source_id: bc_campbell_river_cycling
+provider_id: bc_campbell_river
+dataset_page_url: https://data-crcc.opendata.arcgis.com/datasets/48ac4600e6f44768930edbbdabc54c25_0/explore?location=50.017300%2C-125.255100%2C10
+download_url: ''
+format: geojson
+license_name: Copyright 2018. City of Campbell River
+license_url: https://data-crcc.opendata.arcgis.com/datasets/48ac4600e6f44768930edbbdabc54c25_0/explore?location=50.017300%2C-125.255100%2C10
+open_license: false
+contact: info@campbellriver.ca
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Downloadable_Bicycle_Routes.geojson
+notes: from 2024 CCND

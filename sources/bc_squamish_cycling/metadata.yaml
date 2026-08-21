@@ -1,0 +1,14 @@
+source_id: bc_squamish_cycling
+provider_id: bc_squamish
+dataset_page_url: https://opendata-squamish.hub.arcgis.com/datasets/526e12633e2e404cb229d0d2657e7092/explore?location=49.662123%2C-123.000688%2C10.04
+download_url: ''
+format: geojson
+license_name: Open Government Licence - Squamish
+license_url: https://squamish.ca/discover-squamish/maps-and-data/open-data/
+open_license: true
+contact: ''
+source_updated_date: '2021'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Lanes_-1450249628639575655.geojson
+notes: from 2024 CCND
