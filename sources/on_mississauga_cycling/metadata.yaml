@@ -1,0 +1,14 @@
+source_id: on_mississauga_cycling
+provider_id: on_mississauga
+dataset_page_url: https://data.mississauga.ca/datasets/a182a71f5d5b4a2bac2857fbd40bdcc5_0/explore?location=43.674793%2C-79.545705%2C9
+download_url: ''
+format: gpkg
+license_name: opendata@mississauga.ca
+license_url: https://smartcity.mississauga.ca/wp-content/uploads/2021/04/CityofMississauga_TermsofUse.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: CyclingNetwork_-3283870809902283638.gpkg
+notes: from 2024 CCND; https://data.mississauga.ca/datasets/a182a71f5d5b4a2bac2857fbd40bdcc5_0/explore?location=43.674793%2C-79.545705%2C9

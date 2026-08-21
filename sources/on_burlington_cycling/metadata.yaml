@@ -1,0 +1,14 @@
+source_id: on_burlington_cycling
+provider_id: on_burlington
+dataset_page_url: https://navburl-burlington.opendata.arcgis.com/datasets/28c2c17222c54820a4284a7a70b7c61b/explore?location=43.368436%2C-79.816729%2C12.54
+download_url: ''
+format: geojson
+license_name: Terms of Use for Open Data Burlington
+license_url: https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf
+open_license: true
+contact: ''
+source_updated_date: '2023'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Network.geojson
+notes: from 2024 CCND

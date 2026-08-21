@@ -1,0 +1,14 @@
+source_id: on_belleville_cycling
+provider_id: on_belleville
+dataset_page_url: https://opendata-bellevillegis.hub.arcgis.com/datasets/bellevilleGIS::active-transportation-network/explore?location=44.168772%2C-77.376178%2C13.86
+download_url: ''
+format: gpkg
+license_name: ''
+license_url: https://opendata-bellevillegis.hub.arcgis.com/pages/how-to
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Active_Transportation_Network_6807620693210771883.gpkg
+notes: from 2024 CCND

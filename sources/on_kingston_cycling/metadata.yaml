@@ -1,0 +1,14 @@
+source_id: on_kingston_cycling
+provider_id: on_kingston
+dataset_page_url: https://opendatakingston.cityofkingston.ca/datasets/f52493f232e94d2496e091b4278dface_23/explore?location=44.286450%2C-76.439350%2C10
+download_url: ''
+format: geojson
+license_name: Open Data Licence – City of Kingston
+license_url: https://www.cityofkingston.ca/documents/10180/144997/CityofKingston_OpenDataLicense.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Existing_Pedestrian_and_Cycling_Facilities.geojson
+notes: from 2024 CCND

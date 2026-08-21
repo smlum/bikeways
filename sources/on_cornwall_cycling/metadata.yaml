@@ -1,0 +1,14 @@
+source_id: on_cornwall_cycling
+provider_id: on_cornwall
+dataset_page_url: https://data-cornwallcity.opendata.arcgis.com/datasets/deff651b312946028aa0cef30e1f5931_0/explore?location=45.037855%2C-74.756803%2C12.33
+download_url: ''
+format: geojson
+license_name: Open Government Licence – City of Cornwall
+license_url: https://www.cornwall.ca/en/play-here/resources/Maps/City-of-Cornwall-Open-Government-Licence.pdf
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: ''
+notes: from 2024 CCND

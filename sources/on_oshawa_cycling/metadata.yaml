@@ -1,0 +1,14 @@
+source_id: on_oshawa_cycling
+provider_id: on_oshawa
+dataset_page_url: https://city-oshawa.opendata.arcgis.com/datasets/755a5157124f4abf819fec4158746620_19/explore?location=43.943850%2C-78.868300%2C11
+download_url: ''
+format: geojson
+license_name: Open Government Licence – The Corporation of the City of Oshawa
+license_url: https://map.oshawa.ca/OpenData/Open%20Government%20Licence%20version%202.0%20-%20Oshawa.pdf
+open_license: true
+contact: ''
+source_updated_date: '2024'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Infrastructure_(Active_Transporation).geojson
+notes: ''

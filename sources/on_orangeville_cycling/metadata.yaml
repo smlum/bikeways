@@ -1,0 +1,14 @@
+source_id: on_orangeville_cycling
+provider_id: on_orangeville
+dataset_page_url: https://data-orangeville.opendata.arcgis.com/datasets/orangeville::bike-routes/about
+download_url: ''
+format: gpkg
+license_name: Open Government Licence – Orangeville
+license_url: https://data.orangeville.ca/opendata.html#licence
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Routes_-3110031946107535642.gpkg
+notes: from 2024 CCND

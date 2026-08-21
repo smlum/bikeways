@@ -1,0 +1,14 @@
+source_id: on_milton_cycling
+provider_id: on_milton
+dataset_page_url: https://discover-milton.hub.arcgis.com/datasets/1f32f52581d948c2ba4c71caa81c0e09_0/explore?location=43.519899%2C-79.882442%2C12
+download_url: ''
+format: geojson
+license_name: Open Government Licence – Milton
+license_url: https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use
+open_license: true
+contact: ''
+source_updated_date: '2022'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycle_Routes.geojson
+notes: from 2024 CCND

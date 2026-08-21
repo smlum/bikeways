@@ -1,0 +1,14 @@
+source_id: on_durham_cycling
+provider_id: on_durham
+dataset_page_url: https://opendata.durham.ca/datasets/706260cef1d54651b23bfedcfd3ed558_22/explore?location=44.129450%2C-78.866100%2C9
+download_url: ''
+format: geojson
+license_name: Open Data License
+license_url: https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf
+open_license: true
+contact: opendata@durham.ca
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Map_3d_-_Primary_Cycling_Network_PCN.geojson
+notes: ''

@@ -9,6 +9,7 @@ sources_schema: schema/sources.yaml
 sources_dir: sources
 raw_dir: data/raw
 providers_csv: ca-data-providers/providers.csv
+providers_schema: ca-data-providers/providers_schema.yaml
 
 tools:
   column_mapping:

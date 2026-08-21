@@ -1,0 +1,14 @@
+source_id: on_ajax_cycling
+provider_id: on_ajax
+dataset_page_url: https://opendata.ajax.ca/datasets/TownofAjax::active-transportation/about
+download_url: ''
+format: geojson
+license_name: Corporation of the Town of Ajax's Open Data Licence
+license_url: http://townofajax.maps.arcgis.com/sharing/rest/content/items/22e2d8e248724d7cb0310dc2db675abd/data
+open_license: true
+contact: ''
+source_updated_date: '2021'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bicycle_Lane.geojson
+notes: from 2024 CCND

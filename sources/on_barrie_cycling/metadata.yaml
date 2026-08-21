@@ -1,0 +1,14 @@
+source_id: on_barrie_cycling
+provider_id: on_barrie
+dataset_page_url: https://opendata.barrie.ca/datasets/f3cbd6988f0e45f892c209e856de0db7_18/explore?location=44.362194%2C-79.663837%2C12
+download_url: ''
+format: geojson
+license_name: Open Government Licence – Barrie
+license_url: https://www.barrie.ca/Online%20Services/PublishingImages/OpenData_Images/COB_DataLicense.pdf
+open_license: true
+contact: ''
+source_updated_date: '2023'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Official_Plan_-_Map_4A_-_Mobility_Network_-_Cycling_Network.geojson
+notes: from 2024 CCND

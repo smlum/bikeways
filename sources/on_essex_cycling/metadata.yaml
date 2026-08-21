@@ -1,0 +1,14 @@
+source_id: on_essex_cycling
+provider_id: on_essex
+dataset_page_url: https://opendata.countyofessex.ca/datasets/79571a3fc255473e977bf36e8a277bca_5/explore?location=42.184900%2C-82.777750%2C10
+download_url: ''
+format: geojson
+license_name: Open Government Licence – The Corporation of the County of Essex
+license_url: https://gisweb.countyofessex.ca/OpenData/County%20of%20Essex%20-%20Open%20Government%20Licence.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Existing_CWATS_trails.geojson
+notes: ''

@@ -1,0 +1,14 @@
+source_id: on_kitchener_cycling
+provider_id: on_kitchener
+dataset_page_url: https://open-kitchenergis.opendata.arcgis.com/datasets/18817096d9ee49cca89f6a0d6092c2e7_0/explore?location=43.428127%2C-80.474809%2C12.08
+download_url: ''
+format: gpkg
+license_name: Open Government Licence - The Corporation of the City of Kitchener
+license_url: https://www.kitchener.ca/council-and-city-administration/data-and-maps/open-data-licence/
+open_license: true
+contact: GIS@Kitchener.ca
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Infrastructure_5615768720089796855.gpkg
+notes: from 2024 CCND

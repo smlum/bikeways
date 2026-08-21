@@ -1,0 +1,14 @@
+source_id: on_waterloo_cycling
+provider_id: on_waterloo
+dataset_page_url: https://rowopendata-rmw.opendata.arcgis.com/datasets/City-of-Waterloo::cycling-infrastructure/about
+download_url: ''
+format: geojson
+license_name: Waterloo Open Data User Licence
+license_url: https://data.waterloo.ca/pages/open-data-licence
+open_license: false
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Cycling_Infrastructure.geojson
+notes: from 2024 CCND

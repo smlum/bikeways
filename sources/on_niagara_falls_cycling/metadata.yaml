@@ -1,0 +1,14 @@
+source_id: on_niagara_falls_cycling
+provider_id: on_niagara_falls
+dataset_page_url: https://open.niagarafalls.ca/datasets/niagara-falls-community-bike-lanes/explore
+download_url: ''
+format: gpkg
+license_name: Open Government Licence – Niagara Falls
+license_url: https://open.niagarafalls.ca/pages/terms-of-use
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Niagara_Falls_Community_Bike_Lanes_3198154799891214977.gpkg
+notes: from 2024 CCND

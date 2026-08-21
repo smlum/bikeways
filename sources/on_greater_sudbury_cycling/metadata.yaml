@@ -1,0 +1,14 @@
+source_id: on_greater_sudbury_cycling
+provider_id: on_greater_sudbury
+dataset_page_url: https://opendata.greatersudbury.ca/datasets/fdcf26ce924c4c3496c01702625f8b29_0/explore?location=46.470498%2C-80.908127%2C11
+download_url: ''
+format: geojson
+license_name: Open Data Licence – City of Greater Sudbury
+license_url: https://www.greatersudbury.ca/city-hall/open-government/open-data/licence/
+open_license: true
+contact: ''
+source_updated_date: '2024'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Route_public.geojson
+notes: from 2024 CCND

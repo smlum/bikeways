@@ -1,0 +1,14 @@
+source_id: on_markham_cycling
+provider_id: on_markham
+dataset_page_url: https://data-markham.opendata.arcgis.com/datasets/19e0783e1b1840129fe066e14369920b_0/explore?location=43.846316%2C-79.380821%2C10
+download_url: ''
+format: geojson
+license_name: Open Data Licence - City of Markham
+license_url: https://data-markham.opendata.arcgis.com/pages/terms-of-use
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bicycle_Routes.geojson
+notes: ''

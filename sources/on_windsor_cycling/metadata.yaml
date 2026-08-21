@@ -1,0 +1,14 @@
+source_id: on_windsor_cycling
+provider_id: on_windsor
+dataset_page_url: https://open-data-portal-citywindsor.hub.arcgis.com/datasets/2e5c02a4cac74ecf9ea879c3316548b8_3/explore?location=42.276326%2C-82.952371%2C-1.00
+download_url: ''
+format: geojson
+license_name: Open Government Licence – The Corporation of the City of Windsor
+license_url: https://opendata.citywindsor.ca/Documents/OpenDataTermsofUse.pdf
+open_license: true
+contact: ''
+source_updated_date: '2025'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: BikeLane.geojson
+notes: from 2024 CCND

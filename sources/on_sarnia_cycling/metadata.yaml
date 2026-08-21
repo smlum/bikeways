@@ -1,0 +1,14 @@
+source_id: on_sarnia_cycling
+provider_id: on_sarnia
+dataset_page_url: https://city-of-sarnia.hub.arcgis.com/datasets/cc3388f110cd411ebd8d4acce354d36e_3/explore?location=42.986540%2C-82.327947%2C11
+download_url: ''
+format: gpkg
+license_name: City of Sarnia Open Data - Terms of Use
+license_url: https://city-of-sarnia.hub.arcgis.com/pages/terms-of-use
+open_license: true
+contact: geospatial.solutions@sarnia.ca
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bikeway_Facilities_Open_Data_AGOL_8084739245652286203.gpkg
+notes: ''

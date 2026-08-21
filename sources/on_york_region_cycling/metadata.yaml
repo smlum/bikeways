@@ -1,0 +1,14 @@
+source_id: on_york_region_cycling
+provider_id: on_york_region
+dataset_page_url: https://data-markham.opendata.arcgis.com/datasets/c1c2100c9f22435f982af79c7385eb1a_0/about
+download_url: ''
+format: geojson
+license_name: Regional Municipality of York's Open Data Licence
+license_url: https://insights-york.opendata.arcgis.com/documents/york::york-region-open-data-licence/explore
+open_license: true
+contact: ''
+source_updated_date: '2024'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Path.geojson
+notes: from 2024 CCND

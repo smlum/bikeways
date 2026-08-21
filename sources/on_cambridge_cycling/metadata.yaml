@@ -1,0 +1,14 @@
+source_id: on_cambridge_cycling
+provider_id: on_cambridge
+dataset_page_url: https://geohub.cambridge.ca/datasets/cityofcambridge::bikeway-network-1/about
+download_url: ''
+format: geojson
+license_name: Open Government Licence – City of Cambridge
+license_url: https://www.cambridge.ca/en/your-city/resources/Open-Data-Licence-Version-2.pdf
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bikeway_Network.geojson
+notes: from 2024 CCND

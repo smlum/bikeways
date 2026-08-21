@@ -1,0 +1,14 @@
+source_id: on_london_cycling
+provider_id: on_london
+dataset_page_url: https://opendata.london.ca/datasets/b9ccfd746f2640b78cc18d2b78ef586a/about
+download_url: ''
+format: geojson
+license_name: ''
+license_url: https://london.maps.arcgis.com/sharing/rest/content/items/e31458fd0c7e41dd9f93144a9550781d/data
+open_license: true
+contact: ''
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bike_Routes_-_On_Street.geojson
+notes: from 2024 CCND

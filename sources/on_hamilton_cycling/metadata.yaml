@@ -1,0 +1,14 @@
+source_id: on_hamilton_cycling
+provider_id: on_hamilton
+dataset_page_url: https://open.hamilton.ca/datasets/2f8d26d5842b4a7c80f60ab8abb6c44a_7/explore
+download_url: ''
+format: geojson
+license_name: City of Hamilton’s Open Data Licence
+license_url: https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions
+open_license: true
+contact: ''
+source_updated_date: '2023'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Bikeways.geojson
+notes: massive file

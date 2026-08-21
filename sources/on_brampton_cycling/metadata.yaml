@@ -1,0 +1,14 @@
+source_id: on_brampton_cycling
+provider_id: on_brampton
+dataset_page_url: https://geohub.brampton.ca/datasets/bee0de45a793458eb21d64bee5af5eca_1/explore?location=43.712950%2C-79.746100%2C11
+download_url: ''
+format: geojson
+license_name: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+open_license: true
+contact: open@brampton.ca
+source_updated_date: '2026'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: Brampton_Plan-Schedule_3A-Existing_Active_Transportation_Facilities.geojson
+notes: from 2024 CCND

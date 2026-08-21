@@ -1,0 +1,14 @@
+source_id: on_newmarket_cycling
+provider_id: on_newmarket
+dataset_page_url: https://navigate-newmarket.hub.arcgis.com/datasets/2d1884d90ac746b5986f618ec588b59f_0/explore?location=44.050585%2C-79.464076%2C13
+download_url: ''
+format: geojson
+license_name: Town of Newmarket's Open Data Licence
+license_url: https://navigate-newmarket.hub.arcgis.com/pages/open-data-licence
+open_license: true
+contact: ''
+source_updated_date: '2022'
+retrieved_date: '2026-08-21'
+data_dictionary_url: ''
+raw_filename: OPENNewmarket_Cycling_Trails.geojson
+notes: ''
